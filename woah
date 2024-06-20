@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local aaaaaaaaaaaaaa2 = Instance.new("ScreenGui")
+local dasidijoasd = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Top = Instance.new("Frame")
@@ -12,50 +12,19 @@ local Close = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local Status = Instance.new("TextLabel")
 local Logo = Instance.new("ImageButton")
-local ScriptHub = Instance.new("Frame")
-local SearchBar = Instance.new("TextBox")
-local Frame = Instance.new("ScrollingFrame")
-local Nuke = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local UIListLayout = Instance.new("UIListLayout")
-local Missile = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local ServerAdmin = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local Xester = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local InfYield = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local DarkDex = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local Dokka = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local Caducus = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local UIPadding = Instance.new("UIPadding")
-local HDAdminGiver = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local StarGlitcher = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local BlueTitan = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local RedTitan = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local Zamazu = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
 local SideFrame = Instance.new("Frame")
 local Execute = Instance.new("ImageButton")
 local TextLabel = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local Clear = Instance.new("ImageButton")
 local TextLabel_2 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local Respawn = Instance.new("ImageButton")
 local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local R6 = Instance.new("ImageButton")
 local Label = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
 local ExecuBox = Instance.new("ScrollingFrame")
 local Source = Instance.new("TextBox")
@@ -66,20 +35,51 @@ local Numbers_ = Instance.new("TextLabel")
 local Keywords_ = Instance.new("TextLabel")
 local Globals_ = Instance.new("TextLabel")
 local Comments_ = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local Lines = Instance.new("TextLabel")
 local UIGradient = Instance.new("UIGradient")
-local UICorner_22 = Instance.new("UICorner")
-local UIListLayout_2 = Instance.new("UIListLayout")
+local UICorner_9 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
 local Side = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local Settings = Instance.new("ImageButton")
 local Console = Instance.new("ImageButton")
 local Tabs = Instance.new("Frame")
-local UIListLayout_3 = Instance.new("UIListLayout")
+local UIListLayout_2 = Instance.new("UIListLayout")
 local add = Instance.new("ImageButton")
 local tab1 = Instance.new("TextButton")
 local remove = Instance.new("ImageButton")
+local ScriptHub = Instance.new("Frame")
+local SearchBar = Instance.new("TextBox")
+local Frame = Instance.new("ScrollingFrame")
+local Nuke = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local Missile = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local ServerAdmin = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Xester = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local DarkDex = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Dokka = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Caducus = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIPadding = Instance.new("UIPadding")
+local HDAdminGiver = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local StarGlitcher = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local BlueTitan = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local RedTitan = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Zamazu = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
 local Console_2 = Instance.new("Frame")
 local UICorner_24 = Instance.new("UICorner")
 local Top_2 = Instance.new("Frame")
@@ -100,9 +100,6 @@ local Normal_2 = Instance.new("ImageButton")
 local Label_3 = Instance.new("TextLabel")
 local Warning_2 = Instance.new("ImageButton")
 local Label_4 = Instance.new("TextLabel")
-local Offline = Instance.new("Frame")
-local power = Instance.new("ImageButton")
-local Status_3 = Instance.new("TextLabel")
 local Open = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local Settings_2 = Instance.new("Frame")
@@ -132,22 +129,22 @@ local UICorner_32 = Instance.new("UICorner")
 local Close_3 = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
 local Logo_3 = Instance.new("ImageButton")
-local Status_4 = Instance.new("TextLabel")
+local Status_3 = Instance.new("TextLabel")
 local UICorner_34 = Instance.new("UICorner")
 local Frame_2 = Instance.new("Frame")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_35 = Instance.new("UICorner")
-local Status_5 = Instance.new("TextLabel")
+local Status_4 = Instance.new("TextLabel")
 
 --Properties:
 
-aaaaaaaaaaaaaa2.Name = "aaaaaaaaaaaaaa2"
-aaaaaaaaaaaaaa2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-aaaaaaaaaaaaaa2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-aaaaaaaaaaaaaa2.ResetOnSpawn = false
+dasidijoasd.Name = "dasidijoasd"
+dasidijoasd.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+dasidijoasd.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+dasidijoasd.ResetOnSpawn = false
 
 Main.Name = "Main"
-Main.Parent = aaaaaaaaaaaaaa2
+Main.Parent = dasidijoasd
 Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Main.Position = UDim2.new(0.260596335, 0, 0.0837438479, 0)
@@ -211,253 +208,12 @@ Logo.ImageRectOffset = Vector2.new(75, 0)
 Logo.ImageRectSize = Vector2.new(78, 78)
 Logo.ScaleType = Enum.ScaleType.Fit
 
-ScriptHub.Name = "ScriptHub"
-ScriptHub.Parent = Main
-ScriptHub.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.829267621, 0, 0.101297975, 0)
-ScriptHub.Size = UDim2.new(0, 92, 0, 201)
-ScriptHub.ZIndex = 10
-
-SearchBar.Name = "SearchBar"
-SearchBar.Parent = ScriptHub
-SearchBar.AnchorPoint = Vector2.new(0.5, 0)
-SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-SearchBar.BackgroundTransparency = 1.000
-SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
-SearchBar.BorderSizePixel = 0
-SearchBar.Position = UDim2.new(0.49999854, 0, 0.0993637145, 0)
-SearchBar.Size = UDim2.new(1, 0, 0.108726889, 0)
-SearchBar.ZIndex = 2
-SearchBar.Font = Enum.Font.Arial
-SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-SearchBar.PlaceholderText = "Search"
-SearchBar.Text = ""
-SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
-SearchBar.TextScaled = true
-SearchBar.TextSize = 14.000
-SearchBar.TextWrapped = true
-
-Frame.Name = "Frame"
-Frame.Parent = ScriptHub
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BackgroundTransparency = 1.000
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, 0.149115115, 0)
-Frame.Size = UDim2.new(0, 84, 0, 146)
-Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
-Frame.ScrollBarThickness = 5
-
-Nuke.Name = "Nuke"
-Nuke.Parent = Frame
-Nuke.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Nuke.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Nuke.Size = UDim2.new(0, 68, 0, 23)
-Nuke.Font = Enum.Font.Arial
-Nuke.Text = "Nuke"
-Nuke.TextColor3 = Color3.fromRGB(255, 255, 255)
-Nuke.TextScaled = true
-Nuke.TextSize = 14.000
-Nuke.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 3)
-UICorner_4.Parent = Nuke
-
-UIListLayout.Parent = Frame
-UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout.Padding = UDim.new(0, 10)
-
-Missile.Name = "Missile"
-Missile.Parent = Frame
-Missile.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Missile.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Missile.Size = UDim2.new(0, 68, 0, 23)
-Missile.Font = Enum.Font.Arial
-Missile.Text = "Missile"
-Missile.TextColor3 = Color3.fromRGB(255, 255, 255)
-Missile.TextScaled = true
-Missile.TextSize = 14.000
-Missile.TextWrapped = true
-
-UICorner_5.CornerRadius = UDim.new(0, 3)
-UICorner_5.Parent = Missile
-
-ServerAdmin.Name = "ServerAdmin"
-ServerAdmin.Parent = Frame
-ServerAdmin.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-ServerAdmin.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-ServerAdmin.Size = UDim2.new(0, 68, 0, 23)
-ServerAdmin.Font = Enum.Font.Arial
-ServerAdmin.Text = "Server Admin"
-ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
-ServerAdmin.TextScaled = true
-ServerAdmin.TextSize = 14.000
-ServerAdmin.TextWrapped = true
-
-UICorner_6.CornerRadius = UDim.new(0, 3)
-UICorner_6.Parent = ServerAdmin
-
-Xester.Name = "Xester"
-Xester.Parent = Frame
-Xester.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Xester.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Xester.Size = UDim2.new(0, 68, 0, 23)
-Xester.Font = Enum.Font.Arial
-Xester.Text = "Xester"
-Xester.TextColor3 = Color3.fromRGB(255, 255, 255)
-Xester.TextScaled = true
-Xester.TextSize = 14.000
-Xester.TextWrapped = true
-
-UICorner_7.CornerRadius = UDim.new(0, 3)
-UICorner_7.Parent = Xester
-
-InfYield.Name = "InfYield"
-InfYield.Parent = Frame
-InfYield.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-InfYield.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-InfYield.Size = UDim2.new(0, 68, 0, 23)
-InfYield.Font = Enum.Font.Arial
-InfYield.Text = "Inf Yield"
-InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfYield.TextScaled = true
-InfYield.TextSize = 14.000
-InfYield.TextWrapped = true
-
-UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = InfYield
-
-DarkDex.Name = "DarkDex"
-DarkDex.Parent = Frame
-DarkDex.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-DarkDex.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-DarkDex.Size = UDim2.new(0, 68, 0, 23)
-DarkDex.Font = Enum.Font.Arial
-DarkDex.Text = "Dark Dex"
-DarkDex.TextColor3 = Color3.fromRGB(255, 255, 255)
-DarkDex.TextScaled = true
-DarkDex.TextSize = 14.000
-DarkDex.TextWrapped = true
-
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = DarkDex
-
-Dokka.Name = "Dokka"
-Dokka.Parent = Frame
-Dokka.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Dokka.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Dokka.Size = UDim2.new(0, 68, 0, 23)
-Dokka.Font = Enum.Font.Arial
-Dokka.Text = "Dokka"
-Dokka.TextColor3 = Color3.fromRGB(255, 255, 255)
-Dokka.TextScaled = true
-Dokka.TextSize = 14.000
-Dokka.TextWrapped = true
-
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = Dokka
-
-Caducus.Name = "Caducus"
-Caducus.Parent = Frame
-Caducus.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Caducus.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Caducus.Size = UDim2.new(0, 68, 0, 23)
-Caducus.Font = Enum.Font.Arial
-Caducus.Text = "Caducus"
-Caducus.TextColor3 = Color3.fromRGB(255, 255, 255)
-Caducus.TextScaled = true
-Caducus.TextSize = 14.000
-Caducus.TextWrapped = true
-
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = Caducus
-
-UIPadding.Parent = Frame
-UIPadding.PaddingBottom = UDim.new(0, 5)
-UIPadding.PaddingTop = UDim.new(0, 30)
-
-HDAdminGiver.Name = "HDAdminGiver"
-HDAdminGiver.Parent = Frame
-HDAdminGiver.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-HDAdminGiver.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-HDAdminGiver.Size = UDim2.new(0, 68, 0, 23)
-HDAdminGiver.Font = Enum.Font.Arial
-HDAdminGiver.Text = "HD Admin Giver"
-HDAdminGiver.TextColor3 = Color3.fromRGB(255, 255, 255)
-HDAdminGiver.TextScaled = true
-HDAdminGiver.TextSize = 14.000
-HDAdminGiver.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = HDAdminGiver
-
-StarGlitcher.Name = "StarGlitcher"
-StarGlitcher.Parent = Frame
-StarGlitcher.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-StarGlitcher.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-StarGlitcher.Size = UDim2.new(0, 68, 0, 23)
-StarGlitcher.Font = Enum.Font.Arial
-StarGlitcher.Text = "Star Glitcher"
-StarGlitcher.TextColor3 = Color3.fromRGB(255, 255, 255)
-StarGlitcher.TextScaled = true
-StarGlitcher.TextSize = 14.000
-StarGlitcher.TextWrapped = true
-
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = StarGlitcher
-
-BlueTitan.Name = "BlueTitan"
-BlueTitan.Parent = Frame
-BlueTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-BlueTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-BlueTitan.Size = UDim2.new(0, 68, 0, 23)
-BlueTitan.Font = Enum.Font.Arial
-BlueTitan.Text = "Blue Titan"
-BlueTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
-BlueTitan.TextScaled = true
-BlueTitan.TextSize = 14.000
-BlueTitan.TextWrapped = true
-
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = BlueTitan
-
-RedTitan.Name = "RedTitan"
-RedTitan.Parent = Frame
-RedTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-RedTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-RedTitan.Size = UDim2.new(0, 68, 0, 23)
-RedTitan.Font = Enum.Font.Arial
-RedTitan.Text = "Red Titan"
-RedTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
-RedTitan.TextScaled = true
-RedTitan.TextSize = 14.000
-RedTitan.TextWrapped = true
-
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = RedTitan
-
-Zamazu.Name = "Zamazu"
-Zamazu.Parent = Frame
-Zamazu.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Zamazu.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Zamazu.Size = UDim2.new(0, 68, 0, 23)
-Zamazu.Font = Enum.Font.Arial
-Zamazu.Text = "Star Glitcher"
-Zamazu.TextColor3 = Color3.fromRGB(255, 255, 255)
-Zamazu.TextScaled = true
-Zamazu.TextSize = 14.000
-Zamazu.TextWrapped = true
-
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = Zamazu
-
 SideFrame.Name = "SideFrame"
 SideFrame.Parent = Main
 SideFrame.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 SideFrame.BorderSizePixel = 0
 SideFrame.Position = UDim2.new(0.00203257124, 0, 0.769939125, 0)
-SideFrame.Size = UDim2.new(0, 544, 0, 60)
+SideFrame.Size = UDim2.new(0, 544, 0, 62)
 SideFrame.ZIndex = 10
 
 Execute.Name = "Execute"
@@ -487,7 +243,7 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-UICorner_17.Parent = TextLabel
+UICorner_4.Parent = TextLabel
 
 Clear.Name = "Clear"
 Clear.Parent = SideFrame
@@ -516,7 +272,7 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
-UICorner_18.Parent = TextLabel_2
+UICorner_5.Parent = TextLabel_2
 
 Respawn.Name = "Respawn"
 Respawn.Parent = SideFrame
@@ -545,7 +301,7 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
-UICorner_19.Parent = TextLabel_3
+UICorner_6.Parent = TextLabel_3
 
 R6.Name = "R6"
 R6.Parent = SideFrame
@@ -574,7 +330,7 @@ Label.TextScaled = true
 Label.TextSize = 14.000
 Label.TextWrapped = true
 
-UICorner_20.Parent = Label
+UICorner_7.Parent = Label
 
 ImageLabel.Parent = SideFrame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -713,7 +469,7 @@ Comments_.TextWrapped = true
 Comments_.TextXAlignment = Enum.TextXAlignment.Left
 Comments_.TextYAlignment = Enum.TextYAlignment.Top
 
-UICorner_21.Parent = Source
+UICorner_8.Parent = Source
 
 Lines.Name = "Lines"
 Lines.Parent = ExecuBox
@@ -731,11 +487,11 @@ Lines.TextYAlignment = Enum.TextYAlignment.Top
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
 UIGradient.Parent = ExecuBox
 
-UICorner_22.Parent = ExecuBox
+UICorner_9.Parent = ExecuBox
 
-UIListLayout_2.Parent = ExecuBox
-UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Parent = ExecuBox
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
 Side.Name = "Side"
 Side.Parent = Main
@@ -744,8 +500,8 @@ Side.Position = UDim2.new(0, 0, 0.125811026, 0)
 Side.Size = UDim2.new(0, 51, 0, 175)
 Side.ZIndex = 10
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = Side
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = Side
 
 Settings.Name = "Settings"
 Settings.Parent = Side
@@ -780,9 +536,9 @@ Tabs.BorderSizePixel = 0
 Tabs.Position = UDim2.new(0.09255898, 0, 0.140221402, 0)
 Tabs.Size = UDim2.new(0, 391, 0, 21)
 
-UIListLayout_3.Parent = Tabs
-UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Parent = Tabs
+UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
 add.Name = "add"
 add.Parent = Tabs
@@ -819,8 +575,249 @@ remove.Image = "rbxassetid://3926305904"
 remove.ImageRectOffset = Vector2.new(924, 724)
 remove.ImageRectSize = Vector2.new(36, 36)
 
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = Main
+ScriptHub.BackgroundColor3 = Color3.fromRGB(23, 24, 31)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.829267621, 0, 0.101297975, 0)
+ScriptHub.Size = UDim2.new(0, 92, 0, 189)
+ScriptHub.ZIndex = 10
+
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = ScriptHub
+SearchBar.AnchorPoint = Vector2.new(0.5, 0)
+SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+SearchBar.BackgroundTransparency = 1.000
+SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
+SearchBar.BorderSizePixel = 0
+SearchBar.Position = UDim2.new(0.499999344, 0, 0.0584563389, 0)
+SearchBar.Size = UDim2.new(0.999998689, 0, 0.113231204, 0)
+SearchBar.ZIndex = 2
+SearchBar.Font = Enum.Font.Arial
+SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+SearchBar.PlaceholderText = "Search"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
+
+Frame.Name = "Frame"
+Frame.Parent = ScriptHub
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.149115026, 0)
+Frame.Size = UDim2.new(0, 91, 0, 153)
+Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
+Frame.ScrollBarThickness = 5
+
+Nuke.Name = "Nuke"
+Nuke.Parent = Frame
+Nuke.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Nuke.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Nuke.Size = UDim2.new(0, 68, 0, 23)
+Nuke.Font = Enum.Font.Arial
+Nuke.Text = "Nuke"
+Nuke.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nuke.TextScaled = true
+Nuke.TextSize = 14.000
+Nuke.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = Nuke
+
+UIListLayout_3.Parent = Frame
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.Padding = UDim.new(0, 10)
+
+Missile.Name = "Missile"
+Missile.Parent = Frame
+Missile.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Missile.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Missile.Size = UDim2.new(0, 68, 0, 23)
+Missile.Font = Enum.Font.Arial
+Missile.Text = "Missile"
+Missile.TextColor3 = Color3.fromRGB(255, 255, 255)
+Missile.TextScaled = true
+Missile.TextSize = 14.000
+Missile.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Missile
+
+ServerAdmin.Name = "ServerAdmin"
+ServerAdmin.Parent = Frame
+ServerAdmin.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+ServerAdmin.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+ServerAdmin.Size = UDim2.new(0, 68, 0, 23)
+ServerAdmin.Font = Enum.Font.Arial
+ServerAdmin.Text = "Server Admin"
+ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+ServerAdmin.TextScaled = true
+ServerAdmin.TextSize = 14.000
+ServerAdmin.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = ServerAdmin
+
+Xester.Name = "Xester"
+Xester.Parent = Frame
+Xester.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Xester.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Xester.Size = UDim2.new(0, 68, 0, 23)
+Xester.Font = Enum.Font.Arial
+Xester.Text = "Xester"
+Xester.TextColor3 = Color3.fromRGB(255, 255, 255)
+Xester.TextScaled = true
+Xester.TextSize = 14.000
+Xester.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Xester
+
+InfYield.Name = "InfYield"
+InfYield.Parent = Frame
+InfYield.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+InfYield.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+InfYield.Size = UDim2.new(0, 68, 0, 23)
+InfYield.Font = Enum.Font.Arial
+InfYield.Text = "Inf Yield"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = InfYield
+
+DarkDex.Name = "DarkDex"
+DarkDex.Parent = Frame
+DarkDex.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+DarkDex.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+DarkDex.Size = UDim2.new(0, 68, 0, 23)
+DarkDex.Font = Enum.Font.Arial
+DarkDex.Text = "Dark Dex"
+DarkDex.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkDex.TextScaled = true
+DarkDex.TextSize = 14.000
+DarkDex.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = DarkDex
+
+Dokka.Name = "Dokka"
+Dokka.Parent = Frame
+Dokka.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Dokka.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Dokka.Size = UDim2.new(0, 68, 0, 23)
+Dokka.Font = Enum.Font.Arial
+Dokka.Text = "Dokka"
+Dokka.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dokka.TextScaled = true
+Dokka.TextSize = 14.000
+Dokka.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = Dokka
+
+Caducus.Name = "Caducus"
+Caducus.Parent = Frame
+Caducus.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Caducus.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Caducus.Size = UDim2.new(0, 68, 0, 23)
+Caducus.Font = Enum.Font.Arial
+Caducus.Text = "Caducus"
+Caducus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Caducus.TextScaled = true
+Caducus.TextSize = 14.000
+Caducus.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = Caducus
+
+UIPadding.Parent = Frame
+UIPadding.PaddingBottom = UDim.new(0, 5)
+UIPadding.PaddingTop = UDim.new(0, 30)
+
+HDAdminGiver.Name = "HDAdminGiver"
+HDAdminGiver.Parent = Frame
+HDAdminGiver.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+HDAdminGiver.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+HDAdminGiver.Size = UDim2.new(0, 68, 0, 23)
+HDAdminGiver.Font = Enum.Font.Arial
+HDAdminGiver.Text = "HD Admin Giver"
+HDAdminGiver.TextColor3 = Color3.fromRGB(255, 255, 255)
+HDAdminGiver.TextScaled = true
+HDAdminGiver.TextSize = 14.000
+HDAdminGiver.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = HDAdminGiver
+
+StarGlitcher.Name = "StarGlitcher"
+StarGlitcher.Parent = Frame
+StarGlitcher.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+StarGlitcher.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+StarGlitcher.Size = UDim2.new(0, 68, 0, 23)
+StarGlitcher.Font = Enum.Font.Arial
+StarGlitcher.Text = "Star Glitcher"
+StarGlitcher.TextColor3 = Color3.fromRGB(255, 255, 255)
+StarGlitcher.TextScaled = true
+StarGlitcher.TextSize = 14.000
+StarGlitcher.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = StarGlitcher
+
+BlueTitan.Name = "BlueTitan"
+BlueTitan.Parent = Frame
+BlueTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+BlueTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+BlueTitan.Size = UDim2.new(0, 68, 0, 23)
+BlueTitan.Font = Enum.Font.Arial
+BlueTitan.Text = "Blue Titan"
+BlueTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlueTitan.TextScaled = true
+BlueTitan.TextSize = 14.000
+BlueTitan.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = BlueTitan
+
+RedTitan.Name = "RedTitan"
+RedTitan.Parent = Frame
+RedTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+RedTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+RedTitan.Size = UDim2.new(0, 68, 0, 23)
+RedTitan.Font = Enum.Font.Arial
+RedTitan.Text = "Red Titan"
+RedTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
+RedTitan.TextScaled = true
+RedTitan.TextSize = 14.000
+RedTitan.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = RedTitan
+
+Zamazu.Name = "Zamazu"
+Zamazu.Parent = Frame
+Zamazu.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+Zamazu.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+Zamazu.Size = UDim2.new(0, 68, 0, 23)
+Zamazu.Font = Enum.Font.Arial
+Zamazu.Text = "Star Glitcher"
+Zamazu.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zamazu.TextScaled = true
+Zamazu.TextSize = 14.000
+Zamazu.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = Zamazu
+
 Console_2.Name = "Console"
-Console_2.Parent = aaaaaaaaaaaaaa2
+Console_2.Parent = dasidijoasd
 Console_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Console_2.Position = UDim2.new(0.260611445, 0, 0.53616482, 0)
 Console_2.Size = UDim2.new(0, 545, 0, 164)
@@ -1031,44 +1028,8 @@ Label_4.TextScaled = true
 Label_4.TextSize = 14.000
 Label_4.TextWrapped = true
 
-Offline.Name = "Offline"
-Offline.Parent = Console_2
-Offline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Offline.BackgroundTransparency = 1.000
-Offline.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Offline.BorderSizePixel = 0
-Offline.Position = UDim2.new(0.00272625568, 0, 0.243902445, 0)
-Offline.Size = UDim2.new(0, 542, 0, 122)
-Offline.Visible = false
-Offline.ZIndex = 999999999
-
-power.Name = "power"
-power.Parent = Offline
-power.BackgroundTransparency = 1.000
-power.Position = UDim2.new(0.0960598737, 0, 0.22774969, 0)
-power.Size = UDim2.new(0, 47, 0, 47)
-power.ZIndex = 2
-power.Image = "rbxassetid://6764432408"
-power.ImageColor3 = Color3.fromRGB(255, 26, 68)
-power.ImageRectOffset = Vector2.new(100, 400)
-power.ImageRectSize = Vector2.new(50, 50)
-
-Status_3.Name = "Status"
-Status_3.Parent = Offline
-Status_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Status_3.BackgroundTransparency = 1.000
-Status_3.Position = UDim2.new(0.0730357692, 0, 0.194792196, 0)
-Status_3.Size = UDim2.new(0, 465, 0, 55)
-Status_3.ZIndex = 99
-Status_3.Font = Enum.Font.Nunito
-Status_3.Text = "Console is offline"
-Status_3.TextColor3 = Color3.fromRGB(253, 26, 68)
-Status_3.TextScaled = true
-Status_3.TextSize = 20.000
-Status_3.TextWrapped = true
-
 Open.Name = "Open"
-Open.Parent = aaaaaaaaaaaaaa2
+Open.Parent = dasidijoasd
 Open.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Open.Position = UDim2.new(0.00838414673, 0, 0.550420165, 0)
 Open.Size = UDim2.new(0, 74, 0, 25)
@@ -1084,7 +1045,7 @@ UICorner_27.CornerRadius = UDim.new(0, 3)
 UICorner_27.Parent = Open
 
 Settings_2.Name = "Settings"
-Settings_2.Parent = aaaaaaaaaaaaaa2
+Settings_2.Parent = dasidijoasd
 Settings_2.AnchorPoint = Vector2.new(0.5, 0.5)
 Settings_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Settings_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -1257,7 +1218,7 @@ TextLabel_7.TextSize = 32.000
 TextLabel_7.TextWrapped = true
 
 Starter.Name = "Starter"
-Starter.Parent = aaaaaaaaaaaaaa2
+Starter.Parent = dasidijoasd
 Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Starter.Position = UDim2.new(0.353139758, 0, 0.556264102, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
@@ -1341,22 +1302,22 @@ Logo_3.ImageRectOffset = Vector2.new(75, 0)
 Logo_3.ImageRectSize = Vector2.new(78, 78)
 Logo_3.ScaleType = Enum.ScaleType.Fit
 
-Status_4.Name = "Status"
-Status_4.Parent = Top_3
-Status_4.BackgroundColor3 = Color3.fromRGB(24, 25, 32)
-Status_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Status_4.BorderSizePixel = 0
-Status_4.Position = UDim2.new(-2.94855823e-07, 0, 2.71981168, 0)
-Status_4.Size = UDim2.new(0, 414, 0, 37)
-Status_4.ZIndex = 99
-Status_4.Font = Enum.Font.Unknown
-Status_4.Text = ""
-Status_4.TextColor3 = Color3.fromRGB(212, 212, 212)
-Status_4.TextScaled = true
-Status_4.TextSize = 20.000
-Status_4.TextWrapped = true
+Status_3.Name = "Status"
+Status_3.Parent = Top_3
+Status_3.BackgroundColor3 = Color3.fromRGB(24, 25, 32)
+Status_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Status_3.BorderSizePixel = 0
+Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.71981168, 0)
+Status_3.Size = UDim2.new(0, 414, 0, 37)
+Status_3.ZIndex = 99
+Status_3.Font = Enum.Font.Unknown
+Status_3.Text = ""
+Status_3.TextColor3 = Color3.fromRGB(212, 212, 212)
+Status_3.TextScaled = true
+Status_3.TextSize = 20.000
+Status_3.TextWrapped = true
 
-UICorner_34.Parent = Status_4
+UICorner_34.Parent = Status_3
 
 Frame_2.Parent = Starter
 Frame_2.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
@@ -1364,7 +1325,6 @@ Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0, 0, 0.939765215, 0)
 Frame_2.Size = UDim2.new(0, 0, 0, 11)
-Frame_2.Visible = false
 Frame_2.ZIndex = 9999
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
@@ -1373,28 +1333,28 @@ UIGradient_2.Parent = Frame_2
 UICorner_35.CornerRadius = UDim.new(0, 2)
 UICorner_35.Parent = Frame_2
 
-Status_5.Name = "Status"
-Status_5.Parent = Starter
-Status_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Status_5.BackgroundTransparency = 1.000
-Status_5.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
-Status_5.Size = UDim2.new(0, 260, 0, 31)
-Status_5.Visible = false
-Status_5.ZIndex = 99
-Status_5.Font = Enum.Font.ArialBold
-Status_5.Text = "Execution Error: No backdoor found"
-Status_5.TextColor3 = Color3.fromRGB(212, 22, 57)
-Status_5.TextScaled = true
-Status_5.TextSize = 20.000
-Status_5.TextTransparency = 1.000
-Status_5.TextWrapped = true
+Status_4.Name = "Status"
+Status_4.Parent = Starter
+Status_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status_4.BackgroundTransparency = 1.000
+Status_4.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
+Status_4.Size = UDim2.new(0, 260, 0, 31)
+Status_4.Visible = false
+Status_4.ZIndex = 99
+Status_4.Font = Enum.Font.ArialBold
+Status_4.Text = "Execution Error: No backdoor found"
+Status_4.TextColor3 = Color3.fromRGB(212, 22, 57)
+Status_4.TextScaled = true
+Status_4.TextSize = 20.000
+Status_4.TextTransparency = 1.000
+Status_4.TextWrapped = true
 
 -- Module Scripts:
 
 local fake_module_scripts = {}
 
-do -- aaaaaaaaaaaaaa2.Config
-	local script = Instance.new('ModuleScript', aaaaaaaaaaaaaa2)
+do -- dasidijoasd.Config
+	local script = Instance.new('ModuleScript', dasidijoasd)
 	script.Name = "Config"
 	local function module_script()
 		local settings = {
@@ -1412,193 +1372,8 @@ end
 
 -- Scripts:
 
-local function BLSBWWM_fake_script() -- Main.Drag 
-	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	--Credits go to whoever made this script.
-	
-	local UIS = game:GetService("UserInputService")
-	function drag (Frame)
-		dragToggle = nil
-		dragSpeed = 0.23
-		dragInput = nil
-		dragStart = nil
-		dragPos = nil
-		function updateInput(input)
-			Delta = input.Position - dragStart
-			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
-		end
-		Frame.InputBegan:Connect(function(input)
-			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
-				dragToggle = true
-				dragStart = input.Position
-				startPos = Frame.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragToggle = false
-					end
-				end)
-			end
-		end)
-		Frame.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		game:GetService("UserInputService").InputChanged:Connect(function(input)
-			if input == dragInput and dragToggle then
-				updateInput(input)
-			end
-		end)
-	end
-	drag(script.Parent)
-	
-end
-coroutine.wrap(BLSBWWM_fake_script)()
-local function KQYMWU_fake_script() -- ScriptHub.LocalScript 
-	local script = Instance.new('LocalScript', ScriptHub)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local searchBar = script.Parent.SearchBar
-	local items = script.Parent.Frame
-	
-	function UpdateResults()
-		local search = string.lower(searchBar.Text)
-		for i, v in	 pairs(items:GetChildren()) do
-			if v:IsA("GuiButton") then
-				if search ~= "" then
-					local item = string.lower(v.Text)
-					if string.find(item, search) then
-						v.Visible = true
-					else
-						v.Visible = false
-					end
-				else
-					v.Visible = true
-				end
-			end
-		end
-	end
-	
-	searchBar.Changed:Connect(UpdateResults)
-end
-coroutine.wrap(KQYMWU_fake_script)()
-local function QMOXJAR_fake_script() -- Frame.Main2 
-	local script = Instance.new('LocalScript', Frame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local success, result = pcall(function() 
-	local Nuke = script.Parent:FindFirstChild("Nuke")
-	local Missile = script.Parent:FindFirstChild("Missile")
-	local SAdmin = script.Parent:FindFirstChild("ServerAdmin")
-	local Xester = script.Parent:FindFirstChild("Xester")
-	local InfYield = script.Parent:FindFirstChild("InfYield")
-	local DDex = script.Parent:FindFirstChild("DarkDex")
-	local Dokka = script.Parent:FindFirstChild("Dokka")
-	local Caducus = script.Parent:FindFirstChild("Caducus")
-	local HdAdmin = script.Parent:FindFirstChild("HDAdminGiver")
-	local StarGlitcher = script.Parent:FindFirstChild("StarGlitcher")
-	local BlueTitan = script.Parent:FindFirstChild("BlueTitan")
-	local RedTitan = script.Parent:FindFirstChild("BlueTitan")
-	local Zamazu = script.Parent:FindFirstChild("Zamazu")
-	
-	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	
-	HdAdmin.MouseButton1Down:Connect(function()
-			ExecuteBox.Text = 'require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	Zamazu.MouseButton1Down:Connect(function()
-			ExecuteBox.Text = 'require(2971448618).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	BlueTitan.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2971509487).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	RedTitan.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2974204001).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	StarGlitcher.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2930987220).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	Nuke.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4867426485):SD2("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Missile.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(7804327506).amigodogodenot123("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	SAdmin.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")'
-	end)
-	
-	Xester.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4697686321).load("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	InfYield.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	DDex.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Dokka.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(6223977609)["Dokka"]("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Caducus.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")'
-		end)
-	end)
-	
-end
-coroutine.wrap(QMOXJAR_fake_script)()
 -- Comments_.LocalScript is disabled.
-local function WTFLBZ_fake_script() -- Source.LocalScript 
-	local script = Instance.new('LocalScript', Source)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.Changed:Connect(function()
-		script.Parent.Parent.SourceText.Value = script.Parent.Text
-	end)
-end
-coroutine.wrap(WTFLBZ_fake_script)()
-local function LUBGQLW_fake_script() -- ExecuBox.Main 
+local function MFTYX_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 	local req = require
 	local require = function(obj)
@@ -1609,9 +1384,11 @@ local function LUBGQLW_fake_script() -- ExecuBox.Main
 		return req(obj)
 	end
 
+	local settings1 = require(script.Parent.Parent.Parent:FindFirstChild("Config"))
+	
 	local settings = {
-		Highlight = false; -- Highlight like you know. Script Text color?
-		Lines =false; -- The textbox will have some lines like when you press enter.
+		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
+		Lines = false; -- The textbox will have some lines like when you press enter.
 		Scroll = false; -- So if it has alot of lines and that it gets off the screen this will help.
 		HighlightVariables=true;--Highlights the local and global enviorments
 		SplitScanLines=false;-- This trick is used to Scan lines instead of the whole source (Breaks multilined strings and comments) 
@@ -2261,101 +2038,9 @@ local function LUBGQLW_fake_script() -- ExecuBox.Main
 			end)
 		end)
 	end
-	local settings1 = script.Parent.Parent.Parent:FindFirstChild("Config")
-	
-	local Source = script.Parent:FindFirstChild("Source")
-	local Comments = Source:FindFirstChild("Comments_")
-	local Globals = Source:FindFirstChild("Globals_")
-	local Keywords = Source:FindFirstChild("Keywords_")
-	local Numbers = Source:FindFirstChild("Numbers_")
-	local Strings = Source:FindFirstChild("Strings_")
-	local Tokens = Source:FindFirstChild("Tokens_")
-	local Vars = Source:FindFirstChild("Vars_")
-	
-	settings1:FindFirstChild("syntaxhighlighting").Changed:Connect(function()
-		local settings2 = require(script.Parent.Parent.Parent:FindFirstChild("Config"))
-	
-		if settings2.SyntaxHighlighting == false then
-			settings.Highlight = false
-			settings.HighlightVariables = false
-			Comments.Visible = false
-			Globals.Visible = false
-			Keywords.Visible = false
-			Numbers.Visible = false
-			Strings.Visible = false
-			Tokens.Visible = false
-			Vars.Visible = false
-	
-			--
-			Comments.Text = ""
-			Globals.Text = ""
-			Keywords.Text = ""
-			Numbers.Text = ""
-			Strings.Text = ""
-			Tokens.Text = ""
-			Vars.Text = ""
-			Source.Text = ""
-		else
-			settings.Highlight = true
-			settings.HighlightVariables = true
-			Comments.Visible = true
-			Globals.Visible = true
-			Keywords.Visible = true
-			Numbers.Visible = true
-			Strings.Visible = true
-			Tokens.Visible = true
-			Vars.Visible = true
-			--
-			Comments.Text = ""
-			Globals.Text = ""
-			Keywords.Text = ""
-			Numbers.Text = ""
-			Strings.Text = ""
-			Tokens.Text = ""
-			Vars.Text = ""
-			Source.Text = ""
-		end
-	end)
-	
-	settings1:FindFirstChild("hideusername").Changed:Connect(function()
-		local hideUsername = settings1:FindFirstChild("hideusername").Value
-		local username = game.Players.LocalPlayer.Name
-	
-		if hideUsername == true then
-			-- Function to replace username with "Anonymous" where found
-			local function replaceUsername(text)
-				local startPos, endPos = text:find(username, 1, true)
-				if startPos then
-					return text:sub(1, startPos - 1) .. "Anonymous" .. text:sub(endPos + 1)
-				else
-					return text
-				end
-			end
-	
-			-- Connect the Strings.Changed event to update the text
-			Strings.Changed:Connect(function()
-				Strings.Text = replaceUsername(Strings.Text)
-			end)
-	
-			-- Initially replace username in Strings.Text
-			Strings.Text = replaceUsername(Strings.Text)
-		else
-			-- Function to restore "Anonymous" to username
-			local function restoreUsername(text)
-				return text:gsub("Anonymous", username)
-			end
-	
-			-- Restore username in Strings.Text
-			Strings.Text = restoreUsername(Strings.Text)
-	
-			-- Disconnect the Strings.Changed event (if connected)
-			Strings.Changed:Disconnect()
-		end
-	end)
-	
 end
-coroutine.wrap(LUBGQLW_fake_script)()
-local function YLJV_fake_script() -- Main.Tabs 
+coroutine.wrap(MFTYX_fake_script)()
+local function LFSKX_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -2374,7 +2059,7 @@ local function YLJV_fake_script() -- Main.Tabs
 	local addBTN = Tabs:FindFirstChild("add")
 	local tab1 = Tabs:FindFirstChild("tab1")
 	local ExecuBox = main and main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	local SourceText = ExecuBox:FindFirstChild("SourceText")
+	local SourceText = ExecuBox.Text
 	
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
 	
@@ -2574,9 +2259,9 @@ local function YLJV_fake_script() -- Main.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(YLJV_fake_script)()
-local function HSRI_fake_script() -- Console_2.Drag 
-	local script = Instance.new('LocalScript', Console_2)
+coroutine.wrap(LFSKX_fake_script)()
+local function BFCII_fake_script() -- ScriptHub.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHub)
 	local req = require
 	local require = function(obj)
 		local fake = fake_module_scripts[obj]
@@ -2586,48 +2271,165 @@ local function HSRI_fake_script() -- Console_2.Drag
 		return req(obj)
 	end
 
-	--Credits go to whoever made this script.
+	local searchBar = script.Parent.SearchBar
+	local items = script.Parent.Frame
 	
-	local UIS = game:GetService("UserInputService")
-	function drag (Frame)
-		dragToggle = nil
-		dragSpeed = 0.23
-		dragInput = nil
-		dragStart = nil
-		dragPos = nil
-		function updateInput(input)
-			Delta = input.Position - dragStart
-			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
-		end
-		Frame.InputBegan:Connect(function(input)
-			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
-				dragToggle = true
-				dragStart = input.Position
-				startPos = Frame.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragToggle = false
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
 					end
-				end)
+				else
+					v.Visible = true
+				end
 			end
-		end)
-		Frame.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		game:GetService("UserInputService").InputChanged:Connect(function(input)
-			if input == dragInput and dragToggle then
-				updateInput(input)
-			end
-		end)
+		end
 	end
-	drag(script.Parent)
+	
+	searchBar.Changed:Connect(UpdateResults)
+end
+coroutine.wrap(BFCII_fake_script)()
+local function TOVABF_fake_script() -- Frame.Main2 
+	local script = Instance.new('LocalScript', Frame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local success, result = pcall(function() 
+	local Nuke = script.Parent:FindFirstChild("Nuke")
+	local Missile = script.Parent:FindFirstChild("Missile")
+	local SAdmin = script.Parent:FindFirstChild("ServerAdmin")
+	local Xester = script.Parent:FindFirstChild("Xester")
+	local InfYield = script.Parent:FindFirstChild("InfYield")
+	local DDex = script.Parent:FindFirstChild("DarkDex")
+	local Dokka = script.Parent:FindFirstChild("Dokka")
+	local Caducus = script.Parent:FindFirstChild("Caducus")
+	local HdAdmin = script.Parent:FindFirstChild("HDAdminGiver")
+	local StarGlitcher = script.Parent:FindFirstChild("StarGlitcher")
+	local BlueTitan = script.Parent:FindFirstChild("BlueTitan")
+	local RedTitan = script.Parent:FindFirstChild("BlueTitan")
+	local Zamazu = script.Parent:FindFirstChild("Zamazu")
+	
+	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+	
+	HdAdmin.MouseButton1Down:Connect(function()
+			ExecuteBox.Text = 'require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")'
+	end)
+	
+	Zamazu.MouseButton1Down:Connect(function()
+			ExecuteBox.Text = 'require(2971448618).load("'..game.Players.LocalPlayer.Name..'")'
+	end)
+	BlueTitan.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(2971509487).load("'..game.Players.LocalPlayer.Name..'")'
+	end)
+	
+	RedTitan.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(2974204001).load("'..game.Players.LocalPlayer.Name..'")'
+	end)
+	
+	StarGlitcher.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(2930987220).load("'..game.Players.LocalPlayer.Name..'")'
+	end)
+	
+	Nuke.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(4867426485):SD2("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	Missile.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(7804327506).amigodogodenot123("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	SAdmin.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")'
+	end)
+	
+	Xester.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(4697686321).load("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	InfYield.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	DDex.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	Dokka.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(6223977609)["Dokka"]("' .. game.Players.LocalPlayer.Name .. '")'
+	end)
+	
+	Caducus.MouseButton1Down:Connect(function()
+		ExecuteBox.Text = 'require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")'
+		end)
+	end)
 	
 end
-coroutine.wrap(HSRI_fake_script)()
-local function HKQK_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(TOVABF_fake_script)()
+local function IOHP_fake_script() -- Main.Drag 
+	local script = Instance.new('LocalScript', Main)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IOHP_fake_script)()
+local function BFSCWQJ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -2642,9 +2444,9 @@ local function HKQK_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(HKQK_fake_script)()
-local function RBYVZNG_fake_script() -- Settings_2.Drag 
-	local script = Instance.new('LocalScript', Settings_2)
+coroutine.wrap(BFSCWQJ_fake_script)()
+local function VNDX_fake_script() -- Console_2.Drag 
+	local script = Instance.new('LocalScript', Console_2)
 	local req = require
 	local require = function(obj)
 		local fake = fake_module_scripts[obj]
@@ -2654,48 +2456,48 @@ local function RBYVZNG_fake_script() -- Settings_2.Drag
 		return req(obj)
 	end
 
-	--Credits go to whoever made this script.
+	local UserInputService = game:GetService("UserInputService")
 	
-	local UIS = game:GetService("UserInputService")
-	function drag (Frame)
-		dragToggle = nil
-		dragSpeed = 0.23
-		dragInput = nil
-		dragStart = nil
-		dragPos = nil
-		function updateInput(input)
-			Delta = input.Position - dragStart
-			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
-		end
-		Frame.InputBegan:Connect(function(input)
-			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
-				dragToggle = true
-				dragStart = input.Position
-				startPos = Frame.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragToggle = false
-					end
-				end)
-			end
-		end)
-		Frame.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		game:GetService("UserInputService").InputChanged:Connect(function(input)
-			if input == dragInput and dragToggle then
-				updateInput(input)
-			end
-		end)
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	drag(script.Parent)
 	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
 end
-coroutine.wrap(RBYVZNG_fake_script)()
-local function CIVJWD_fake_script() -- Settings_2.Main 
+coroutine.wrap(VNDX_fake_script)()
+local function RYJO_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2712,7 +2514,6 @@ local function CIVJWD_fake_script() -- Settings_2.Main
 	
 	local Tween = game:GetService("TweenService")
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
-	local settings1 = script.Parent.Parent:FindFirstChild("Config")
 	
 	---
 	local Label1 = script.Parent:FindFirstChild("Info1")
@@ -2811,24 +2612,20 @@ local function CIVJWD_fake_script() -- Settings_2.Main
 	
 	if settings.SyntaxHighlighting == false then
 		syntaxhighlighting = false
-		settings1:FindFirstChild("syntaxhighlighting").Value = false
 		turnBack(SyntaxHighlighting, false)
 		Label2.Visible = false
 	else
 		syntaxhighlighting = true
-		settings1:FindFirstChild("syntaxhighlighting").Value = true
 		turnNew(SyntaxHighlighting, false)
 		Label2.TextTransparency = 0
 	end
 	
 	if settings.HideUsername == false then
 		hideusername = false
-		settings1:FindFirstChild("hideusername").Value = false
 		turnBack(HideUsername, false)
 		Label3.Visible = false
 	else
 		hideusername = true
-		settings1:FindFirstChild("hideusername").Value = true
 		turnNew(HideUsername, false)
 		Label3.TextTransparency = 0
 	end
@@ -2867,12 +2664,10 @@ local function CIVJWD_fake_script() -- Settings_2.Main
 			syntaxhighlighting = true
 			turnNew(SyntaxHighlighting, true)
 			settings.SyntaxHighlighting = true
-			settings1:FindFirstChild("syntaxhighlighting").Value = true
 		else
 			syntaxhighlighting = false
 			turnBack(SyntaxHighlighting, false)
 			settings.SyntaxHighlighting = false
-			settings1:FindFirstChild("syntaxhighlighting").Value = false
 		end
 	end)
 	
@@ -2899,17 +2694,67 @@ local function CIVJWD_fake_script() -- Settings_2.Main
 			hideusername = true
 			turnNew(HideUsername, true)
 			settings.HideUsername = true
-			settings1:FindFirstChild("hideusername").Value = true
 		else
 			hideusername = false
 			turnNew(HideUsername, false)
 			settings.HideUsername = false	
-			settings1:FindFirstChild("hideusername").Value = false
 		end
 	end)
 end
-coroutine.wrap(CIVJWD_fake_script)()
-local function CTYAOH_fake_script() -- Starter.LocalScript 
+coroutine.wrap(RYJO_fake_script)()
+local function UNOEEDN_fake_script() -- Settings_2.Drag 
+	local script = Instance.new('LocalScript', Settings_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(UNOEEDN_fake_script)()
+local function BTFGL_fake_script() -- Starter.LocalScript 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2949,7 +2794,6 @@ local function CTYAOH_fake_script() -- Starter.LocalScript
 	
 	-- Example condition functions
 	wait(3)
-	Bar.Visible = true
 	status.Text = "Checking.."
 	
 	local function check()
@@ -2994,8 +2838,8 @@ local function CTYAOH_fake_script() -- Starter.LocalScript
 		return false
 	end
 end
-coroutine.wrap(CTYAOH_fake_script)()
-local function HZGT_fake_script() -- Starter.Drag 
+coroutine.wrap(BTFGL_fake_script)()
+local function CWPOBYF_fake_script() -- Starter.Drag 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -3006,49 +2850,49 @@ local function HZGT_fake_script() -- Starter.Drag
 		return req(obj)
 	end
 
-	--Credits go to whoever made this script.
+	local UserInputService = game:GetService("UserInputService")
 	
-	local UIS = game:GetService("UserInputService")
-	function drag (Frame)
-		dragToggle = nil
-		dragSpeed = 0.23
-		dragInput = nil
-		dragStart = nil
-		dragPos = nil
-		function updateInput(input)
-			Delta = input.Position - dragStart
-			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
-		end
-		Frame.InputBegan:Connect(function(input)
-			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
-				dragToggle = true
-				dragStart = input.Position
-				startPos = Frame.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragToggle = false
-					end
-				end)
-			end
-		end)
-		Frame.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		game:GetService("UserInputService").InputChanged:Connect(function(input)
-			if input == dragInput and dragToggle then
-				updateInput(input)
-			end
-		end)
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	drag(script.Parent)
 	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
 end
-coroutine.wrap(HZGT_fake_script)()
-local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp 
-	local script = Instance.new('LocalScript', aaaaaaaaaaaaaa2)
+coroutine.wrap(CWPOBYF_fake_script)()
+local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp 
+	local script = Instance.new('LocalScript', dasidijoasd)
 	local req = require
 	local require = function(obj)
 		local fake = fake_module_scripts[obj]
@@ -3077,10 +2921,6 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 	
 	local SettingsF = script.Parent:FindFirstChild("Settings")
 	local Top = Main and Main:FindFirstChild("Top")
-	
-	Top:FindFirstChild("Logo").MouseButton1Down:Connect(function()
-		-- No specific action mentioned, left blank
-	end)
 	
 	-- Define the labels to be cloned for each response type
 	local CLabelN = ConsoleFrame and ConsoleFrame:FindFirstChild("Normal")
@@ -3174,11 +3014,8 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			TweenOutStatus()
 		end
 	end
-	
-	-- Connect Execute button click
 	local ExecuSS = SideBar and SideBar:FindFirstChild("Execute")
 	local scriptText = ExecuBox and ExecuBox.Text
-	
 	if ExecuSS then
 		ExecuSS.MouseButton1Click:Connect(function()
 			if ExecuBox then
@@ -3193,8 +3030,6 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			end
 		end)
 	end
-	
-	-- Connect Clear button click
 	local Clear = SideBar and SideBar:FindFirstChild("Clear")
 	if Clear then
 		Clear.MouseButton1Down:Connect(function()
@@ -3204,8 +3039,6 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			end
 		end)
 	end
-	
-	-- Connect Respawn button click
 	local Respawn = SideBar and SideBar:FindFirstChild("Respawn")
 	if Respawn then
 		Respawn.MouseButton1Down:Connect(function()
@@ -3222,8 +3055,6 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			end
 		end)
 	end
-	
-	-- Connect Close button click
 	local X = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Close")
 	if X then
 		X.MouseButton1Down:Connect(function()
@@ -3231,19 +3062,14 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			script.Parent.Open.Visible = true
 		end)
 	end
-	
-	-- Connect Open button click
 	if script.Parent:FindFirstChild("Open") then
 		script.Parent.Open.MouseButton1Down:Connect(function()
 			Main.Visible = true
 			script.Parent.Open.Visible = false
 		end)
 	end
-	
-	-- Connect R6 button click
 	local R6 = SideBar and SideBar:FindFirstChild("R6")
 	local R6L = SideBar and SideBar:FindFirstChild("R6"):FindFirstChild("Label")
-	
 	if R6 then
 		R6.MouseButton1Down:Connect(function()
 			local plr = game.Players.LocalPlayer
@@ -3282,24 +3108,23 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			end
 		end)
 	end
-	
-	-- Connect Console button click
 	Side:FindFirstChild("Console").MouseButton1Click:Connect(function()
 		-- Tween this frame in if animations are enabled
 		if settings.UIAnimations then
 			Console.Visible = true
 			local tweenService = game:GetService("TweenService")
 			local tinfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-			local twn = tweenService:Create(Console, tinfo, {Position = UDim2.new(0, 0, 0, 0)})
+			local twn = tweenService:Create(Console, tinfo, {Position = UDim2.new(0.261, 0,0.536, 0)})
 			twn:Play()
 		else
 			Console.Visible = true
 		end
 	end)
-	
-	-- Connect Settings button click
 	Side:FindFirstChild("Settings").MouseButton1Click:Connect(function()
 		-- Animate settings button rotation
+		StatusChange("This feature is not available.")
+		--[[
+		
 		local settingsButton = Side:FindFirstChild("Settings")
 		if settings.UIAnimations then
 			local tweenService = game:GetService("TweenService")
@@ -3308,10 +3133,8 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 			rotateTween:Play()
 		end
 		SettingsF.Visible = true
+		--]]
 	end)
-	
-	-- Console
-	
 	if ResponseEvent then
 		ResponseEvent.OnClientInvoke = function(response1, errorMessage)
 			local newLabel
@@ -3370,4 +3193,4 @@ local function CZUN_fake_script() -- aaaaaaaaaaaaaa2.Source2Revamp
 	end
 	
 end
-coroutine.wrap(CZUN_fake_script)()
+coroutine.wrap(BYQXCP_fake_script)()
