@@ -1,9 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
-local dasidijoasd = Instance.new("ScreenGui")
+local optimized = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Top = Instance.new("Frame")
@@ -52,42 +47,18 @@ local remove = Instance.new("ImageButton")
 local ScriptHub = Instance.new("Frame")
 local SearchBar = Instance.new("TextBox")
 local Frame = Instance.new("ScrollingFrame")
-local Nuke = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
 local UIListLayout_3 = Instance.new("UIListLayout")
-local Missile = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local ServerAdmin = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local Xester = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local InfYield = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local DarkDex = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local Dokka = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Caducus = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
 local UIPadding = Instance.new("UIPadding")
-local HDAdminGiver = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local StarGlitcher = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local BlueTitan = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local RedTitan = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local Zamazu = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local SampleBTN = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local Console_2 = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Top_2 = Instance.new("Frame")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local Status_2 = Instance.new("TextLabel")
 local Logo_2 = Instance.new("ImageButton")
 local Close_2 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local Console_3 = Instance.new("ScrollingFrame")
 local Normal = Instance.new("TextLabel")
 local UIListLayout_4 = Instance.new("UIListLayout")
@@ -101,50 +72,50 @@ local Label_3 = Instance.new("TextLabel")
 local Warning_2 = Instance.new("ImageButton")
 local Label_4 = Instance.new("TextLabel")
 local Open = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Settings_2 = Instance.new("Frame")
 local WindowTitle = Instance.new("TextLabel")
 local UIAnim = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local Info1 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 local SyntaxHighlighting = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local Info2 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
 local Info3 = Instance.new("TextLabel")
 local HideUsername = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local TextLabel_7 = Instance.new("TextLabel")
 local Starter = Instance.new("Frame")
 local Action = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local LoadScript = Instance.new("TextButton")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local Top_3 = Instance.new("Frame")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Close_3 = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local Logo_3 = Instance.new("ImageButton")
 local Status_3 = Instance.new("TextLabel")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Frame_2 = Instance.new("Frame")
 local UIGradient_2 = Instance.new("UIGradient")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local Status_4 = Instance.new("TextLabel")
 
 --Properties:
 
-dasidijoasd.Name = "dasidijoasd"
-dasidijoasd.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-dasidijoasd.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-dasidijoasd.ResetOnSpawn = false
+optimized.Name = "optimized"
+optimized.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+optimized.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+optimized.ResetOnSpawn = false
 
 Main.Name = "Main"
-Main.Parent = dasidijoasd
+Main.Parent = optimized
 Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Main.Position = UDim2.new(0.260596335, 0, 0.0837438479, 0)
@@ -188,7 +159,7 @@ Status.BackgroundTransparency = 1.000
 Status.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
 Status.Size = UDim2.new(0, 260, 0, 31)
 Status.ZIndex = 99
-Status.Font = Enum.Font.ArialBold
+Status.Font = Enum.Font.ArimoBold
 Status.Text = "Execution Error: No backdoor found"
 Status.TextColor3 = Color3.fromRGB(212, 22, 57)
 Status.TextScaled = true
@@ -236,7 +207,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.784313738, 0, 0.264705896, 0)
 TextLabel.Size = UDim2.new(0, 85, 0, 19)
 TextLabel.ZIndex = 99999
-TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Font = Enum.Font.ArimoBold
 TextLabel.Text = "Execute"
 TextLabel.TextColor3 = Color3.fromRGB(4, 248, 118)
 TextLabel.TextScaled = true
@@ -265,7 +236,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(1.00177526, 0, 0.198038742, 0)
 TextLabel_2.Size = UDim2.new(0, 55, 0, 19)
 TextLabel_2.ZIndex = 99999
-TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Font = Enum.Font.ArimoBold
 TextLabel_2.Text = "Clear"
 TextLabel_2.TextColor3 = Color3.fromRGB(252, 15, 86)
 TextLabel_2.TextScaled = true
@@ -294,7 +265,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.983417511, 0, 0.315601707, 0)
 TextLabel_3.Size = UDim2.new(0, 71, 0, 20)
 TextLabel_3.ZIndex = 99999
-TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Font = Enum.Font.ArimoBold
 TextLabel_3.Text = "Respawn"
 TextLabel_3.TextColor3 = Color3.fromRGB(253, 253, 253)
 TextLabel_3.TextScaled = true
@@ -323,7 +294,7 @@ Label.BorderSizePixel = 0
 Label.Position = UDim2.new(0.795917094, 0, 0.315602183, 0)
 Label.Size = UDim2.new(0, 57, 0, 20)
 Label.ZIndex = 99999
-Label.Font = Enum.Font.ArialBold
+Label.Font = Enum.Font.ArimoBold
 Label.Text = "R6"
 Label.TextColor3 = Color3.fromRGB(253, 203, 0)
 Label.TextScaled = true
@@ -557,7 +528,7 @@ tab1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 tab1.BorderSizePixel = 0
 tab1.Position = UDim2.new(0.258974373, 0, 0, 0)
 tab1.Size = UDim2.new(0, 101, 0, 21)
-tab1.Font = Enum.Font.Unknown
+tab1.Font = Enum.Font.Nunito
 tab1.Text = "Script 1"
 tab1.TextColor3 = Color3.fromRGB(255, 255, 255)
 tab1.TextScaled = true
@@ -613,218 +584,39 @@ Frame.Size = UDim2.new(0, 91, 0, 153)
 Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
 Frame.ScrollBarThickness = 5
 
-Nuke.Name = "Nuke"
-Nuke.Parent = Frame
-Nuke.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Nuke.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Nuke.Size = UDim2.new(0, 68, 0, 23)
-Nuke.Font = Enum.Font.Arial
-Nuke.Text = "Nuke"
-Nuke.TextColor3 = Color3.fromRGB(255, 255, 255)
-Nuke.TextScaled = true
-Nuke.TextSize = 14.000
-Nuke.TextWrapped = true
-
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = Nuke
-
 UIListLayout_3.Parent = Frame
 UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_3.Padding = UDim.new(0, 10)
-
-Missile.Name = "Missile"
-Missile.Parent = Frame
-Missile.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Missile.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Missile.Size = UDim2.new(0, 68, 0, 23)
-Missile.Font = Enum.Font.Arial
-Missile.Text = "Missile"
-Missile.TextColor3 = Color3.fromRGB(255, 255, 255)
-Missile.TextScaled = true
-Missile.TextSize = 14.000
-Missile.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = Missile
-
-ServerAdmin.Name = "ServerAdmin"
-ServerAdmin.Parent = Frame
-ServerAdmin.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-ServerAdmin.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-ServerAdmin.Size = UDim2.new(0, 68, 0, 23)
-ServerAdmin.Font = Enum.Font.Arial
-ServerAdmin.Text = "Server Admin"
-ServerAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
-ServerAdmin.TextScaled = true
-ServerAdmin.TextSize = 14.000
-ServerAdmin.TextWrapped = true
-
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = ServerAdmin
-
-Xester.Name = "Xester"
-Xester.Parent = Frame
-Xester.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Xester.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Xester.Size = UDim2.new(0, 68, 0, 23)
-Xester.Font = Enum.Font.Arial
-Xester.Text = "Xester"
-Xester.TextColor3 = Color3.fromRGB(255, 255, 255)
-Xester.TextScaled = true
-Xester.TextSize = 14.000
-Xester.TextWrapped = true
-
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = Xester
-
-InfYield.Name = "InfYield"
-InfYield.Parent = Frame
-InfYield.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-InfYield.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-InfYield.Size = UDim2.new(0, 68, 0, 23)
-InfYield.Font = Enum.Font.Arial
-InfYield.Text = "Inf Yield"
-InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfYield.TextScaled = true
-InfYield.TextSize = 14.000
-InfYield.TextWrapped = true
-
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = InfYield
-
-DarkDex.Name = "DarkDex"
-DarkDex.Parent = Frame
-DarkDex.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-DarkDex.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-DarkDex.Size = UDim2.new(0, 68, 0, 23)
-DarkDex.Font = Enum.Font.Arial
-DarkDex.Text = "Dark Dex"
-DarkDex.TextColor3 = Color3.fromRGB(255, 255, 255)
-DarkDex.TextScaled = true
-DarkDex.TextSize = 14.000
-DarkDex.TextWrapped = true
-
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = DarkDex
-
-Dokka.Name = "Dokka"
-Dokka.Parent = Frame
-Dokka.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Dokka.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Dokka.Size = UDim2.new(0, 68, 0, 23)
-Dokka.Font = Enum.Font.Arial
-Dokka.Text = "Dokka"
-Dokka.TextColor3 = Color3.fromRGB(255, 255, 255)
-Dokka.TextScaled = true
-Dokka.TextSize = 14.000
-Dokka.TextWrapped = true
-
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = Dokka
-
-Caducus.Name = "Caducus"
-Caducus.Parent = Frame
-Caducus.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Caducus.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Caducus.Size = UDim2.new(0, 68, 0, 23)
-Caducus.Font = Enum.Font.Arial
-Caducus.Text = "Caducus"
-Caducus.TextColor3 = Color3.fromRGB(255, 255, 255)
-Caducus.TextScaled = true
-Caducus.TextSize = 14.000
-Caducus.TextWrapped = true
-
-UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = Caducus
 
 UIPadding.Parent = Frame
 UIPadding.PaddingBottom = UDim.new(0, 5)
 UIPadding.PaddingTop = UDim.new(0, 30)
 
-HDAdminGiver.Name = "HDAdminGiver"
-HDAdminGiver.Parent = Frame
-HDAdminGiver.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-HDAdminGiver.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-HDAdminGiver.Size = UDim2.new(0, 68, 0, 23)
-HDAdminGiver.Font = Enum.Font.Arial
-HDAdminGiver.Text = "HD Admin Giver"
-HDAdminGiver.TextColor3 = Color3.fromRGB(255, 255, 255)
-HDAdminGiver.TextScaled = true
-HDAdminGiver.TextSize = 14.000
-HDAdminGiver.TextWrapped = true
+SampleBTN.Name = "SampleBTN"
+SampleBTN.Parent = ScriptHub
+SampleBTN.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
+SampleBTN.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
+SampleBTN.Size = UDim2.new(0, 68, 0, 23)
+SampleBTN.Visible = false
+SampleBTN.Font = Enum.Font.Arial
+SampleBTN.Text = "Missile"
+SampleBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
+SampleBTN.TextScaled = true
+SampleBTN.TextSize = 14.000
+SampleBTN.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = HDAdminGiver
-
-StarGlitcher.Name = "StarGlitcher"
-StarGlitcher.Parent = Frame
-StarGlitcher.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-StarGlitcher.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-StarGlitcher.Size = UDim2.new(0, 68, 0, 23)
-StarGlitcher.Font = Enum.Font.Arial
-StarGlitcher.Text = "Star Glitcher"
-StarGlitcher.TextColor3 = Color3.fromRGB(255, 255, 255)
-StarGlitcher.TextScaled = true
-StarGlitcher.TextSize = 14.000
-StarGlitcher.TextWrapped = true
-
-UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = StarGlitcher
-
-BlueTitan.Name = "BlueTitan"
-BlueTitan.Parent = Frame
-BlueTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-BlueTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-BlueTitan.Size = UDim2.new(0, 68, 0, 23)
-BlueTitan.Font = Enum.Font.Arial
-BlueTitan.Text = "Blue Titan"
-BlueTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
-BlueTitan.TextScaled = true
-BlueTitan.TextSize = 14.000
-BlueTitan.TextWrapped = true
-
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = BlueTitan
-
-RedTitan.Name = "RedTitan"
-RedTitan.Parent = Frame
-RedTitan.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-RedTitan.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-RedTitan.Size = UDim2.new(0, 68, 0, 23)
-RedTitan.Font = Enum.Font.Arial
-RedTitan.Text = "Red Titan"
-RedTitan.TextColor3 = Color3.fromRGB(255, 255, 255)
-RedTitan.TextScaled = true
-RedTitan.TextSize = 14.000
-RedTitan.TextWrapped = true
-
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = RedTitan
-
-Zamazu.Name = "Zamazu"
-Zamazu.Parent = Frame
-Zamazu.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-Zamazu.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-Zamazu.Size = UDim2.new(0, 68, 0, 23)
-Zamazu.Font = Enum.Font.Arial
-Zamazu.Text = "Star Glitcher"
-Zamazu.TextColor3 = Color3.fromRGB(255, 255, 255)
-Zamazu.TextScaled = true
-Zamazu.TextSize = 14.000
-Zamazu.TextWrapped = true
-
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = Zamazu
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = SampleBTN
 
 Console_2.Name = "Console"
-Console_2.Parent = dasidijoasd
+Console_2.Parent = optimized
 Console_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Console_2.Position = UDim2.new(0.260611445, 0, 0.53616482, 0)
 Console_2.Size = UDim2.new(0, 545, 0, 164)
 Console_2.Visible = false
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = Console_2
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Console_2
 
 Top_2.Name = "Top"
 Top_2.Parent = Console_2
@@ -832,8 +624,8 @@ Top_2.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 Top_2.Size = UDim2.new(0, 545, 0, 38)
 Top_2.ZIndex = 10
 
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = Top_2
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = Top_2
 
 Status_2.Name = "Status"
 Status_2.Parent = Top_2
@@ -867,14 +659,14 @@ Close_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 Close_2.BackgroundTransparency = 1.000
 Close_2.Position = UDim2.new(0.922947645, 0, 0, 0)
 Close_2.Size = UDim2.new(0, 35, 0, 39)
-Close_2.Font = Enum.Font.Unknown
+Close_2.Font = Enum.Font.ArimoBold
 Close_2.Text = "X"
 Close_2.TextColor3 = Color3.fromRGB(144, 146, 150)
 Close_2.TextSize = 24.000
 Close_2.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = Close_2
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Close_2
 
 Console_3.Name = "Console"
 Console_3.Parent = Console_2
@@ -967,7 +759,7 @@ Label_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_2.BorderSizePixel = 0
 Label_2.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_2.Size = UDim2.new(0, 40, 0, 24)
-Label_2.Font = Enum.Font.Unknown
+Label_2.Font = Enum.Font.ArimoBold
 Label_2.Text = "0x"
 Label_2.TextColor3 = Color3.fromRGB(255, 26, 68)
 Label_2.TextScaled = true
@@ -994,7 +786,7 @@ Label_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_3.BorderSizePixel = 0
 Label_3.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_3.Size = UDim2.new(0, 45, 0, 24)
-Label_3.Font = Enum.Font.Unknown
+Label_3.Font = Enum.Font.ArimoBold
 Label_3.Text = "0x"
 Label_3.TextColor3 = Color3.fromRGB(12, 255, 89)
 Label_3.TextScaled = true
@@ -1021,7 +813,7 @@ Label_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_4.BorderSizePixel = 0
 Label_4.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_4.Size = UDim2.new(0, 40, 0, 24)
-Label_4.Font = Enum.Font.Unknown
+Label_4.Font = Enum.Font.ArimoBold
 Label_4.Text = "0x"
 Label_4.TextColor3 = Color3.fromRGB(255, 255, 0)
 Label_4.TextScaled = true
@@ -1029,23 +821,23 @@ Label_4.TextSize = 14.000
 Label_4.TextWrapped = true
 
 Open.Name = "Open"
-Open.Parent = dasidijoasd
+Open.Parent = optimized
 Open.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Open.Position = UDim2.new(0.00838414673, 0, 0.550420165, 0)
 Open.Size = UDim2.new(0, 74, 0, 25)
 Open.Visible = false
-Open.Font = Enum.Font.Unknown
+Open.Font = Enum.Font.ArimoBold
 Open.Text = "Open"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextScaled = true
 Open.TextSize = 14.000
 Open.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = Open
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Open
 
 Settings_2.Name = "Settings"
-Settings_2.Parent = dasidijoasd
+Settings_2.Parent = optimized
 Settings_2.AnchorPoint = Vector2.new(0.5, 0.5)
 Settings_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Settings_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -1059,7 +851,7 @@ WindowTitle.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 WindowTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 WindowTitle.BorderSizePixel = 0
 WindowTitle.Size = UDim2.new(1, 0, 0.100000001, 0)
-WindowTitle.Font = Enum.Font.Unknown
+WindowTitle.Font = Enum.Font.ArimoBold
 WindowTitle.Text = "Settings"
 WindowTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 WindowTitle.TextScaled = true
@@ -1079,8 +871,8 @@ UIAnim.TextScaled = true
 UIAnim.TextSize = 14.000
 UIAnim.TextWrapped = true
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = UIAnim
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = UIAnim
 
 TextLabel_4.Parent = Settings_2
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
@@ -1134,8 +926,8 @@ SyntaxHighlighting.TextScaled = true
 SyntaxHighlighting.TextSize = 14.000
 SyntaxHighlighting.TextWrapped = true
 
-UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = SyntaxHighlighting
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = SyntaxHighlighting
 
 Info2.Name = "Info2"
 Info2.Parent = Settings_2
@@ -1194,8 +986,8 @@ HideUsername.TextScaled = true
 HideUsername.TextSize = 14.000
 HideUsername.TextWrapped = true
 
-UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = HideUsername
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = HideUsername
 
 ImageLabel_2.Parent = Settings_2
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1218,7 +1010,7 @@ TextLabel_7.TextSize = 32.000
 TextLabel_7.TextWrapped = true
 
 Starter.Name = "Starter"
-Starter.Parent = dasidijoasd
+Starter.Parent = optimized
 Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Starter.Position = UDim2.new(0.353139758, 0, 0.556264102, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
@@ -1244,7 +1036,7 @@ Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
 
-UICorner_31.Parent = Title
+UICorner_19.Parent = Title
 
 LoadScript.Name = "LoadScript"
 LoadScript.Parent = Action
@@ -1272,8 +1064,8 @@ Top_3.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 Top_3.Size = UDim2.new(0, 414, 0, 38)
 Top_3.ZIndex = 10
 
-UICorner_32.CornerRadius = UDim.new(0, 5)
-UICorner_32.Parent = Top_3
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = Top_3
 
 Close_3.Name = "Close"
 Close_3.Parent = Top_3
@@ -1281,14 +1073,14 @@ Close_3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 Close_3.BackgroundTransparency = 1.000
 Close_3.Position = UDim2.new(0.922947645, 0, 0, 0)
 Close_3.Size = UDim2.new(0, 35, 0, 39)
-Close_3.Font = Enum.Font.Unknown
+Close_3.Font = Enum.Font.ArimoBold
 Close_3.Text = "X"
 Close_3.TextColor3 = Color3.fromRGB(144, 146, 150)
 Close_3.TextSize = 24.000
 Close_3.TextWrapped = true
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = Close_3
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = Close_3
 
 Logo_3.Name = "Logo"
 Logo_3.Parent = Top_3
@@ -1310,14 +1102,14 @@ Status_3.BorderSizePixel = 0
 Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.71981168, 0)
 Status_3.Size = UDim2.new(0, 414, 0, 37)
 Status_3.ZIndex = 99
-Status_3.Font = Enum.Font.Unknown
+Status_3.Font = Enum.Font.ArimoBold
 Status_3.Text = ""
 Status_3.TextColor3 = Color3.fromRGB(212, 212, 212)
 Status_3.TextScaled = true
 Status_3.TextSize = 20.000
 Status_3.TextWrapped = true
 
-UICorner_34.Parent = Status_3
+UICorner_22.Parent = Status_3
 
 Frame_2.Parent = Starter
 Frame_2.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
@@ -1330,8 +1122,8 @@ Frame_2.ZIndex = 9999
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient_2.Parent = Frame_2
 
-UICorner_35.CornerRadius = UDim.new(0, 2)
-UICorner_35.Parent = Frame_2
+UICorner_23.CornerRadius = UDim.new(0, 2)
+UICorner_23.Parent = Frame_2
 
 Status_4.Name = "Status"
 Status_4.Parent = Starter
@@ -1353,8 +1145,8 @@ Status_4.TextWrapped = true
 
 local fake_module_scripts = {}
 
-do -- dasidijoasd.Config
-	local script = Instance.new('ModuleScript', dasidijoasd)
+do -- optimized.Config
+	local script = Instance.new('ModuleScript', optimized)
 	script.Name = "Config"
 	local function module_script()
 		local settings = {
@@ -1362,9 +1154,9 @@ do -- dasidijoasd.Config
 			["SyntaxHighlighting"] = true,
 			["HideUsername"] = false
 		}
-		
+
 		return settings
-		
+
 	end
 	fake_module_scripts[script] = module_script
 end
@@ -1373,7 +1165,7 @@ end
 -- Scripts:
 
 -- Comments_.LocalScript is disabled.
-local function MFTYX_fake_script() -- ExecuBox.Main 
+local function AOSRH_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 	local req = require
 	local require = function(obj)
@@ -1385,37 +1177,37 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 	end
 
 	local settings1 = require(script.Parent.Parent.Parent:FindFirstChild("Config"))
-	
+
 	local settings = {
 		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
 		Lines = false; -- The textbox will have some lines like when you press enter.
-		Scroll = false; -- So if it has alot of lines and that it gets off the screen this will help.
+		Scroll = true; -- So if it has alot of lines and that it gets off the screen this will help.
 		HighlightVariables=true;--Highlights the local and global enviorments
 		SplitScanLines=false;-- This trick is used to Scan lines instead of the whole source (Breaks multilined strings and comments) 
 		WaitIfRendered=true;-- This trick will reduce lag by waiting if the game has rendered
 		AutomaticSettingChange=false;--Automatically changes the settings for the best experience
 		LoadLexer=true;--Makes one token and creates highlights out of it instead of many tokens (reduce lag)
 	}
-	
+
 	local RunService = game:GetService("RunService")
 	local Fps=0
 	local TimeFunction = RunService:IsRunning() and time or os.clock
 	local LastIteration, Start
 	local FrameUpdateTable = {}
-	
+
 	local function HeartbeatUpdate()
 		LastIteration = TimeFunction()
 		for Index = #FrameUpdateTable, 1, -1 do
 			FrameUpdateTable[Index + 1] = FrameUpdateTable[Index] >= LastIteration - 1 and FrameUpdateTable[Index] or nil
 		end
-	
+
 		FrameUpdateTable[1] = LastIteration
 		Fps = tonumber(math.floor(TimeFunction() - Start >= 1 and #FrameUpdateTable or #FrameUpdateTable / (TimeFunction() - Start)))
 	end
-	
+
 	Start = TimeFunction()
 	RunService.Heartbeat:Connect(HeartbeatUpdate)
-	
+
 	--[==[
 	This syntax is the best syntax on the marketplace
 	Only created by MiAiHsIs1226
@@ -1438,12 +1230,12 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				whitespacecharactersfound+=1
 				continue
 			end
-	
+
 			table.insert(readabletokens,v)
 			table.insert(tokennumbers,{i})
 		end
-	
-	
+
+
 		for i,v in pairs(readabletokens) do
 			pcall(function()
 				if v.Source == "local" then
@@ -1465,7 +1257,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 							[1]+1})
 					end
 				elseif v.Type == "iden"  then
-	
+
 					if readabletokens[i-1] then
 						if readabletokens[i-1].Type ~= "keyword" and readabletokens[i-1].Type ~= "symbol"  then
 							local source = readabletokens[i+2].Source
@@ -1475,7 +1267,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 							local source = "function"
 							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
 								[1]})  
-	
+
 						end
 					else
 						local source = readabletokens[i+2].Source
@@ -1484,20 +1276,20 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				end
 			end)
 		end
-	
+
 		return (localvarables)
 	end
 	local function lexerscan(text)
 		local lexer = coroutine.wrap(function()
-	
+
 			local lexer = {}
-	
+
 			local yield, wrap  = coroutine.yield, coroutine.wrap
 			local strfind      = string.find
 			local strsub       = string.sub
 			local append       = table.insert
 			local type         = type
-	
+
 			local NUMBER1	= "^[%+%-]?%d+%.?%d*[eE][%+%-]?%d+"
 			local NUMBER2	= "^[%+%-]?%d+%.?%d*"
 			local NUMBER3	= "^0x[%da-fA-F]+"
@@ -1519,7 +1311,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 			local MCOMMENT2	= "^%-%-%[%[.-.*"						
 			local SCOMMENT1	= "^%-%-.-\n"							
 			local SCOMMENT2	= "^%-%-.-.*"							
-	
+
 			local lua_keyword = {
 				["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
 				["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
@@ -1527,7 +1319,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
 				["self"] = true, ["until"] = true
 			}
-	
+
 			local lua_builtin = {
 				["assert"] = true;["collectgarbage"] = true;["error"] = true;["_G"] = true;
 				["gcinfo"] = true;["getfenv"] = true;["getmetatable"] = true;["ipairs"] = true;
@@ -1557,27 +1349,27 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				["table"] = true;
 				["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
 			}
-	
+
 			local function tdump(tok)
 				return yield(tok, tok)
 			end
-	
+
 			local function ndump(tok)
 				return yield("number", tok)
 			end
-	
+
 			local function sdump(tok)
 				return yield("string", tok)
 			end
-	
+
 			local function cdump(tok)
 				return yield("comment", tok)
 			end
-	
+
 			local function wsdump(tok)
 				return yield("space", tok)
 			end
-	
+
 			local function lua_vdump(tok)
 				if (lua_keyword[tok]) then
 					return yield("keyword", tok)
@@ -1587,7 +1379,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 					return yield("iden", tok)
 				end
 			end
-	
+
 			local lua_matches = {
 				{IDEN,      lua_vdump},        -- Indentifiers
 				{WSPACE,    wsdump},           -- Whitespace
@@ -1600,12 +1392,12 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				{STRING4,   sdump},
 				{STRING5,   sdump},            -- Multiline-Strings
 				{STRING6,   sdump},            -- Multiline-Strings
-	
+
 				{MCOMMENT1, cdump},            -- Multiline-Comments
 				{MCOMMENT2, cdump},			
 				{SCOMMENT1, cdump},            -- Singleline-Comments
 				{SCOMMENT2, cdump},
-	
+
 				{"^==",     tdump},            -- Operators
 				{"^~=",     tdump},
 				{"^<=",     tdump},
@@ -1614,20 +1406,20 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				{"^%.%.",   tdump},
 				{"^.",      tdump}
 			}
-	
+
 			local num_lua_matches = #lua_matches
-	
-	
+
+
 			--- Create a plain token iterator from a string.
 			-- @tparam string s a string.
 			function lexer.scan(s)
-	
+
 				local function lex(first_arg)
-	
+
 					local line_nr = 0
 					local sz = #s
 					local idx = 1
-	
+
 					-- res is the value used to resume the coroutine.
 					local function handle_requests(res)
 						while (res) do
@@ -1654,18 +1446,18 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 							end
 						end
 					end
-	
+
 					handle_requests(first_arg)
 					line_nr = 1
-	
+
 					while (true) do
-	
+
 						if (idx > sz) then
 							while (true) do
 								handle_requests(yield())
 							end
 						end
-	
+
 						for i = 1,num_lua_matches do
 							local m = lua_matches[i]
 							local pat = m[1]
@@ -1686,15 +1478,15 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 								break
 							end
 						end
-	
+
 					end
-	
+
 				end
-	
+
 				return wrap(lex)
-	
+
 			end
-	
+
 			return lexer
 		end)()
 		local function doesvalueexist(value,tab)
@@ -1743,7 +1535,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				end
 			end
 		else
-	
+
 			for i,v in (lexer.scan(text)) do
 				local type= i
 				if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
@@ -1754,9 +1546,9 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 					game:GetService("RunService").RenderStepped:Wait()
 				end
 			end
-	
-	
-	
+
+
+
 		end
 		return(t)
 	end
@@ -1788,7 +1580,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-	
+
 				return(r)
 			else
 				local tokens=lexerscan(s)
@@ -1803,7 +1595,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-	
+
 				return(r)
 			end
 		elseif type(s)=="table" then
@@ -1833,7 +1625,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-	
+
 				return(r)
 			else
 				local tokens=s
@@ -1848,18 +1640,18 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-	
+
 				return(r)
 			end
 		end
 	end
-	
+
 	local L_1_ = script.Parent.Source
 	local L_2_ = Vector2.new(0, 0)  
 	local L_3_Org = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" ,"isSafe" } 
 	local L_3_ = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } 
 	local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } 
-	
+
 	local function L_5_func(L_49_arg1)       
 		local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       
 		local L_52_ = L_50_ - L_51_       
@@ -1890,10 +1682,10 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 				text2 = text2 .. c
 			end
 		end
-	
+
 		return (text2:reverse())
 	end
-	
+
 	wait(.2) 
 	local L_6_ = 20 
 	L_1_:GetPropertyChangedSignal("Text"):Connect(function()
@@ -1908,21 +1700,21 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 			if settings.LoadLexer then
 				local tokens= lexerscan(L_1_.Text) 
 				L_54_.Text=GetTypeToMakeSyntax(tokens,"comment")
-	
+
 				L_58_.Text=GetTypeToMakeSyntax(tokens,"string")
-	
+
 				L_57_.Text=GetTypeToMakeSyntax(tokens,"number")
-	
+
 				L_62_.Text=GetTypeToMakeSyntax(tokens,"builtin")
-	
+
 				L_56_.Text=GetTypeToMakeSyntax(tokens,"symbol")
-	
+
 				L_61_.Text=GetTypeToMakeSyntax(tokens,"keyword")
-	
+
 				if settings.HighlightVariables then
 					L_90_.Text=GetTypeToMakeSyntax(tokens,"var")
 				end
-	
+
 			else
 				spawn(function()
 					L_54_.Text=GetTypeToMakeSyntax(L_1_.Text,"comment")
@@ -1947,7 +1739,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						L_90_.Text=GetTypeToMakeSyntax(L_1_.Text,"var")
 					end
 				end)
-	
+
 			end
 		end
 		local L_63_ = 1    
@@ -1975,16 +1767,16 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 			if L_1_.Text:sub(#L_1_.Text,#L_1_.Text) == "\n" then
 				L_1_.Parent.CanvasPosition = Vector2.new()
 			end
-	
+
 			if L_1_.Parent.CanvasPosition.Y == L_2_.Y then
 				L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       
 			else             
 				L_2_ = L_5_func(L_1_.Parent)       
 			end 
 		end
-	
-	
-	
+
+
+
 	end) 
 	if settings.Scroll then
 		L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       
@@ -2009,7 +1801,7 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 		L_1_.Position = UDim2.new()
 	end
 	if settings.AutomaticSettingChange== true then
-		
+
 		spawn(function()
 			pcall(function()
 				while wait(10) do
@@ -2018,19 +1810,19 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 						settings.SplitScanLines=false
 						settings.LoadLexer=false
 						settings.WaitIfRendered=false
-						
+
 					elseif Fps<60 and Fps>40 then
 						settings.SplitScanLines=false
 						settings.LoadLexer=true
 						settings.WaitIfRendered=true
 						settings.HighlightVariables=false
-						
+
 					elseif Fps<35 then
 						settings.SplitScanLines=true
 						settings.LoadLexer=true
 						settings.WaitIfRendered=true
 						settings.HighlightVariables=false
-						
+
 					elseif Fps>10 then
 						settings.Highlight=false
 					end
@@ -2039,8 +1831,8 @@ local function MFTYX_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(MFTYX_fake_script)()
-local function LFSKX_fake_script() -- Main.Tabs 
+coroutine.wrap(AOSRH_fake_script)()
+local function HRTCTH_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -2053,29 +1845,29 @@ local function LFSKX_fake_script() -- Main.Tabs
 
 	local TweenService = game:GetService("TweenService")
 	local player = game.Players.LocalPlayer
-	
+
 	local main = script.Parent
 	local Tabs = main:WaitForChild("Tabs")
 	local addBTN = Tabs:FindFirstChild("add")
 	local tab1 = Tabs:FindFirstChild("tab1")
 	local ExecuBox = main and main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	local SourceText = ExecuBox.Text
-	
+
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
-	
+
 	-- Table to store the content of each tab
 	local tabContents = {}
 	local currentTab = 1
-	
+
 	-- Initialize tabContents with the content of tab1
 	tabContents[1] = ExecuBox.Text
-	
+
 	-- Make the remove button of the initial tab invisible
 	local initialRemoveBTN = tab1:FindFirstChild("remove")
 	if initialRemoveBTN then
 		initialRemoveBTN.Visible = false
 	end
-	
+
 	-- Function to update the visibility of the add button
 	local function updateAddButtonVisibility()
 		local tabCount = #Tabs:GetChildren() - 1 -- Subtracting 1 to ignore the add button
@@ -2084,7 +1876,7 @@ local function LFSKX_fake_script() -- Main.Tabs
 			addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
 		end
 	end
-	
+
 	-- Function to renumber tabs
 	local function renumberTabs()
 		local tabIndex = 1
@@ -2096,23 +1888,23 @@ local function LFSKX_fake_script() -- Main.Tabs
 			end
 		end
 	end
-	
+
 	-- Function to create a new tab with optional fade-in effect
 	local function createNewTab()
 		local newTabNumber = #Tabs:GetChildren() - 1 -- Correctly count the tabs excluding the add button
 		local newTabName = "Script " .. newTabNumber
-	
+
 		-- Clone tab1 and set its name and text
 		local newTab = tab1:Clone()
 		newTab.Name = newTabName
 		newTab.Text = newTabName
-	
+
 		-- Make the remove button visible for new tabs
 		local removeBTN = newTab:FindFirstChild("remove")
 		if removeBTN then
 			removeBTN.Visible = true
 		end
-	
+
 		if settings.UIAnimations then
 			-- Set initial transparency for fade-in effect
 			newTab.BackgroundTransparency = 1
@@ -2122,104 +1914,104 @@ local function LFSKX_fake_script() -- Main.Tabs
 				removeBTN.ImageTransparency = 1
 			end
 		end
-	
+
 		-- Parent the new tab to Tabs
 		newTab.Parent = Tabs
-	
+
 		if settings.UIAnimations then
 			-- Add a fade-in tween effect for the new tab
 			local goal = { BackgroundTransparency = 0, TextTransparency = 0 }
 			local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
 			local tween = TweenService:Create(newTab, tweenInfo, goal)
 			tween:Play()
-	
+
 			local goal1 = { ImageTransparency = 0 }
 			local tweenInfo1 = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
 			local tween1 = TweenService:Create(newTab, tweenInfo, goal)
-	
+
 			if removeBTN then
 				local removeTween = TweenService:Create(removeBTN, tweenInfo1, goal1)
 				removeTween:Play()
 			end
 		end
-	
+
 		-- Add an event listener to the new tab
 		newTab.MouseButton1Click:Connect(function()
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
-	
+
 			-- Switch to the new tab
 			currentTab = newTabNumber
-	
+
 			-- Load the content of the new tab
 			ExecuBox.Text = tabContents[currentTab] or ""
 		end)
-	
+
 		-- Add an event listener to the remove button inside the new tab
 		if removeBTN then
 			removeBTN.MouseButton1Click:Connect(function()
 				-- Save current tab content
 				tabContents[currentTab] = ExecuBox.Text
-	
+
 				if settings.UIAnimations then
 					-- Add a fade-out tween effect for the tab removal
 					local goal = { BackgroundTransparency = 1, TextTransparency = 1 }
 					local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
 					local removeTween = TweenService:Create(newTab, tweenInfo, goal)
 					removeTween:Play()
-	
+
 					local goal2 = { BackgroundTransparency = 1, ImageTransparency = 1 }
 					local removeButtonTween = TweenService:Create(removeBTN, tweenInfo, goal2)
 					removeButtonTween:Play()
-	
+
 					removeTween.Completed:Connect(function()
 						-- Remove the tab from tabContents
 						table.remove(tabContents, newTabNumber)
-	
+
 						-- Destroy the tab
 						newTab:Destroy()
-	
+
 						-- Adjust currentTab if necessary
 						if currentTab == newTabNumber then
 							currentTab = 1
 							ExecuBox.Text = tabContents[currentTab] or ""
 						end
-	
+
 						-- Renumber the tabs
 						renumberTabs()
-	
+
 						-- Update add button visibility and reparent
 						updateAddButtonVisibility()
 					end)
 				else
 					-- Remove the tab from tabContents
 					table.remove(tabContents, newTabNumber)
-	
+
 					-- Destroy the tab
 					newTab:Destroy()
-	
+
 					-- Adjust currentTab if necessary
 					if currentTab == newTabNumber then
 						currentTab = 1
 						ExecuBox.Text = tabContents[currentTab] or ""
 					end
-	
+
 					-- Renumber the tabs
 					renumberTabs()
-	
+
 					-- Update add button visibility and reparent
 					updateAddButtonVisibility()
 				end
 			end)
 		end
-	
+
 		-- Initialize the new tab content
 		tabContents[newTabNumber] = ""
-	
+
 		-- Update add button visibility and reparent
 		updateAddButtonVisibility()
 	end
-	
+
 	-- Event listener for add button
 	if addBTN then
 		addBTN.MouseButton1Click:Connect(function()
@@ -2228,23 +2020,23 @@ local function LFSKX_fake_script() -- Main.Tabs
 	else
 		warn("Add button not found!")
 	end
-	
+
 	-- Event listener for tab1 (initial tab)
 	if tab1 then
 		tab1.MouseButton1Click:Connect(function()
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
-	
+
 			-- Switch to tab1
 			currentTab = 1
-	
+
 			-- Load the content of tab1
 			ExecuBox.Text = tabContents[currentTab]
 		end)
 	else
 		warn("Initial tab not found!")
 	end
-	
+
 	-- Event listener for remove button inside tab1
 	if initialRemoveBTN then
 		initialRemoveBTN.MouseButton1Click:Connect(function()
@@ -2254,13 +2046,13 @@ local function LFSKX_fake_script() -- Main.Tabs
 	else
 		warn("Remove button in initial tab not found!")
 	end
-	
+
 	-- Initial update of the add button visibility
 	updateAddButtonVisibility()
-	
+
 end
-coroutine.wrap(LFSKX_fake_script)()
-local function BFCII_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(HRTCTH_fake_script)()
+local function EIZU_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 	local req = require
 	local require = function(obj)
@@ -2273,7 +2065,7 @@ local function BFCII_fake_script() -- ScriptHub.LocalScript
 
 	local searchBar = script.Parent.SearchBar
 	local items = script.Parent.Frame
-	
+
 	function UpdateResults()
 		local search = string.lower(searchBar.Text)
 		for i, v in	 pairs(items:GetChildren()) do
@@ -2291,11 +2083,11 @@ local function BFCII_fake_script() -- ScriptHub.LocalScript
 			end
 		end
 	end
-	
+
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(BFCII_fake_script)()
-local function TOVABF_fake_script() -- Frame.Main2 
+coroutine.wrap(EIZU_fake_script)()
+local function BTBAP_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
 	local req = require
 	local require = function(obj)
@@ -2307,19 +2099,48 @@ local function TOVABF_fake_script() -- Frame.Main2
 	end
 
 	local success, result = pcall(function() 
-	local Nuke = script.Parent:FindFirstChild("Nuke")
-	local Missile = script.Parent:FindFirstChild("Missile")
-	local SAdmin = script.Parent:FindFirstChild("ServerAdmin")
-	local Xester = script.Parent:FindFirstChild("Xester")
-	local InfYield = script.Parent:FindFirstChild("InfYield")
-	local DDex = script.Parent:FindFirstChild("DarkDex")
-	local Dokka = script.Parent:FindFirstChild("Dokka")
-	local Caducus = script.Parent:FindFirstChild("Caducus")
-	local HdAdmin = script.Parent:FindFirstChild("HDAdminGiver")
-	local StarGlitcher = script.Parent:FindFirstChild("StarGlitcher")
-	local BlueTitan = script.Parent:FindFirstChild("BlueTitan")
-	local RedTitan = script.Parent:FindFirstChild("BlueTitan")
-	local Zamazu = script.Parent:FindFirstChild("Zamazu")
+		-- References to UI elements
+		local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
+		local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+
+		if not SampleBTN or not ExecuteBox then
+			return false
+		end
+
+		-- Function to create a new button
+		local function newScript(script1, name)
+			SampleBTN.Visible = false
+			local new = SampleBTN:Clone()
+			new.Visible = true
+			new.Name = name
+			new.Text = name
+			new.Parent = script.Parent
+			new.MouseButton1Click:Connect(function()
+				ExecuteBox.Text = script1
+			end)
+		end
+
+		newScript('require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")', "HD Admin")
+		newScript('require(2930987220).load("'..game.Players.LocalPlayer.Name..'")', "Star Glitcher")
+		newScript('require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")', "Server Admin")
+		newScript('require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")', "InfYieldSS")
+		newScript('require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")', "DEX SS")
+		newScript('require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")', "Caducus")
+		newScript('require(5613801320).eliza("' .. game.Players.LocalPlayer.Name ..'")', "EchoV3")
+		newScript('require(6027664603).eliza("' .. game.Players.LocalPlayer.Name ..'")', "HaloV3")
+		newScript('require(4741518800).Guns("' .. game.Players.LocalPlayer.Name ..'")', "Guns")
+		newScript('require(6027719103)("' .. game.Players.LocalPlayer.Name ..'")', "Time Banisher")
+		newScript('require(6036211918).eliza("' .. game.Players.LocalPlayer.Name ..'")', "Split")
+		newScript('require(4679874662)("' .. game.Players.LocalPlayer.Name ..'")', "CradlesV2")
+		newScript('require(3709746847).load("' .. game.Players.LocalPlayer.Name ..'")', "Murderer")
+		newScript('require(3543575474).load("' .. game.Players.LocalPlayer.Name ..'")', "Tea")
+		newScript('require(4952709475).load("' .. game.Players.LocalPlayer.Name ..'")', "Sans")
+		newScript('require(0x15d0d1a90)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo1")
+		newScript('require(5855981009)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo2")
+		newScript('require(2841156534):Fire("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"John Doe")
+		newScript('require(2787132106):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"Sin Unleashed")
+		newScript('require(2826823504):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"School Shooter")
+		--[[
 	
 	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	
@@ -2373,11 +2194,17 @@ local function TOVABF_fake_script() -- Frame.Main2
 	Caducus.MouseButton1Down:Connect(function()
 		ExecuteBox.Text = 'require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")'
 		end)
+		--]]
+
 	end)
-	
+
+	if not success then
+		return false
+	end
+
 end
-coroutine.wrap(TOVABF_fake_script)()
-local function IOHP_fake_script() -- Main.Drag 
+coroutine.wrap(BTBAP_fake_script)()
+local function HBUTS_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -2389,25 +2216,25 @@ local function IOHP_fake_script() -- Main.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-	
+
 	local gui = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-			
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2415,21 +2242,21 @@ local function IOHP_fake_script() -- Main.Drag
 			end)
 		end
 	end)
-	
+
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(IOHP_fake_script)()
-local function BFSCWQJ_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(HBUTS_fake_script)()
+local function AURZPID_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -2444,8 +2271,8 @@ local function BFSCWQJ_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(BFSCWQJ_fake_script)()
-local function VNDX_fake_script() -- Console_2.Drag 
+coroutine.wrap(AURZPID_fake_script)()
+local function UINETKE_fake_script() -- Console_2.Drag 
 	local script = Instance.new('LocalScript', Console_2)
 	local req = require
 	local require = function(obj)
@@ -2457,25 +2284,25 @@ local function VNDX_fake_script() -- Console_2.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-	
+
 	local gui = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-			
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2483,21 +2310,21 @@ local function VNDX_fake_script() -- Console_2.Drag
 			end)
 		end
 	end)
-	
+
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(VNDX_fake_script)()
-local function RYJO_fake_script() -- Settings_2.Main 
+coroutine.wrap(UINETKE_fake_script)()
+local function SJWDSM_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2511,21 +2338,21 @@ local function RYJO_fake_script() -- Settings_2.Main
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
 	local SyntaxHighlighting = script.Parent:FindFirstChild("SyntaxHighlighting")
 	local HideUsername = script.Parent:FindFirstChild("HideUsername")
-	
+
 	local Tween = game:GetService("TweenService")
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
-	
+
 	---
 	local Label1 = script.Parent:FindFirstChild("Info1")
 	local Label2 = script.Parent:FindFirstChild("Info2")
 	local Label3 = script.Parent:FindFirstChild("Info3")
-	
+
 	local function turnNew(me, animate)
 		local Parent = me
 		local change2 = {
 			BackgroundColor3 = Color3.new(0.333333, 1, 0.498039)
 		}
-	
+
 		if animate then
 			local tinfo = TweenInfo.new(
 				0.2, -- time
@@ -2541,13 +2368,13 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Parent.BackgroundColor3 = change2.BackgroundColor3
 		end
 	end
-	
+
 	local function turnBack(me, animate)
 		local Parent = me
 		local change2 = {
 			BackgroundColor3 = Color3.new(0.2, 0.2, 0.239216)
 		}
-	
+
 		if animate then
 			local tinfo = TweenInfo.new(
 				0.2, -- time
@@ -2563,7 +2390,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Parent.BackgroundColor3 = change2.BackgroundColor3
 		end
 	end
-	
+
 	local function fadeInLabel(label)
 		label.Visible = true
 		local fadeInfo = TweenInfo.new(
@@ -2577,7 +2404,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 		local fade = Tween:Create(label, fadeInfo, { TextTransparency = 0 })
 		fade:Play()
 	end
-	
+
 	local function fadeOutLabel(label)
 		local fadeInfo = TweenInfo.new(
 			0.2, -- increased time for slower fade
@@ -2593,11 +2420,11 @@ local function RYJO_fake_script() -- Settings_2.Main
 			label.Visible = false
 		end)
 	end
-	
+
 	local uianim = false
 	local syntaxhighlighting = false
 	local hideusername = false
-	
+
 	-- Declare toggle outside the function to maintain state
 	if settings.UIAnimations == false then
 		uianim = false
@@ -2609,7 +2436,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 		Label1.TextTransparency = 1
 		fadeInLabel(Label1)
 	end
-	
+
 	if settings.SyntaxHighlighting == false then
 		syntaxhighlighting = false
 		turnBack(SyntaxHighlighting, false)
@@ -2619,7 +2446,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 		turnNew(SyntaxHighlighting, false)
 		Label2.TextTransparency = 0
 	end
-	
+
 	if settings.HideUsername == false then
 		hideusername = false
 		turnBack(HideUsername, false)
@@ -2640,7 +2467,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			settings.UIAnimations = false
 		end
 	end)
-	
+
 	UIAnim.MouseEnter:Connect(function()
 		if uianim then
 			fadeInLabel(Label1)
@@ -2649,7 +2476,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Label1.Visible = true
 		end
 	end)
-	
+
 	UIAnim.MouseLeave:Connect(function()
 		if uianim then
 			fadeOutLabel(Label1)
@@ -2658,7 +2485,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Label1.Visible = false
 		end
 	end)
-	
+
 	SyntaxHighlighting.MouseButton1Click:Connect(function()
 		if not syntaxhighlighting then
 			syntaxhighlighting = true
@@ -2670,7 +2497,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			settings.SyntaxHighlighting = false
 		end
 	end)
-	
+
 	SyntaxHighlighting.MouseEnter:Connect(function()
 		if uianim then
 			fadeInLabel(Label2)
@@ -2679,7 +2506,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Label2.Visible = true
 		end
 	end)
-	
+
 	SyntaxHighlighting.MouseLeave:Connect(function()
 		if uianim then
 			fadeOutLabel(Label2)
@@ -2688,7 +2515,7 @@ local function RYJO_fake_script() -- Settings_2.Main
 			Label2.Visible = false
 		end
 	end)
-	
+
 	HideUsername.MouseButton1Click:Connect(function()
 		if not hideusername then
 			hideusername = true
@@ -2701,8 +2528,8 @@ local function RYJO_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(RYJO_fake_script)()
-local function UNOEEDN_fake_script() -- Settings_2.Drag 
+coroutine.wrap(SJWDSM_fake_script)()
+local function FDZQ_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2714,25 +2541,25 @@ local function UNOEEDN_fake_script() -- Settings_2.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-	
+
 	local gui = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-			
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2740,21 +2567,21 @@ local function UNOEEDN_fake_script() -- Settings_2.Drag
 			end)
 		end
 	end)
-	
+
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(UNOEEDN_fake_script)()
-local function BTFGL_fake_script() -- Starter.LocalScript 
+coroutine.wrap(FDZQ_fake_script)()
+local function SLQCV_fake_script() -- Starter.LocalScript 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2766,24 +2593,24 @@ local function BTFGL_fake_script() -- Starter.LocalScript
 	end
 
 	local Bar = script.Parent.Frame -- Make sure this script is a child of the Frame
-	
+
 	-- Define the target size (final size)
 	local targetSize = UDim2.new(0, 415, 0, 11)
-	
+
 	-- Step sizes (partial targets)
 	local step1Size = UDim2.new(0, 250, 0, 11)
 	local step2Size = UDim2.new(0, 350, 0, 11)
-	
+
 	-- TweenService to create tweens
 	local TweenService = game:GetService("TweenService")
-	
+
 	-- Fetch the event to check if the server is online
 	local Event = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
 	--
 	local status = script.Parent.Top.Status
 	--
 	local main = script.Parent.Parent.Main
-	
+
 	-- Function to create and play tween
 	local function createAndPlayTween(targetSize, duration)
 		local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
@@ -2791,11 +2618,11 @@ local function BTFGL_fake_script() -- Starter.LocalScript
 		tween:Play()
 		tween.Completed:Wait() -- Wait for the tween to complete
 	end
-	
+
 	-- Example condition functions
 	wait(3)
 	status.Text = "Checking.."
-	
+
 	local function check()
 		if Event then
 			status.Text = "Checking if server is online.."
@@ -2805,7 +2632,7 @@ local function BTFGL_fake_script() -- Starter.LocalScript
 			return false
 		end
 	end
-	
+
 	local function checkFiring()
 		if Event then
 			Event:FireServer('warn("math.random(1,3213321)")')
@@ -2814,21 +2641,21 @@ local function BTFGL_fake_script() -- Starter.LocalScript
 			return false
 		end
 	end
-	
-	
-	
+
+
+
 	-- Step 1: Check something and tween a little towards the end
 	createAndPlayTween(step1Size, 3) -- Tween to step 1 size in 3 seconds
 	if not check() then
 		return -- Stop here if the check fails
 	end
-	
+
 	-- Step 2: Check firing and tween a little more towards the end
 	createAndPlayTween(step2Size, 4) -- Tween to step 2 size in 4 seconds
 	if not checkFiring() then
 		return -- Stop here if the check fails
 	end
-	
+
 	createAndPlayTween(targetSize, 1) -- Tween to the final size in 1 second
 	wait(1.5)
 	if main then
@@ -2838,8 +2665,8 @@ local function BTFGL_fake_script() -- Starter.LocalScript
 		return false
 	end
 end
-coroutine.wrap(BTFGL_fake_script)()
-local function CWPOBYF_fake_script() -- Starter.Drag 
+coroutine.wrap(SLQCV_fake_script)()
+local function VRSMJLM_fake_script() -- Starter.Drag 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2851,25 +2678,25 @@ local function CWPOBYF_fake_script() -- Starter.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-	
+
 	local gui = script.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-			
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2877,22 +2704,22 @@ local function CWPOBYF_fake_script() -- Starter.Drag
 			end)
 		end
 	end)
-	
+
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(CWPOBYF_fake_script)()
-local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp 
-	local script = Instance.new('LocalScript', dasidijoasd)
+coroutine.wrap(VRSMJLM_fake_script)()
+local function KESRL_fake_script() -- optimized.Source2Revamp 
+	local script = Instance.new('LocalScript', optimized)
 	local req = require
 	local require = function(obj)
 		local fake = fake_module_scripts[obj]
@@ -2906,9 +2733,9 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 	local function generateRandomString(length)
 		return string.gsub(string.rep(" ", length), ".", function() return string.char(math.random(48, 122)):gsub("[^%w]", "") end)
 	end
-	
+
 	script.Parent.Name = generateRandomString(math.random(31, 47))
-	
+
 	local player = game.Players.LocalPlayer
 	local Main = script.Parent:FindFirstChild("Main")
 	local ExecuBox = Main and Main:FindFirstChild("ExecuBox") and Main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
@@ -2918,41 +2745,41 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 	local ResponseEvent = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("GetModelData")
 	local Console = script.Parent:FindFirstChild("Console")
 	local ConsoleFrame = Console and Console:FindFirstChild("Console")
-	
+
 	local SettingsF = script.Parent:FindFirstChild("Settings")
 	local Top = Main and Main:FindFirstChild("Top")
-	
+
 	-- Define the labels to be cloned for each response type
 	local CLabelN = ConsoleFrame and ConsoleFrame:FindFirstChild("Normal")
 	local CLabelE = ConsoleFrame:FindFirstChild("Error")
 	local CLabelW = ConsoleFrame:FindFirstChild("Warning")
-	
+
 	local CLabelN2 = Console:FindFirstChild("Normal"):FindFirstChild("Label")
 	local CLabelE2 = Console:FindFirstChild("Error"):FindFirstChild("Label")
 	local CLabelW2 = Console:FindFirstChild("Warning"):FindFirstChild("Label")
-	
+
 	local settings = require(script.Parent:FindFirstChild("Config"))
-	
+
 	local FilterMessageEvent = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
-	
+
 	-- Initialize counters
 	local normalCounter = 0
 	local errorCounter = 0
 	local warningCounter = 0
-	
+
 	local function updateNumber(currentNumber)
 		currentNumber = currentNumber + 1
 		return tostring(currentNumber) .. "x", currentNumber
 	end
-	
+
 	local Other = ""
-	
+
 	local function execute(scriptText)
 		local lowerScriptText = string.lower(scriptText)
 		local keywords = {
 			"services", "insertmodel", "getmodeldata",
 		}
-	
+
 		for _, keyword in ipairs(keywords) do
 			if string.find(lowerScriptText, keyword) then
 				errorCounter = errorCounter + 1
@@ -2967,12 +2794,12 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 				return
 			end
 		end
-	
+
 		if FilterMessageEvent then
 			FilterMessageEvent:FireServer(scriptText)
 		end
 	end
-	
+
 	-- Tween functions to show and hide status
 	local function TweenInStatus()
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
@@ -2988,7 +2815,7 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 			end
 		end
 	end
-	
+
 	local function TweenOutStatus()
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
 		if status then
@@ -3003,7 +2830,7 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 			end
 		end
 	end
-	
+
 	-- Function to change status text
 	local function StatusChange(text1)
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
@@ -3138,22 +2965,22 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 	if ResponseEvent then
 		ResponseEvent.OnClientInvoke = function(response1, errorMessage)
 			local newLabel
-	
+
 			local function createLabel(template, text, color)
 				local label = template:Clone()
 				label.Parent = ConsoleFrame
 				label.Visible = true
 				label.Text = text
 				label.TextColor3 = color
-	
+
 				-- Add UIPadding to ensure consistent padding
 				local padding = Instance.new("UIPadding")
 				padding.PaddingLeft = UDim.new(0, 10)
 				padding.Parent = label
-	
+
 				return label
 			end
-	
+
 			if response1 == "Executed" then
 				if CLabelN then
 					normalCounter = normalCounter + 1
@@ -3191,6 +3018,6 @@ local function BYQXCP_fake_script() -- dasidijoasd.Source2Revamp
 			end
 		end
 	end
-	
+
 end
-coroutine.wrap(BYQXCP_fake_script)()
+coroutine.wrap(KESRL_fake_script)()
