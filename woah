@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local optimized = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -39,6 +44,8 @@ local Side = Instance.new("Frame")
 local UICorner_10 = Instance.new("UICorner")
 local Settings = Instance.new("ImageButton")
 local Console = Instance.new("ImageButton")
+local SpawnDummy = Instance.new("ImageButton")
+local UploadScript = Instance.new("ImageButton")
 local Tabs = Instance.new("Frame")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local add = Instance.new("ImageButton")
@@ -118,8 +125,8 @@ Main.Name = "Main"
 Main.Parent = optimized
 Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Main.Position = UDim2.new(0.260596335, 0, 0.0837438479, 0)
-Main.Size = UDim2.new(0, 547, 0, 271)
+Main.Position = UDim2.new(0.314686954, 0, 0.340453327, 0)
+Main.Size = UDim2.new(0, 547, 0, 307)
 Main.Visible = false
 Main.ZIndex = 2
 
@@ -159,7 +166,7 @@ Status.BackgroundTransparency = 1.000
 Status.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
 Status.Size = UDim2.new(0, 260, 0, 31)
 Status.ZIndex = 99
-Status.Font = Enum.Font.ArimoBold
+Status.Font = Enum.Font.ArialBold
 Status.Text = "Execution Error: No backdoor found"
 Status.TextColor3 = Color3.fromRGB(212, 22, 57)
 Status.TextScaled = true
@@ -183,8 +190,8 @@ SideFrame.Name = "SideFrame"
 SideFrame.Parent = Main
 SideFrame.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 SideFrame.BorderSizePixel = 0
-SideFrame.Position = UDim2.new(0.00203257124, 0, 0.769939125, 0)
-SideFrame.Size = UDim2.new(0, 544, 0, 62)
+SideFrame.Position = UDim2.new(0.00203257124, 0, 0.811855257, 0)
+SideFrame.Size = UDim2.new(0, 544, 0, 57)
 SideFrame.ZIndex = 10
 
 Execute.Name = "Execute"
@@ -207,7 +214,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.784313738, 0, 0.264705896, 0)
 TextLabel.Size = UDim2.new(0, 85, 0, 19)
 TextLabel.ZIndex = 99999
-TextLabel.Font = Enum.Font.ArimoBold
+TextLabel.Font = Enum.Font.ArialBold
 TextLabel.Text = "Execute"
 TextLabel.TextColor3 = Color3.fromRGB(4, 248, 118)
 TextLabel.TextScaled = true
@@ -236,7 +243,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(1.00177526, 0, 0.198038742, 0)
 TextLabel_2.Size = UDim2.new(0, 55, 0, 19)
 TextLabel_2.ZIndex = 99999
-TextLabel_2.Font = Enum.Font.ArimoBold
+TextLabel_2.Font = Enum.Font.ArialBold
 TextLabel_2.Text = "Clear"
 TextLabel_2.TextColor3 = Color3.fromRGB(252, 15, 86)
 TextLabel_2.TextScaled = true
@@ -249,7 +256,7 @@ Respawn.Name = "Respawn"
 Respawn.Parent = SideFrame
 Respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Respawn.BackgroundTransparency = 1.000
-Respawn.Position = UDim2.new(0.483662963, 0, 0.0557240807, 5)
+Respawn.Position = UDim2.new(0.48550123, 0, 0.0206363071, 5)
 Respawn.Size = UDim2.new(0, 48, 0, 44)
 Respawn.ZIndex = 9999
 Respawn.Image = "http://www.roblox.com/asset/?id=17781654120"
@@ -265,7 +272,7 @@ TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0.983417511, 0, 0.315601707, 0)
 TextLabel_3.Size = UDim2.new(0, 71, 0, 20)
 TextLabel_3.ZIndex = 99999
-TextLabel_3.Font = Enum.Font.ArimoBold
+TextLabel_3.Font = Enum.Font.ArialBold
 TextLabel_3.Text = "Respawn"
 TextLabel_3.TextColor3 = Color3.fromRGB(253, 253, 253)
 TextLabel_3.TextScaled = true
@@ -294,7 +301,7 @@ Label.BorderSizePixel = 0
 Label.Position = UDim2.new(0.795917094, 0, 0.315602183, 0)
 Label.Size = UDim2.new(0, 57, 0, 20)
 Label.ZIndex = 99999
-Label.Font = Enum.Font.ArimoBold
+Label.Font = Enum.Font.ArialBold
 Label.Text = "R6"
 Label.TextColor3 = Color3.fromRGB(253, 203, 0)
 Label.TextScaled = true
@@ -315,8 +322,8 @@ ExecuBox.Parent = Main
 ExecuBox.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 ExecuBox.BorderColor3 = Color3.fromRGB(61, 61, 61)
 ExecuBox.BorderSizePixel = 0
-ExecuBox.Position = UDim2.new(0.100348882, 0, 0.22106427, 0)
-ExecuBox.Size = UDim2.new(0.718757033, 5, 0.528990269, 0)
+ExecuBox.Position = UDim2.new(0.0932358354, 0, 0.192182407, 0)
+ExecuBox.Size = UDim2.new(0.726890981, 5, 0.619672775, 0)
 ExecuBox.BottomImage = "rbxassetid://148970562"
 ExecuBox.CanvasSize = UDim2.new(0, 9999, 0, 9999)
 ExecuBox.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
@@ -467,8 +474,8 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 Side.Name = "Side"
 Side.Parent = Main
 Side.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-Side.Position = UDim2.new(0, 0, 0.125811026, 0)
-Side.Size = UDim2.new(0, 51, 0, 175)
+Side.Position = UDim2.new(0, 0, 0.113772415, 0)
+Side.Size = UDim2.new(0, 51, 0, 214)
 Side.ZIndex = 10
 
 UICorner_10.CornerRadius = UDim.new(0, 3)
@@ -490,7 +497,7 @@ Console.Name = "Console"
 Console.Parent = Side
 Console.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Console.BackgroundTransparency = 1.000
-Console.Position = UDim2.new(0.0993125737, 0, 0.369553924, 5)
+Console.Position = UDim2.new(0.0993125737, 0, 0.274726331, 5)
 Console.Size = UDim2.new(0, 39, 0, 39)
 Console.ZIndex = 9999
 Console.Image = "rbxassetid://3926305904"
@@ -498,13 +505,36 @@ Console.ImageRectOffset = Vector2.new(444, 524)
 Console.ImageRectSize = Vector2.new(36, 36)
 Console.ScaleType = Enum.ScaleType.Fit
 
+SpawnDummy.Name = "SpawnDummy"
+SpawnDummy.Parent = Side
+SpawnDummy.BackgroundTransparency = 1.000
+SpawnDummy.LayoutOrder = 8
+SpawnDummy.Position = UDim2.new(0.117647059, 0, 0.5, 0)
+SpawnDummy.Size = UDim2.new(0, 36, 0, 36)
+SpawnDummy.ZIndex = 999999999
+SpawnDummy.Image = "rbxassetid://3926307971"
+SpawnDummy.ImageRectOffset = Vector2.new(404, 204)
+SpawnDummy.ImageRectSize = Vector2.new(36, 36)
+
+UploadScript.Name = "UploadScript"
+UploadScript.Parent = Side
+UploadScript.BackgroundTransparency = 1.000
+UploadScript.LayoutOrder = 6
+UploadScript.Position = UDim2.new(0.107843138, 0, 0.702586234, 0)
+UploadScript.Size = UDim2.new(0, 39, 0, 39)
+UploadScript.Visible = false
+UploadScript.ZIndex = 9999
+UploadScript.Image = "rbxassetid://3926307971"
+UploadScript.ImageRectOffset = Vector2.new(4, 4)
+UploadScript.ImageRectSize = Vector2.new(36, 36)
+
 Tabs.Name = "Tabs"
 Tabs.Parent = Main
 Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Tabs.BackgroundTransparency = 1.000
 Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Tabs.BorderSizePixel = 0
-Tabs.Position = UDim2.new(0.09255898, 0, 0.140221402, 0)
+Tabs.Position = UDim2.new(0.09255898, 0, 0.1237785, 0)
 Tabs.Size = UDim2.new(0, 391, 0, 21)
 
 UIListLayout_2.Parent = Tabs
@@ -528,7 +558,7 @@ tab1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 tab1.BorderSizePixel = 0
 tab1.Position = UDim2.new(0.258974373, 0, 0, 0)
 tab1.Size = UDim2.new(0, 101, 0, 21)
-tab1.Font = Enum.Font.Nunito
+tab1.Font = Enum.Font.Unknown
 tab1.Text = "Script 1"
 tab1.TextColor3 = Color3.fromRGB(255, 255, 255)
 tab1.TextScaled = true
@@ -550,8 +580,8 @@ ScriptHub.Name = "ScriptHub"
 ScriptHub.Parent = Main
 ScriptHub.BackgroundColor3 = Color3.fromRGB(23, 24, 31)
 ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.829267621, 0, 0.101297975, 0)
-ScriptHub.Size = UDim2.new(0, 92, 0, 189)
+ScriptHub.Position = UDim2.new(0.829267621, 0, 0.101297781, 0)
+ScriptHub.Size = UDim2.new(0, 92, 0, 224)
 ScriptHub.ZIndex = 10
 
 SearchBar.Name = "SearchBar"
@@ -561,8 +591,8 @@ SearchBar.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 SearchBar.BackgroundTransparency = 1.000
 SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
 SearchBar.BorderSizePixel = 0
-SearchBar.Position = UDim2.new(0.499999344, 0, 0.0584563389, 0)
-SearchBar.Size = UDim2.new(0.999998689, 0, 0.113231204, 0)
+SearchBar.Position = UDim2.new(0.499999344, 0, 0.0345461555, 0)
+SearchBar.Size = UDim2.new(0.999998689, 0, 0.108915903, 0)
 SearchBar.ZIndex = 2
 SearchBar.Font = Enum.Font.Arial
 SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -579,8 +609,8 @@ Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, 0.149115026, 0)
-Frame.Size = UDim2.new(0, 91, 0, 153)
+Frame.Position = UDim2.new(0, 0, 0.149115071, 0)
+Frame.Size = UDim2.new(0, 91, 0, 201)
 Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
 Frame.ScrollBarThickness = 5
 
@@ -611,7 +641,7 @@ UICorner_11.Parent = SampleBTN
 Console_2.Name = "Console"
 Console_2.Parent = optimized
 Console_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-Console_2.Position = UDim2.new(0.260611445, 0, 0.53616482, 0)
+Console_2.Position = UDim2.new(0.315378189, 0, 0.603842795, 0)
 Console_2.Size = UDim2.new(0, 545, 0, 164)
 Console_2.Visible = false
 
@@ -659,7 +689,7 @@ Close_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 Close_2.BackgroundTransparency = 1.000
 Close_2.Position = UDim2.new(0.922947645, 0, 0, 0)
 Close_2.Size = UDim2.new(0, 35, 0, 39)
-Close_2.Font = Enum.Font.ArimoBold
+Close_2.Font = Enum.Font.Unknown
 Close_2.Text = "X"
 Close_2.TextColor3 = Color3.fromRGB(144, 146, 150)
 Close_2.TextSize = 24.000
@@ -759,7 +789,7 @@ Label_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_2.BorderSizePixel = 0
 Label_2.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_2.Size = UDim2.new(0, 40, 0, 24)
-Label_2.Font = Enum.Font.ArimoBold
+Label_2.Font = Enum.Font.Unknown
 Label_2.Text = "0x"
 Label_2.TextColor3 = Color3.fromRGB(255, 26, 68)
 Label_2.TextScaled = true
@@ -786,7 +816,7 @@ Label_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_3.BorderSizePixel = 0
 Label_3.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_3.Size = UDim2.new(0, 45, 0, 24)
-Label_3.Font = Enum.Font.ArimoBold
+Label_3.Font = Enum.Font.Unknown
 Label_3.Text = "0x"
 Label_3.TextColor3 = Color3.fromRGB(12, 255, 89)
 Label_3.TextScaled = true
@@ -813,7 +843,7 @@ Label_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label_4.BorderSizePixel = 0
 Label_4.Position = UDim2.new(1.0000025, 0, 1.27156572e-05, 0)
 Label_4.Size = UDim2.new(0, 40, 0, 24)
-Label_4.Font = Enum.Font.ArimoBold
+Label_4.Font = Enum.Font.Unknown
 Label_4.Text = "0x"
 Label_4.TextColor3 = Color3.fromRGB(255, 255, 0)
 Label_4.TextScaled = true
@@ -826,7 +856,7 @@ Open.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Open.Position = UDim2.new(0.00838414673, 0, 0.550420165, 0)
 Open.Size = UDim2.new(0, 74, 0, 25)
 Open.Visible = false
-Open.Font = Enum.Font.ArimoBold
+Open.Font = Enum.Font.Unknown
 Open.Text = "Open"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextScaled = true
@@ -851,7 +881,7 @@ WindowTitle.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
 WindowTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 WindowTitle.BorderSizePixel = 0
 WindowTitle.Size = UDim2.new(1, 0, 0.100000001, 0)
-WindowTitle.Font = Enum.Font.ArimoBold
+WindowTitle.Font = Enum.Font.Unknown
 WindowTitle.Text = "Settings"
 WindowTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 WindowTitle.TextScaled = true
@@ -1011,8 +1041,9 @@ TextLabel_7.TextWrapped = true
 
 Starter.Name = "Starter"
 Starter.Parent = optimized
+Starter.AnchorPoint = Vector2.new(0.5, 0.5)
 Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
-Starter.Position = UDim2.new(0.353139758, 0, 0.556264102, 0)
+Starter.Position = UDim2.new(0.499860525, 0, 0.4990879, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
 
 Action.Name = "Action"
@@ -1073,7 +1104,7 @@ Close_3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 Close_3.BackgroundTransparency = 1.000
 Close_3.Position = UDim2.new(0.922947645, 0, 0, 0)
 Close_3.Size = UDim2.new(0, 35, 0, 39)
-Close_3.Font = Enum.Font.ArimoBold
+Close_3.Font = Enum.Font.Unknown
 Close_3.Text = "X"
 Close_3.TextColor3 = Color3.fromRGB(144, 146, 150)
 Close_3.TextSize = 24.000
@@ -1102,7 +1133,7 @@ Status_3.BorderSizePixel = 0
 Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.71981168, 0)
 Status_3.Size = UDim2.new(0, 414, 0, 37)
 Status_3.ZIndex = 99
-Status_3.Font = Enum.Font.ArimoBold
+Status_3.Font = Enum.Font.Unknown
 Status_3.Text = ""
 Status_3.TextColor3 = Color3.fromRGB(212, 212, 212)
 Status_3.TextScaled = true
@@ -1154,9 +1185,9 @@ do -- optimized.Config
 			["SyntaxHighlighting"] = true,
 			["HideUsername"] = false
 		}
-
+		
 		return settings
-
+		
 	end
 	fake_module_scripts[script] = module_script
 end
@@ -1165,7 +1196,7 @@ end
 -- Scripts:
 
 -- Comments_.LocalScript is disabled.
-local function AOSRH_fake_script() -- ExecuBox.Main 
+local function BSYUML_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 	local req = require
 	local require = function(obj)
@@ -1177,7 +1208,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 	end
 
 	local settings1 = require(script.Parent.Parent.Parent:FindFirstChild("Config"))
-
+	
 	local settings = {
 		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
 		Lines = false; -- The textbox will have some lines like when you press enter.
@@ -1188,26 +1219,26 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 		AutomaticSettingChange=false;--Automatically changes the settings for the best experience
 		LoadLexer=true;--Makes one token and creates highlights out of it instead of many tokens (reduce lag)
 	}
-
+	
 	local RunService = game:GetService("RunService")
 	local Fps=0
 	local TimeFunction = RunService:IsRunning() and time or os.clock
 	local LastIteration, Start
 	local FrameUpdateTable = {}
-
+	
 	local function HeartbeatUpdate()
 		LastIteration = TimeFunction()
 		for Index = #FrameUpdateTable, 1, -1 do
 			FrameUpdateTable[Index + 1] = FrameUpdateTable[Index] >= LastIteration - 1 and FrameUpdateTable[Index] or nil
 		end
-
+	
 		FrameUpdateTable[1] = LastIteration
 		Fps = tonumber(math.floor(TimeFunction() - Start >= 1 and #FrameUpdateTable or #FrameUpdateTable / (TimeFunction() - Start)))
 	end
-
+	
 	Start = TimeFunction()
 	RunService.Heartbeat:Connect(HeartbeatUpdate)
-
+	
 	--[==[
 	This syntax is the best syntax on the marketplace
 	Only created by MiAiHsIs1226
@@ -1230,12 +1261,12 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				whitespacecharactersfound+=1
 				continue
 			end
-
+	
 			table.insert(readabletokens,v)
 			table.insert(tokennumbers,{i})
 		end
-
-
+	
+	
 		for i,v in pairs(readabletokens) do
 			pcall(function()
 				if v.Source == "local" then
@@ -1257,7 +1288,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 							[1]+1})
 					end
 				elseif v.Type == "iden"  then
-
+	
 					if readabletokens[i-1] then
 						if readabletokens[i-1].Type ~= "keyword" and readabletokens[i-1].Type ~= "symbol"  then
 							local source = readabletokens[i+2].Source
@@ -1267,7 +1298,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 							local source = "function"
 							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
 								[1]})  
-
+	
 						end
 					else
 						local source = readabletokens[i+2].Source
@@ -1276,20 +1307,20 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				end
 			end)
 		end
-
+	
 		return (localvarables)
 	end
 	local function lexerscan(text)
 		local lexer = coroutine.wrap(function()
-
+	
 			local lexer = {}
-
+	
 			local yield, wrap  = coroutine.yield, coroutine.wrap
 			local strfind      = string.find
 			local strsub       = string.sub
 			local append       = table.insert
 			local type         = type
-
+	
 			local NUMBER1	= "^[%+%-]?%d+%.?%d*[eE][%+%-]?%d+"
 			local NUMBER2	= "^[%+%-]?%d+%.?%d*"
 			local NUMBER3	= "^0x[%da-fA-F]+"
@@ -1311,7 +1342,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 			local MCOMMENT2	= "^%-%-%[%[.-.*"						
 			local SCOMMENT1	= "^%-%-.-\n"							
 			local SCOMMENT2	= "^%-%-.-.*"							
-
+	
 			local lua_keyword = {
 				["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
 				["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
@@ -1319,7 +1350,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
 				["self"] = true, ["until"] = true
 			}
-
+	
 			local lua_builtin = {
 				["assert"] = true;["collectgarbage"] = true;["error"] = true;["_G"] = true;
 				["gcinfo"] = true;["getfenv"] = true;["getmetatable"] = true;["ipairs"] = true;
@@ -1349,27 +1380,27 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				["table"] = true;
 				["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
 			}
-
+	
 			local function tdump(tok)
 				return yield(tok, tok)
 			end
-
+	
 			local function ndump(tok)
 				return yield("number", tok)
 			end
-
+	
 			local function sdump(tok)
 				return yield("string", tok)
 			end
-
+	
 			local function cdump(tok)
 				return yield("comment", tok)
 			end
-
+	
 			local function wsdump(tok)
 				return yield("space", tok)
 			end
-
+	
 			local function lua_vdump(tok)
 				if (lua_keyword[tok]) then
 					return yield("keyword", tok)
@@ -1379,7 +1410,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 					return yield("iden", tok)
 				end
 			end
-
+	
 			local lua_matches = {
 				{IDEN,      lua_vdump},        -- Indentifiers
 				{WSPACE,    wsdump},           -- Whitespace
@@ -1392,12 +1423,12 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				{STRING4,   sdump},
 				{STRING5,   sdump},            -- Multiline-Strings
 				{STRING6,   sdump},            -- Multiline-Strings
-
+	
 				{MCOMMENT1, cdump},            -- Multiline-Comments
 				{MCOMMENT2, cdump},			
 				{SCOMMENT1, cdump},            -- Singleline-Comments
 				{SCOMMENT2, cdump},
-
+	
 				{"^==",     tdump},            -- Operators
 				{"^~=",     tdump},
 				{"^<=",     tdump},
@@ -1406,20 +1437,20 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				{"^%.%.",   tdump},
 				{"^.",      tdump}
 			}
-
+	
 			local num_lua_matches = #lua_matches
-
-
+	
+	
 			--- Create a plain token iterator from a string.
 			-- @tparam string s a string.
 			function lexer.scan(s)
-
+	
 				local function lex(first_arg)
-
+	
 					local line_nr = 0
 					local sz = #s
 					local idx = 1
-
+	
 					-- res is the value used to resume the coroutine.
 					local function handle_requests(res)
 						while (res) do
@@ -1446,18 +1477,18 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 							end
 						end
 					end
-
+	
 					handle_requests(first_arg)
 					line_nr = 1
-
+	
 					while (true) do
-
+	
 						if (idx > sz) then
 							while (true) do
 								handle_requests(yield())
 							end
 						end
-
+	
 						for i = 1,num_lua_matches do
 							local m = lua_matches[i]
 							local pat = m[1]
@@ -1478,15 +1509,15 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 								break
 							end
 						end
-
+	
 					end
-
+	
 				end
-
+	
 				return wrap(lex)
-
+	
 			end
-
+	
 			return lexer
 		end)()
 		local function doesvalueexist(value,tab)
@@ -1535,7 +1566,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				end
 			end
 		else
-
+	
 			for i,v in (lexer.scan(text)) do
 				local type= i
 				if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
@@ -1546,9 +1577,9 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 					game:GetService("RunService").RenderStepped:Wait()
 				end
 			end
-
-
-
+	
+	
+	
 		end
 		return(t)
 	end
@@ -1580,7 +1611,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-
+	
 				return(r)
 			else
 				local tokens=lexerscan(s)
@@ -1595,7 +1626,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-
+	
 				return(r)
 			end
 		elseif type(s)=="table" then
@@ -1625,7 +1656,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-
+	
 				return(r)
 			else
 				local tokens=s
@@ -1640,18 +1671,18 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						r=r..a
 					end
 				end
-
+	
 				return(r)
 			end
 		end
 	end
-
+	
 	local L_1_ = script.Parent.Source
 	local L_2_ = Vector2.new(0, 0)  
 	local L_3_Org = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" ,"isSafe" } 
 	local L_3_ = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } 
 	local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } 
-
+	
 	local function L_5_func(L_49_arg1)       
 		local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       
 		local L_52_ = L_50_ - L_51_       
@@ -1682,10 +1713,10 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 				text2 = text2 .. c
 			end
 		end
-
+	
 		return (text2:reverse())
 	end
-
+	
 	wait(.2) 
 	local L_6_ = 20 
 	L_1_:GetPropertyChangedSignal("Text"):Connect(function()
@@ -1700,21 +1731,21 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 			if settings.LoadLexer then
 				local tokens= lexerscan(L_1_.Text) 
 				L_54_.Text=GetTypeToMakeSyntax(tokens,"comment")
-
+	
 				L_58_.Text=GetTypeToMakeSyntax(tokens,"string")
-
+	
 				L_57_.Text=GetTypeToMakeSyntax(tokens,"number")
-
+	
 				L_62_.Text=GetTypeToMakeSyntax(tokens,"builtin")
-
+	
 				L_56_.Text=GetTypeToMakeSyntax(tokens,"symbol")
-
+	
 				L_61_.Text=GetTypeToMakeSyntax(tokens,"keyword")
-
+	
 				if settings.HighlightVariables then
 					L_90_.Text=GetTypeToMakeSyntax(tokens,"var")
 				end
-
+	
 			else
 				spawn(function()
 					L_54_.Text=GetTypeToMakeSyntax(L_1_.Text,"comment")
@@ -1739,7 +1770,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						L_90_.Text=GetTypeToMakeSyntax(L_1_.Text,"var")
 					end
 				end)
-
+	
 			end
 		end
 		local L_63_ = 1    
@@ -1767,16 +1798,16 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 			if L_1_.Text:sub(#L_1_.Text,#L_1_.Text) == "\n" then
 				L_1_.Parent.CanvasPosition = Vector2.new()
 			end
-
+	
 			if L_1_.Parent.CanvasPosition.Y == L_2_.Y then
 				L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       
 			else             
 				L_2_ = L_5_func(L_1_.Parent)       
 			end 
 		end
-
-
-
+	
+	
+	
 	end) 
 	if settings.Scroll then
 		L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       
@@ -1801,7 +1832,7 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 		L_1_.Position = UDim2.new()
 	end
 	if settings.AutomaticSettingChange== true then
-
+		
 		spawn(function()
 			pcall(function()
 				while wait(10) do
@@ -1810,19 +1841,19 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 						settings.SplitScanLines=false
 						settings.LoadLexer=false
 						settings.WaitIfRendered=false
-
+						
 					elseif Fps<60 and Fps>40 then
 						settings.SplitScanLines=false
 						settings.LoadLexer=true
 						settings.WaitIfRendered=true
 						settings.HighlightVariables=false
-
+						
 					elseif Fps<35 then
 						settings.SplitScanLines=true
 						settings.LoadLexer=true
 						settings.WaitIfRendered=true
 						settings.HighlightVariables=false
-
+						
 					elseif Fps>10 then
 						settings.Highlight=false
 					end
@@ -1831,8 +1862,8 @@ local function AOSRH_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(AOSRH_fake_script)()
-local function HRTCTH_fake_script() -- Main.Tabs 
+coroutine.wrap(BSYUML_fake_script)()
+local function MDIBKS_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -1845,29 +1876,29 @@ local function HRTCTH_fake_script() -- Main.Tabs
 
 	local TweenService = game:GetService("TweenService")
 	local player = game.Players.LocalPlayer
-
+	
 	local main = script.Parent
 	local Tabs = main:WaitForChild("Tabs")
 	local addBTN = Tabs:FindFirstChild("add")
 	local tab1 = Tabs:FindFirstChild("tab1")
 	local ExecuBox = main and main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	local SourceText = ExecuBox.Text
-
+	
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
-
+	
 	-- Table to store the content of each tab
 	local tabContents = {}
 	local currentTab = 1
-
+	
 	-- Initialize tabContents with the content of tab1
 	tabContents[1] = ExecuBox.Text
-
+	
 	-- Make the remove button of the initial tab invisible
 	local initialRemoveBTN = tab1:FindFirstChild("remove")
 	if initialRemoveBTN then
 		initialRemoveBTN.Visible = false
 	end
-
+	
 	-- Function to update the visibility of the add button
 	local function updateAddButtonVisibility()
 		local tabCount = #Tabs:GetChildren() - 1 -- Subtracting 1 to ignore the add button
@@ -1876,7 +1907,7 @@ local function HRTCTH_fake_script() -- Main.Tabs
 			addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
 		end
 	end
-
+	
 	-- Function to renumber tabs
 	local function renumberTabs()
 		local tabIndex = 1
@@ -1888,23 +1919,23 @@ local function HRTCTH_fake_script() -- Main.Tabs
 			end
 		end
 	end
-
+	
 	-- Function to create a new tab with optional fade-in effect
 	local function createNewTab()
 		local newTabNumber = #Tabs:GetChildren() - 1 -- Correctly count the tabs excluding the add button
 		local newTabName = "Script " .. newTabNumber
-
+	
 		-- Clone tab1 and set its name and text
 		local newTab = tab1:Clone()
 		newTab.Name = newTabName
 		newTab.Text = newTabName
-
+	
 		-- Make the remove button visible for new tabs
 		local removeBTN = newTab:FindFirstChild("remove")
 		if removeBTN then
 			removeBTN.Visible = true
 		end
-
+	
 		if settings.UIAnimations then
 			-- Set initial transparency for fade-in effect
 			newTab.BackgroundTransparency = 1
@@ -1914,104 +1945,104 @@ local function HRTCTH_fake_script() -- Main.Tabs
 				removeBTN.ImageTransparency = 1
 			end
 		end
-
+	
 		-- Parent the new tab to Tabs
 		newTab.Parent = Tabs
-
+	
 		if settings.UIAnimations then
 			-- Add a fade-in tween effect for the new tab
 			local goal = { BackgroundTransparency = 0, TextTransparency = 0 }
 			local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
 			local tween = TweenService:Create(newTab, tweenInfo, goal)
 			tween:Play()
-
+	
 			local goal1 = { ImageTransparency = 0 }
 			local tweenInfo1 = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
 			local tween1 = TweenService:Create(newTab, tweenInfo, goal)
-
+	
 			if removeBTN then
 				local removeTween = TweenService:Create(removeBTN, tweenInfo1, goal1)
 				removeTween:Play()
 			end
 		end
-
+	
 		-- Add an event listener to the new tab
 		newTab.MouseButton1Click:Connect(function()
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
-
+	
 			-- Switch to the new tab
 			currentTab = newTabNumber
-
+	
 			-- Load the content of the new tab
 			ExecuBox.Text = tabContents[currentTab] or ""
 		end)
-
+	
 		-- Add an event listener to the remove button inside the new tab
 		if removeBTN then
 			removeBTN.MouseButton1Click:Connect(function()
 				-- Save current tab content
 				tabContents[currentTab] = ExecuBox.Text
-
+	
 				if settings.UIAnimations then
 					-- Add a fade-out tween effect for the tab removal
 					local goal = { BackgroundTransparency = 1, TextTransparency = 1 }
 					local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
 					local removeTween = TweenService:Create(newTab, tweenInfo, goal)
 					removeTween:Play()
-
+	
 					local goal2 = { BackgroundTransparency = 1, ImageTransparency = 1 }
 					local removeButtonTween = TweenService:Create(removeBTN, tweenInfo, goal2)
 					removeButtonTween:Play()
-
+	
 					removeTween.Completed:Connect(function()
 						-- Remove the tab from tabContents
 						table.remove(tabContents, newTabNumber)
-
+	
 						-- Destroy the tab
 						newTab:Destroy()
-
+	
 						-- Adjust currentTab if necessary
 						if currentTab == newTabNumber then
 							currentTab = 1
 							ExecuBox.Text = tabContents[currentTab] or ""
 						end
-
+	
 						-- Renumber the tabs
 						renumberTabs()
-
+	
 						-- Update add button visibility and reparent
 						updateAddButtonVisibility()
 					end)
 				else
 					-- Remove the tab from tabContents
 					table.remove(tabContents, newTabNumber)
-
+	
 					-- Destroy the tab
 					newTab:Destroy()
-
+	
 					-- Adjust currentTab if necessary
 					if currentTab == newTabNumber then
 						currentTab = 1
 						ExecuBox.Text = tabContents[currentTab] or ""
 					end
-
+	
 					-- Renumber the tabs
 					renumberTabs()
-
+	
 					-- Update add button visibility and reparent
 					updateAddButtonVisibility()
 				end
 			end)
 		end
-
+	
 		-- Initialize the new tab content
 		tabContents[newTabNumber] = ""
-
+	
 		-- Update add button visibility and reparent
 		updateAddButtonVisibility()
 	end
-
+	
 	-- Event listener for add button
 	if addBTN then
 		addBTN.MouseButton1Click:Connect(function()
@@ -2020,23 +2051,23 @@ local function HRTCTH_fake_script() -- Main.Tabs
 	else
 		warn("Add button not found!")
 	end
-
+	
 	-- Event listener for tab1 (initial tab)
 	if tab1 then
 		tab1.MouseButton1Click:Connect(function()
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
-
+	
 			-- Switch to tab1
 			currentTab = 1
-
+	
 			-- Load the content of tab1
 			ExecuBox.Text = tabContents[currentTab]
 		end)
 	else
 		warn("Initial tab not found!")
 	end
-
+	
 	-- Event listener for remove button inside tab1
 	if initialRemoveBTN then
 		initialRemoveBTN.MouseButton1Click:Connect(function()
@@ -2046,13 +2077,65 @@ local function HRTCTH_fake_script() -- Main.Tabs
 	else
 		warn("Remove button in initial tab not found!")
 	end
-
+	
 	-- Initial update of the add button visibility
 	updateAddButtonVisibility()
-
+	
 end
-coroutine.wrap(HRTCTH_fake_script)()
-local function EIZU_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(MDIBKS_fake_script)()
+local function KJSMD_fake_script() -- Main.Drag 
+	local script = Instance.new('LocalScript', Main)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(KJSMD_fake_script)()
+local function VZPPQSP_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 	local req = require
 	local require = function(obj)
@@ -2065,7 +2148,7 @@ local function EIZU_fake_script() -- ScriptHub.LocalScript
 
 	local searchBar = script.Parent.SearchBar
 	local items = script.Parent.Frame
-
+	
 	function UpdateResults()
 		local search = string.lower(searchBar.Text)
 		for i, v in	 pairs(items:GetChildren()) do
@@ -2083,11 +2166,11 @@ local function EIZU_fake_script() -- ScriptHub.LocalScript
 			end
 		end
 	end
-
+	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(EIZU_fake_script)()
-local function BTBAP_fake_script() -- Frame.Main2 
+coroutine.wrap(VZPPQSP_fake_script)()
+local function CQZDZQ_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
 	local req = require
 	local require = function(obj)
@@ -2102,11 +2185,11 @@ local function BTBAP_fake_script() -- Frame.Main2
 		-- References to UI elements
 		local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
 		local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-
+	
 		if not SampleBTN or not ExecuteBox then
 			return false
 		end
-
+	
 		-- Function to create a new button
 		local function newScript(script1, name)
 			SampleBTN.Visible = false
@@ -2119,7 +2202,7 @@ local function BTBAP_fake_script() -- Frame.Main2
 				ExecuteBox.Text = script1
 			end)
 		end
-
+	
 		newScript('require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")', "HD Admin")
 		newScript('require(2930987220).load("'..game.Players.LocalPlayer.Name..'")', "Star Glitcher")
 		newScript('require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")', "Server Admin")
@@ -2195,68 +2278,16 @@ local function BTBAP_fake_script() -- Frame.Main2
 		ExecuteBox.Text = 'require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")'
 		end)
 		--]]
-
+		
 	end)
-
+	
 	if not success then
 		return false
 	end
-
+	
 end
-coroutine.wrap(BTBAP_fake_script)()
-local function HBUTS_fake_script() -- Main.Drag 
-	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local UserInputService = game:GetService("UserInputService")
-
-	local gui = script.Parent
-
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(HBUTS_fake_script)()
-local function AURZPID_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(CQZDZQ_fake_script)()
+local function XXWXVD_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -2271,8 +2302,8 @@ local function AURZPID_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(AURZPID_fake_script)()
-local function UINETKE_fake_script() -- Console_2.Drag 
+coroutine.wrap(XXWXVD_fake_script)()
+local function TIKHGR_fake_script() -- Console_2.Drag 
 	local script = Instance.new('LocalScript', Console_2)
 	local req = require
 	local require = function(obj)
@@ -2284,25 +2315,25 @@ local function UINETKE_fake_script() -- Console_2.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local gui = script.Parent
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-
+			
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2310,21 +2341,21 @@ local function UINETKE_fake_script() -- Console_2.Drag
 			end)
 		end
 	end)
-
+	
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(UINETKE_fake_script)()
-local function SJWDSM_fake_script() -- Settings_2.Main 
+coroutine.wrap(TIKHGR_fake_script)()
+local function UFXMCDM_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2338,21 +2369,21 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 	local UIAnim = script.Parent:FindFirstChild("UIAnim")
 	local SyntaxHighlighting = script.Parent:FindFirstChild("SyntaxHighlighting")
 	local HideUsername = script.Parent:FindFirstChild("HideUsername")
-
+	
 	local Tween = game:GetService("TweenService")
 	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
-
+	
 	---
 	local Label1 = script.Parent:FindFirstChild("Info1")
 	local Label2 = script.Parent:FindFirstChild("Info2")
 	local Label3 = script.Parent:FindFirstChild("Info3")
-
+	
 	local function turnNew(me, animate)
 		local Parent = me
 		local change2 = {
 			BackgroundColor3 = Color3.new(0.333333, 1, 0.498039)
 		}
-
+	
 		if animate then
 			local tinfo = TweenInfo.new(
 				0.2, -- time
@@ -2368,13 +2399,13 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Parent.BackgroundColor3 = change2.BackgroundColor3
 		end
 	end
-
+	
 	local function turnBack(me, animate)
 		local Parent = me
 		local change2 = {
 			BackgroundColor3 = Color3.new(0.2, 0.2, 0.239216)
 		}
-
+	
 		if animate then
 			local tinfo = TweenInfo.new(
 				0.2, -- time
@@ -2390,7 +2421,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Parent.BackgroundColor3 = change2.BackgroundColor3
 		end
 	end
-
+	
 	local function fadeInLabel(label)
 		label.Visible = true
 		local fadeInfo = TweenInfo.new(
@@ -2404,7 +2435,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 		local fade = Tween:Create(label, fadeInfo, { TextTransparency = 0 })
 		fade:Play()
 	end
-
+	
 	local function fadeOutLabel(label)
 		local fadeInfo = TweenInfo.new(
 			0.2, -- increased time for slower fade
@@ -2420,11 +2451,11 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			label.Visible = false
 		end)
 	end
-
+	
 	local uianim = false
 	local syntaxhighlighting = false
 	local hideusername = false
-
+	
 	-- Declare toggle outside the function to maintain state
 	if settings.UIAnimations == false then
 		uianim = false
@@ -2436,7 +2467,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 		Label1.TextTransparency = 1
 		fadeInLabel(Label1)
 	end
-
+	
 	if settings.SyntaxHighlighting == false then
 		syntaxhighlighting = false
 		turnBack(SyntaxHighlighting, false)
@@ -2446,7 +2477,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 		turnNew(SyntaxHighlighting, false)
 		Label2.TextTransparency = 0
 	end
-
+	
 	if settings.HideUsername == false then
 		hideusername = false
 		turnBack(HideUsername, false)
@@ -2467,7 +2498,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			settings.UIAnimations = false
 		end
 	end)
-
+	
 	UIAnim.MouseEnter:Connect(function()
 		if uianim then
 			fadeInLabel(Label1)
@@ -2476,7 +2507,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Label1.Visible = true
 		end
 	end)
-
+	
 	UIAnim.MouseLeave:Connect(function()
 		if uianim then
 			fadeOutLabel(Label1)
@@ -2485,7 +2516,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Label1.Visible = false
 		end
 	end)
-
+	
 	SyntaxHighlighting.MouseButton1Click:Connect(function()
 		if not syntaxhighlighting then
 			syntaxhighlighting = true
@@ -2497,7 +2528,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			settings.SyntaxHighlighting = false
 		end
 	end)
-
+	
 	SyntaxHighlighting.MouseEnter:Connect(function()
 		if uianim then
 			fadeInLabel(Label2)
@@ -2506,7 +2537,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Label2.Visible = true
 		end
 	end)
-
+	
 	SyntaxHighlighting.MouseLeave:Connect(function()
 		if uianim then
 			fadeOutLabel(Label2)
@@ -2515,7 +2546,7 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 			Label2.Visible = false
 		end
 	end)
-
+	
 	HideUsername.MouseButton1Click:Connect(function()
 		if not hideusername then
 			hideusername = true
@@ -2528,8 +2559,8 @@ local function SJWDSM_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(SJWDSM_fake_script)()
-local function FDZQ_fake_script() -- Settings_2.Drag 
+coroutine.wrap(UFXMCDM_fake_script)()
+local function FHKU_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2541,25 +2572,25 @@ local function FDZQ_fake_script() -- Settings_2.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local gui = script.Parent
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-
+			
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2567,21 +2598,21 @@ local function FDZQ_fake_script() -- Settings_2.Drag
 			end)
 		end
 	end)
-
+	
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(FDZQ_fake_script)()
-local function SLQCV_fake_script() -- Starter.LocalScript 
+coroutine.wrap(FHKU_fake_script)()
+local function WUFKPDW_fake_script() -- Starter.LocalScript 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2593,24 +2624,24 @@ local function SLQCV_fake_script() -- Starter.LocalScript
 	end
 
 	local Bar = script.Parent.Frame -- Make sure this script is a child of the Frame
-
+	
 	-- Define the target size (final size)
 	local targetSize = UDim2.new(0, 415, 0, 11)
-
+	
 	-- Step sizes (partial targets)
 	local step1Size = UDim2.new(0, 250, 0, 11)
 	local step2Size = UDim2.new(0, 350, 0, 11)
-
+	
 	-- TweenService to create tweens
 	local TweenService = game:GetService("TweenService")
-
+	
 	-- Fetch the event to check if the server is online
 	local Event = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
 	--
 	local status = script.Parent.Top.Status
 	--
 	local main = script.Parent.Parent.Main
-
+	
 	-- Function to create and play tween
 	local function createAndPlayTween(targetSize, duration)
 		local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
@@ -2618,11 +2649,11 @@ local function SLQCV_fake_script() -- Starter.LocalScript
 		tween:Play()
 		tween.Completed:Wait() -- Wait for the tween to complete
 	end
-
+	
 	-- Example condition functions
 	wait(3)
 	status.Text = "Checking.."
-
+	
 	local function check()
 		if Event then
 			status.Text = "Checking if server is online.."
@@ -2632,7 +2663,7 @@ local function SLQCV_fake_script() -- Starter.LocalScript
 			return false
 		end
 	end
-
+	
 	local function checkFiring()
 		if Event then
 			Event:FireServer('warn("math.random(1,3213321)")')
@@ -2641,21 +2672,21 @@ local function SLQCV_fake_script() -- Starter.LocalScript
 			return false
 		end
 	end
-
-
-
+	
+	
+	
 	-- Step 1: Check something and tween a little towards the end
 	createAndPlayTween(step1Size, 3) -- Tween to step 1 size in 3 seconds
 	if not check() then
 		return -- Stop here if the check fails
 	end
-
+	
 	-- Step 2: Check firing and tween a little more towards the end
 	createAndPlayTween(step2Size, 4) -- Tween to step 2 size in 4 seconds
 	if not checkFiring() then
 		return -- Stop here if the check fails
 	end
-
+	
 	createAndPlayTween(targetSize, 1) -- Tween to the final size in 1 second
 	wait(1.5)
 	if main then
@@ -2665,8 +2696,8 @@ local function SLQCV_fake_script() -- Starter.LocalScript
 		return false
 	end
 end
-coroutine.wrap(SLQCV_fake_script)()
-local function VRSMJLM_fake_script() -- Starter.Drag 
+coroutine.wrap(WUFKPDW_fake_script)()
+local function HUJTR_fake_script() -- Starter.Drag 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2678,25 +2709,25 @@ local function VRSMJLM_fake_script() -- Starter.Drag
 	end
 
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local gui = script.Parent
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = gui.Position
-
+			
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -2704,21 +2735,21 @@ local function VRSMJLM_fake_script() -- Starter.Drag
 			end)
 		end
 	end)
-
+	
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(VRSMJLM_fake_script)()
-local function KESRL_fake_script() -- optimized.Source2Revamp 
+coroutine.wrap(HUJTR_fake_script)()
+local function KGESAG_fake_script() -- optimized.Source2Revamp 
 	local script = Instance.new('LocalScript', optimized)
 	local req = require
 	local require = function(obj)
@@ -2733,9 +2764,22 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 	local function generateRandomString(length)
 		return string.gsub(string.rep(" ", length), ".", function() return string.char(math.random(48, 122)):gsub("[^%w]", "") end)
 	end
-
+	
+	local checkStudio = coroutine.wrap(function()
+		while wait() do
+			if game:GetService("RunService"):IsStudio() then
+				script.Parent:Destroy()
+				warn("Can't run in studio!")
+			else
+				return true
+			end
+		end
+	end)
+	
+	checkStudio()
+	
 	script.Parent.Name = generateRandomString(math.random(31, 47))
-
+	
 	local player = game.Players.LocalPlayer
 	local Main = script.Parent:FindFirstChild("Main")
 	local ExecuBox = Main and Main:FindFirstChild("ExecuBox") and Main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
@@ -2745,41 +2789,47 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 	local ResponseEvent = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("GetModelData")
 	local Console = script.Parent:FindFirstChild("Console")
 	local ConsoleFrame = Console and Console:FindFirstChild("Console")
-
+	
 	local SettingsF = script.Parent:FindFirstChild("Settings")
 	local Top = Main and Main:FindFirstChild("Top")
-
+	
 	-- Define the labels to be cloned for each response type
 	local CLabelN = ConsoleFrame and ConsoleFrame:FindFirstChild("Normal")
 	local CLabelE = ConsoleFrame:FindFirstChild("Error")
 	local CLabelW = ConsoleFrame:FindFirstChild("Warning")
-
+	
 	local CLabelN2 = Console:FindFirstChild("Normal"):FindFirstChild("Label")
 	local CLabelE2 = Console:FindFirstChild("Error"):FindFirstChild("Label")
 	local CLabelW2 = Console:FindFirstChild("Warning"):FindFirstChild("Label")
-
+	
 	local settings = require(script.Parent:FindFirstChild("Config"))
-
+	
 	local FilterMessageEvent = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
-
+	
 	-- Initialize counters
 	local normalCounter = 0
 	local errorCounter = 0
 	local warningCounter = 0
-
+	--
+	local ExecuSS = SideBar and SideBar:FindFirstChild("Execute")
+	local Clear = SideBar and SideBar:FindFirstChild("Clear")
+	local Respawn = SideBar and SideBar:FindFirstChild("Respawn")
+	local R6 = SideBar and SideBar:FindFirstChild("R6")
+	local R6L = SideBar and SideBar:FindFirstChild("R6"):FindFirstChild("Label")
+	
 	local function updateNumber(currentNumber)
 		currentNumber = currentNumber + 1
 		return tostring(currentNumber) .. "x", currentNumber
 	end
-
+	
 	local Other = ""
-
+	
 	local function execute(scriptText)
 		local lowerScriptText = string.lower(scriptText)
 		local keywords = {
-			"services", "insertmodel", "getmodeldata",
+			"services", "insertmodel", "getmodeldata","servicehandler"
 		}
-
+	
 		for _, keyword in ipairs(keywords) do
 			if string.find(lowerScriptText, keyword) then
 				errorCounter = errorCounter + 1
@@ -2794,12 +2844,12 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 				return
 			end
 		end
-
+	
 		if FilterMessageEvent then
 			FilterMessageEvent:FireServer(scriptText)
 		end
 	end
-
+	
 	-- Tween functions to show and hide status
 	local function TweenInStatus()
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
@@ -2815,7 +2865,7 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			end
 		end
 	end
-
+	
 	local function TweenOutStatus()
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
 		if status then
@@ -2830,34 +2880,56 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			end
 		end
 	end
-
+	
 	-- Function to change status text
-	local function StatusChange(text1)
+	local function StatusChange(text1, waitTime,type)
 		local status = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Status")
 		if status then
+			if type == "bad" then
+				status.TextColor3 = Color3.new(1, 0.0313725, 0.321569)
+			elseif type == "good" then
+				status.TextColor3 = Color3.new(0.00784314, 1, 0.403922)
+			end
 			status.Text = text1
 			TweenInStatus()
-			task.wait(5)
+			task.wait(waitTime)
 			TweenOutStatus()
 		end
 	end
-	local ExecuSS = SideBar and SideBar:FindFirstChild("Execute")
+	
+	-- Function to disable buttons
+	local function disableButtons()
+		if ExecuSS then ExecuSS.Active = false end
+		if R6 then R6.Active = false end
+		if Respawn then Respawn.Active = false end
+	end
+	
+	-- Function to enable buttons
+	local function enableButtons()
+		if ExecuSS then ExecuSS.Active = true end
+		if R6 then R6.Active = true end
+		if Respawn then Respawn.Active = true end
+	end
+	
+	-- Function to check ping and update button states
+	
+	
 	local scriptText = ExecuBox and ExecuBox.Text
 	if ExecuSS then
 		ExecuSS.MouseButton1Click:Connect(function()
-			if ExecuBox then
+			if ExecuBox and ExecuSS.Active then
 				local scriptText = ExecuBox.Text
 				if FilterMessageEvent then
 					execute(scriptText)
 				else
-					StatusChange("[E] This game is not backdoored")
+					StatusChange("[E] This game is not backdoored", 2.5,"bad")
 				end
 			else
 				return false
 			end
 		end)
 	end
-	local Clear = SideBar and SideBar:FindFirstChild("Clear")
+	
 	if Clear then
 		Clear.MouseButton1Down:Connect(function()
 			local Source = Main and Main:FindFirstChild("ExecuBox") and Main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
@@ -2866,22 +2938,25 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			end
 		end)
 	end
-	local Respawn = SideBar and SideBar:FindFirstChild("Respawn")
+	
 	if Respawn then
 		Respawn.MouseButton1Down:Connect(function()
-			Other = "Respawn"
-			local plr = game.Players.LocalPlayer
-			if game:GetService("InsertService"):FindFirstChild("InsertModels") then
-				game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
-			else
-				if FilterMessageEvent then
-					FilterMessageEvent:FireServer(plr, Other)
+			if Respawn.Active then
+				Other = "Respawn"
+				local plr = game.Players.LocalPlayer
+				if game:GetService("InsertService"):FindFirstChild("InsertModels") then
+					game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
 				else
-					StatusChange("[E] Failed to respawn: this game is not backdoored")
+					if FilterMessageEvent then
+						FilterMessageEvent:FireServer(plr, Other)
+					else
+						StatusChange("[E] Failed to respawn: this game is not backdoored", 2.5,"bad")
+					end
 				end
 			end
 		end)
 	end
+	
 	local X = Main and Main:FindFirstChild("Top") and Main:FindFirstChild("Top"):FindFirstChild("Close")
 	if X then
 		X.MouseButton1Down:Connect(function()
@@ -2889,52 +2964,55 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			script.Parent.Open.Visible = true
 		end)
 	end
+	
 	if script.Parent:FindFirstChild("Open") then
 		script.Parent.Open.MouseButton1Down:Connect(function()
 			Main.Visible = true
 			script.Parent.Open.Visible = false
 		end)
 	end
-	local R6 = SideBar and SideBar:FindFirstChild("R6")
-	local R6L = SideBar and SideBar:FindFirstChild("R6"):FindFirstChild("Label")
+	
 	if R6 then
 		R6.MouseButton1Down:Connect(function()
-			local plr = game.Players.LocalPlayer
-			local character = plr.Character or plr.CharacterAdded:Wait()
-			local humanoid = character:FindFirstChildOfClass("Humanoid")
-			if humanoid.RigType == Enum.HumanoidRigType.R15 then
-				Other = "R6"
-				R6L.Text = "R15"
-				if humanoid then
-					local plr = game.Players.LocalPlayer
-					if game:GetService("InsertService"):FindFirstChild("InsertModels") then
-						game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
-					else
-						if FilterMessageEvent then
-							FilterMessageEvent:FireServer(plr, Other)
+			if R6.Active then
+				local plr = game.Players.LocalPlayer
+				local character = plr.Character or plr.CharacterAdded:Wait()
+				local humanoid = character:FindFirstChildOfClass("Humanoid")
+				if humanoid.RigType == Enum.HumanoidRigType.R15 then
+					Other = "R6"
+					R6L.Text = "R15"
+					if humanoid then
+						local plr = game.Players.LocalPlayer
+						if game:GetService("InsertService"):FindFirstChild("InsertModels") then
+							game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
 						else
-							StatusChange("[E] Failed to convert to R6: this game is not backdoored")
+							if FilterMessageEvent then
+								FilterMessageEvent:FireServer(plr, Other)
+							else
+								StatusChange("[E] Failed to convert to R6: this game is not backdoored", 2.5,"bad")
+							end
 						end
 					end
-				end
-			elseif humanoid.RigType == Enum.HumanoidRigType.R6 then
-				Other = "R15"
-				R6L.Text = "R6"
-				if humanoid then
-					local plr = game.Players.LocalPlayer
-					if game:GetService("InsertService"):FindFirstChild("InsertModels") then
-						game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
-					else
-						if FilterMessageEvent then
-							FilterMessageEvent:FireServer(plr, Other)
+				elseif humanoid.RigType == Enum.HumanoidRigType.R6 then
+					Other = "R15"
+					R6L.Text = "R6"
+					if humanoid then
+						local plr = game.Players.LocalPlayer
+						if game:GetService("InsertService"):FindFirstChild("InsertModels") then
+							game:GetService("InsertService"):FindFirstChild("InsertModels"):FireServer(plr, Other)
 						else
-							StatusChange("[E] Failed to convert to R15: this game is not backdoored")
+							if FilterMessageEvent then
+								FilterMessageEvent:FireServer(plr, Other)
+							else
+								StatusChange("[E] Failed to convert to R15: this game is not backdoored", 2.5,"bad")
+							end
 						end
 					end
 				end
 			end
 		end)
 	end
+	
 	Side:FindFirstChild("Console").MouseButton1Click:Connect(function()
 		-- Tween this frame in if animations are enabled
 		if settings.UIAnimations then
@@ -2947,9 +3025,10 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			Console.Visible = true
 		end
 	end)
+	
 	Side:FindFirstChild("Settings").MouseButton1Click:Connect(function()
 		-- Animate settings button rotation
-		StatusChange("This feature is not available.")
+		StatusChange("This feature is not available.",1)
 		--[[
 		
 		local settingsButton = Side:FindFirstChild("Settings")
@@ -2962,25 +3041,35 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 		SettingsF.Visible = true
 		--]]
 	end)
+	
+	Side:FindFirstChild("SpawnDummy").MouseButton1Click:Connect(function()
+		if FilterMessageEvent then
+			local text = 'require(18166157179).Dummy("'..game.Players.LocalPlayer.Name..'")'
+			execute(text)
+		else
+			StatusChange("[E] This game is not backdoored", 2.5,"bad")
+		end
+	end)
+	
 	if ResponseEvent then
 		ResponseEvent.OnClientInvoke = function(response1, errorMessage)
 			local newLabel
-
+	
 			local function createLabel(template, text, color)
 				local label = template:Clone()
 				label.Parent = ConsoleFrame
 				label.Visible = true
 				label.Text = text
 				label.TextColor3 = color
-
+	
 				-- Add UIPadding to ensure consistent padding
 				local padding = Instance.new("UIPadding")
 				padding.PaddingLeft = UDim.new(0, 10)
 				padding.Parent = label
-
+	
 				return label
 			end
-
+	
 			if response1 == "Executed" then
 				if CLabelN then
 					normalCounter = normalCounter + 1
@@ -2997,6 +3086,7 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 						:gsub("InsertService", "")
 						:gsub("InsertModel", "")
 						:gsub("GetModelData", "")
+						:gsub("ServiceHandler", "")
 					local message = "Error: " .. filteredErrorMessage .. " (" .. os.date() .. ")"
 					newLabel = createLabel(CLabelE, message, Color3.new(1, 0, 0))
 					CLabelE2.Text = errorCounter .. "x"
@@ -3018,6 +3108,5 @@ local function KESRL_fake_script() -- optimized.Source2Revamp
 			end
 		end
 	end
-
 end
-coroutine.wrap(KESRL_fake_script)()
+coroutine.wrap(KGESAG_fake_script)()
