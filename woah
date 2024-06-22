@@ -3,6 +3,12 @@
 
 -- Instances:
 
+if LRM_IsUserPremium then
+    warn("yaY")
+    else 
+    warn("nah")
+end
+
 local optimized = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
