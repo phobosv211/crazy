@@ -59,6 +59,7 @@ local UIListLayout_3 = Instance.new("UIListLayout")
 local UIPadding = Instance.new("UIPadding")
 local SampleBTN = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
+local detail = Instance.new("ImageLabel")
 local Console_2 = Instance.new("Frame")
 local UICorner_12 = Instance.new("UICorner")
 local Top_2 = Instance.new("Frame")
@@ -112,6 +113,7 @@ local Frame_2 = Instance.new("Frame")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_22 = Instance.new("UICorner")
 local Status_4 = Instance.new("TextLabel")
+local detail_2 = Instance.new("ImageLabel")
 local Open = Instance.new("ImageButton")
 
 --Properties:
@@ -124,9 +126,8 @@ optimized.ResetOnSpawn = false
 Main.Name = "Main"
 Main.Parent = optimized
 Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
-Main.Position = UDim2.new(0.314686954, 0, 0.340453327, 0)
+Main.Position = UDim2.new(0.314686954, 0, 0.286511421, 0)
 Main.Size = UDim2.new(0, 547, 0, 307)
-Main.Visible = false
 Main.ZIndex = 2
 
 UICorner.CornerRadius = UDim.new(0, 3)
@@ -134,7 +135,8 @@ UICorner.Parent = Main
 
 Top.Name = "Top"
 Top.Parent = Main
-Top.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+Top.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Top.BackgroundTransparency = 0.600
 Top.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Top.Position = UDim2.new(5.57908209e-08, 0, 0, 0)
 Top.Size = UDim2.new(0, 547, 0, 38)
@@ -191,7 +193,8 @@ Logo.ScaleType = Enum.ScaleType.Fit
 
 SideFrame.Name = "SideFrame"
 SideFrame.Parent = Main
-SideFrame.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+SideFrame.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+SideFrame.BackgroundTransparency = 0.600
 SideFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SideFrame.BorderSizePixel = 0
 SideFrame.Position = UDim2.new(0.00203257124, 0, 0.811855257, 0)
@@ -329,10 +332,11 @@ ImageLabel.ImageTransparency = 0.710
 ExecuBox.Name = "ExecuBox"
 ExecuBox.Parent = Main
 ExecuBox.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+ExecuBox.BackgroundTransparency = 0.600
 ExecuBox.BorderColor3 = Color3.fromRGB(61, 61, 61)
 ExecuBox.BorderSizePixel = 0
-ExecuBox.Position = UDim2.new(0.0932358354, 0, 0.192182407, 0)
-ExecuBox.Size = UDim2.new(0.726890981, 5, 0.619672775, 0)
+ExecuBox.Position = UDim2.new(0.0932358354, 0, 0.192182317, 0)
+ExecuBox.Size = UDim2.new(0.704990447, 5, 0.619672835, 0)
 ExecuBox.BottomImage = "rbxassetid://148970562"
 ExecuBox.CanvasSize = UDim2.new(0, 9999, 0, 9999)
 ExecuBox.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
@@ -367,7 +371,7 @@ Vars_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Vars_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Vars_.ZIndex = 2
 Vars_.Font = Enum.Font.Code
-Vars_.Text = " "
+Vars_.Text = ""
 Vars_.TextColor3 = Color3.fromRGB(132, 214, 247)
 Vars_.TextSize = 15.000
 Vars_.TextWrapped = true
@@ -382,7 +386,7 @@ Tokens_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Tokens_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Tokens_.ZIndex = 2
 Tokens_.Font = Enum.Font.Code
-Tokens_.Text = " "
+Tokens_.Text = ""
 Tokens_.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tokens_.TextSize = 15.000
 Tokens_.TextWrapped = true
@@ -397,7 +401,7 @@ Strings_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Strings_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Strings_.ZIndex = 2
 Strings_.Font = Enum.Font.Code
-Strings_.Text = " "
+Strings_.Text = ""
 Strings_.TextColor3 = Color3.fromRGB(173, 241, 149)
 Strings_.TextSize = 15.000
 Strings_.TextWrapped = true
@@ -412,7 +416,7 @@ Numbers_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Numbers_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Numbers_.ZIndex = 3
 Numbers_.Font = Enum.Font.Code
-Numbers_.Text = " "
+Numbers_.Text = ""
 Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
 Numbers_.TextSize = 15.000
 Numbers_.TextWrapped = true
@@ -427,7 +431,7 @@ Keywords_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Keywords_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Keywords_.ZIndex = 2
 Keywords_.Font = Enum.Font.Code
-Keywords_.Text = " "
+Keywords_.Text = ""
 Keywords_.TextColor3 = Color3.fromRGB(248, 109, 124)
 Keywords_.TextSize = 15.000
 Keywords_.TextWrapped = true
@@ -442,8 +446,8 @@ Globals_.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Globals_.Size = UDim2.new(1, 0, 0.972692251, 0)
 Globals_.ZIndex = 2
 Globals_.Font = Enum.Font.Code
-Globals_.Text = " "
-Globals_.TextColor3 = Color3.fromRGB(132, 214, 247)
+Globals_.Text = ""
+Globals_.TextColor3 = Color3.fromRGB(85, 255, 255)
 Globals_.TextSize = 15.000
 Globals_.TextWrapped = true
 Globals_.TextXAlignment = Enum.TextXAlignment.Left
@@ -491,10 +495,11 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
 Side.Name = "Side"
 Side.Parent = Main
-Side.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+Side.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Side.BackgroundTransparency = 0.600
 Side.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Side.Position = UDim2.new(0, 0, 0.113772415, 0)
-Side.Size = UDim2.new(0, 51, 0, 214)
+Side.Position = UDim2.new(0, 0, 0.123778306, 0)
+Side.Size = UDim2.new(0, 51, 0, 211)
 Side.ZIndex = 10
 
 UICorner_10.CornerRadius = UDim.new(0, 3)
@@ -553,8 +558,8 @@ UploadScript.ImageRectSize = Vector2.new(36, 36)
 
 Tabs.Name = "Tabs"
 Tabs.Parent = Main
-Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Tabs.BackgroundTransparency = 1.000
+Tabs.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+Tabs.BackgroundTransparency = 0.600
 Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Tabs.BorderSizePixel = 0
 Tabs.Position = UDim2.new(0.09255898, 0, 0.1237785, 0)
@@ -566,7 +571,8 @@ UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
 add.Name = "add"
 add.Parent = Tabs
-add.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+add.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+add.BackgroundTransparency = 0.600
 add.BorderColor3 = Color3.fromRGB(24, 26, 33)
 add.Size = UDim2.new(0, 23, 0, 20)
 add.ZIndex = 2
@@ -576,7 +582,8 @@ add.ImageRectSize = Vector2.new(36, 36)
 
 tab1.Name = "tab1"
 tab1.Parent = Tabs
-tab1.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
+tab1.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+tab1.BackgroundTransparency = 0.600
 tab1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 tab1.BorderSizePixel = 0
 tab1.Position = UDim2.new(0.258974373, 0, 0, 0)
@@ -602,11 +609,12 @@ remove.ImageRectSize = Vector2.new(36, 36)
 
 ScriptHub.Name = "ScriptHub"
 ScriptHub.Parent = Main
-ScriptHub.BackgroundColor3 = Color3.fromRGB(23, 24, 31)
+ScriptHub.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+ScriptHub.BackgroundTransparency = 0.600
 ScriptHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScriptHub.BorderSizePixel = 0
-ScriptHub.Position = UDim2.new(0.829267621, 0, 0.101298079, 0)
-ScriptHub.Size = UDim2.new(0, 92, 0, 218)
+ScriptHub.Position = UDim2.new(0.807367027, 0, 0.123778105, 0)
+ScriptHub.Size = UDim2.new(0, 103, 0, 212)
 ScriptHub.ZIndex = 10
 
 SearchBar.Name = "SearchBar"
@@ -635,14 +643,14 @@ Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, 0.149115041, 0)
-Frame.Size = UDim2.new(0, 91, 0, 191)
+Frame.Position = UDim2.new(0.0637681112, 0, 0.149114639, 0)
+Frame.Size = UDim2.new(0, 96, 0, 183)
 Frame.CanvasSize = UDim2.new(0, 0, 999, 0)
 Frame.ScrollBarThickness = 5
 
 UIListLayout_3.Parent = Frame
 UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_3.Padding = UDim.new(0, 10)
+UIListLayout_3.Padding = UDim.new(0, 15)
 
 UIPadding.Parent = Frame
 UIPadding.PaddingBottom = UDim.new(0, 5)
@@ -650,13 +658,13 @@ UIPadding.PaddingTop = UDim.new(0, 30)
 
 SampleBTN.Name = "SampleBTN"
 SampleBTN.Parent = ScriptHub
-SampleBTN.BackgroundColor3 = Color3.fromRGB(27, 27, 36)
-SampleBTN.BorderColor3 = Color3.fromRGB(27, 42, 53)
-SampleBTN.Position = UDim2.new(0.065687269, 0, 0.121297203, 0)
-SampleBTN.Size = UDim2.new(0, 68, 0, 23)
+SampleBTN.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+SampleBTN.BackgroundTransparency = 1.000
+SampleBTN.Position = UDim2.new(0.020833334, 0, -1.44339892e-05, 0)
+SampleBTN.Size = UDim2.new(0, 85, 0, 23)
 SampleBTN.Visible = false
 SampleBTN.Font = Enum.Font.Arial
-SampleBTN.Text = "Missile"
+SampleBTN.Text = "INF YIELD SS"
 SampleBTN.TextColor3 = Color3.fromRGB(255, 255, 255)
 SampleBTN.TextScaled = true
 SampleBTN.TextSize = 14.000
@@ -664,6 +672,18 @@ SampleBTN.TextWrapped = true
 
 UICorner_11.CornerRadius = UDim.new(0, 3)
 UICorner_11.Parent = SampleBTN
+
+detail.Name = "detail"
+detail.Parent = Main
+detail.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail.BackgroundTransparency = 1.000
+detail.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail.BorderSizePixel = 0
+detail.Size = UDim2.new(1, 0, 1, 0)
+detail.ZIndex = 0
+detail.Image = "rbxassetid://16255699706"
+detail.ImageColor3 = Color3.fromRGB(106, 106, 106)
+detail.ImageTransparency = 0.780
 
 Console_2.Name = "Console"
 Console_2.Parent = optimized
@@ -1075,6 +1095,7 @@ Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Starter.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Starter.Position = UDim2.new(0.499860525, 0, 0.4990879, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
+Starter.Visible = false
 
 Action.Name = "Action"
 Action.Parent = Starter
@@ -1125,8 +1146,9 @@ ImageLabel_3.Image = "rbxassetid://11282033827"
 
 Top_3.Name = "Top"
 Top_3.Parent = Starter
-Top_3.BackgroundColor3 = Color3.fromRGB(24, 26, 33)
-Top_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Top_3.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Top_3.BackgroundTransparency = 0.600
+Top_3.BorderColor3 = Color3.fromRGB(19, 21, 26)
 Top_3.Size = UDim2.new(0, 414, 0, 38)
 Top_3.ZIndex = 10
 
@@ -1140,9 +1162,9 @@ Close_3.BackgroundTransparency = 1.000
 Close_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Close_3.Position = UDim2.new(0.922947645, 0, 0, 0)
 Close_3.Size = UDim2.new(0, 35, 0, 39)
-Close_3.Font = Enum.Font.Unknown
+Close_3.Font = Enum.Font.ArialBold
 Close_3.Text = "X"
-Close_3.TextColor3 = Color3.fromRGB(144, 146, 150)
+Close_3.TextColor3 = Color3.fromRGB(199, 202, 207)
 Close_3.TextSize = 24.000
 Close_3.TextWrapped = true
 
@@ -1164,17 +1186,19 @@ Logo_3.ScaleType = Enum.ScaleType.Fit
 
 Status_3.Name = "Status"
 Status_3.Parent = Top_3
-Status_3.BackgroundColor3 = Color3.fromRGB(24, 25, 32)
+Status_3.BackgroundColor3 = Color3.fromRGB(19, 21, 26)
+Status_3.BackgroundTransparency = 0.600
+Status_3.BorderColor3 = Color3.fromRGB(19, 21, 26)
 Status_3.BorderSizePixel = 0
-Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.71981168, 0)
-Status_3.Size = UDim2.new(0, 414, 0, 37)
+Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.69349599, 0)
+Status_3.Size = UDim2.new(0, 414, 0, 47)
 Status_3.ZIndex = 99
 Status_3.Font = Enum.Font.Nunito
-Status_3.Text = ""
+Status_3.Text = "Checking.."
 Status_3.TextColor3 = Color3.fromRGB(212, 212, 212)
-Status_3.TextScaled = true
-Status_3.TextSize = 20.000
+Status_3.TextSize = 40.000
 Status_3.TextWrapped = true
+Status_3.TextYAlignment = Enum.TextYAlignment.Top
 
 UICorner_21.Parent = Status_3
 
@@ -1201,13 +1225,25 @@ Status_4.Position = UDim2.new(0.23170732, 0, 0.0882347524, 0)
 Status_4.Size = UDim2.new(0, 260, 0, 31)
 Status_4.Visible = false
 Status_4.ZIndex = 99
-Status_4.Font = Enum.Font.Nunito
+Status_4.Font = Enum.Font.ArialBold
 Status_4.Text = "Execution Error: No backdoor found"
 Status_4.TextColor3 = Color3.fromRGB(212, 22, 57)
 Status_4.TextScaled = true
 Status_4.TextSize = 20.000
 Status_4.TextTransparency = 1.000
 Status_4.TextWrapped = true
+
+detail_2.Name = "detail"
+detail_2.Parent = Starter
+detail_2.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_2.BackgroundTransparency = 1.000
+detail_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_2.BorderSizePixel = 0
+detail_2.Size = UDim2.new(1, 0, 1, 0)
+detail_2.ZIndex = 0
+detail_2.Image = "rbxassetid://16255699706"
+detail_2.ImageColor3 = Color3.fromRGB(80, 80, 80)
+detail_2.ImageTransparency = 0.860
 
 Open.Name = "Open"
 Open.Parent = optimized
@@ -1247,7 +1283,7 @@ end
 -- Scripts:
 
 -- Comments_.LocalScript is disabled.
-local function JUZAC_fake_script() -- ExecuBox.Main 
+local function OEAD_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 	local req = require
 	local require = function(obj)
@@ -1913,8 +1949,8 @@ local function JUZAC_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(JUZAC_fake_script)()
-local function ATFOMSM_fake_script() -- Main.Tabs 
+coroutine.wrap(OEAD_fake_script)()
+local function IOKYJS_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -2002,7 +2038,7 @@ local function ATFOMSM_fake_script() -- Main.Tabs
 	
 		if settings.UIAnimations then
 			-- Add a fade-in tween effect for the new tab
-			local goal = { BackgroundTransparency = 0, TextTransparency = 0 }
+			local goal = { BackgroundTransparency = 0.6, TextTransparency = 0 }
 			local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
 			local tween = TweenService:Create(newTab, tweenInfo, goal)
 			tween:Play()
@@ -2133,8 +2169,8 @@ local function ATFOMSM_fake_script() -- Main.Tabs
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(ATFOMSM_fake_script)()
-local function TXBFL_fake_script() -- Main.Drag 
+coroutine.wrap(IOKYJS_fake_script)()
+local function HUFC_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -2185,8 +2221,8 @@ local function TXBFL_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(TXBFL_fake_script)()
-local function XVJWSZ_fake_script() -- ScriptHub.LocalScript 
+coroutine.wrap(HUFC_fake_script)()
+local function KQSB_fake_script() -- ScriptHub.LocalScript 
 	local script = Instance.new('LocalScript', ScriptHub)
 	local req = require
 	local require = function(obj)
@@ -2220,8 +2256,8 @@ local function XVJWSZ_fake_script() -- ScriptHub.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(XVJWSZ_fake_script)()
-local function GIDGW_fake_script() -- Frame.Main2 
+coroutine.wrap(KQSB_fake_script)()
+local function OJIAJJX_fake_script() -- Frame.Main2 
 	local script = Instance.new('LocalScript', Frame)
 	local req = require
 	local require = function(obj)
@@ -2337,8 +2373,8 @@ local function GIDGW_fake_script() -- Frame.Main2
 	end
 	
 end
-coroutine.wrap(GIDGW_fake_script)()
-local function YJZC_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(OJIAJJX_fake_script)()
+local function BLYTIB_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -2353,8 +2389,8 @@ local function YJZC_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(YJZC_fake_script)()
-local function VJLSJ_fake_script() -- Console_2.Drag 
+coroutine.wrap(BLYTIB_fake_script)()
+local function WDTQZS_fake_script() -- Console_2.Drag 
 	local script = Instance.new('LocalScript', Console_2)
 	local req = require
 	local require = function(obj)
@@ -2405,8 +2441,8 @@ local function VJLSJ_fake_script() -- Console_2.Drag
 		end
 	end)
 end
-coroutine.wrap(VJLSJ_fake_script)()
-local function VLZU_fake_script() -- Settings_2.Main 
+coroutine.wrap(WDTQZS_fake_script)()
+local function STXCDIJ_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2610,8 +2646,8 @@ local function VLZU_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(VLZU_fake_script)()
-local function BSPZNHR_fake_script() -- Settings_2.Drag 
+coroutine.wrap(STXCDIJ_fake_script)()
+local function GJHGN_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2662,8 +2698,8 @@ local function BSPZNHR_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(BSPZNHR_fake_script)()
-local function WHWGL_fake_script() -- Starter.LocalScript 
+coroutine.wrap(GJHGN_fake_script)()
+local function LTSX_fake_script() -- Starter.LocalScript 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2747,8 +2783,8 @@ local function WHWGL_fake_script() -- Starter.LocalScript
 		return false
 	end
 end
-coroutine.wrap(WHWGL_fake_script)()
-local function CUTRTW_fake_script() -- Starter.Drag 
+coroutine.wrap(LTSX_fake_script)()
+local function LSFR_fake_script() -- Starter.Drag 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2799,8 +2835,8 @@ local function CUTRTW_fake_script() -- Starter.Drag
 		end
 	end)
 end
-coroutine.wrap(CUTRTW_fake_script)()
-local function XWIUA_fake_script() -- optimized.Source2Revamp 
+coroutine.wrap(LSFR_fake_script)()
+local function BLROOQ_fake_script() -- optimized.Source2Revamp 
 	local script = Instance.new('LocalScript', optimized)
 	local req = require
 	local require = function(obj)
@@ -3160,8 +3196,8 @@ local function XWIUA_fake_script() -- optimized.Source2Revamp
 		end
 	end
 end
-coroutine.wrap(XWIUA_fake_script)()
-local function WGGE_fake_script() -- Open.Drag 
+coroutine.wrap(BLROOQ_fake_script)()
+local function RAZOVFI_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 	local req = require
 	local require = function(obj)
@@ -3212,4 +3248,4 @@ local function WGGE_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(WGGE_fake_script)()
+coroutine.wrap(RAZOVFI_fake_script)()
