@@ -114,7 +114,7 @@ local Open = Instance.new("ImageButton")
 --Properties:
 
 optimized.Name = "optimized"
-optimized.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+optimized.Parent = game:GetService("CoreGui")
 optimized.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 optimized.ResetOnSpawn = false
 
@@ -124,6 +124,7 @@ Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
 Main.Position = UDim2.new(0.314687043, 0, 0.286511421, 0)
 Main.Size = UDim2.new(0, 547, 0, 307)
 Main.ZIndex = 2
+Main.Visible = false
 
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = Main
@@ -1104,7 +1105,7 @@ Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Starter.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Starter.Position = UDim2.new(0.499860525, 0, 0.4990879, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
-Starter.Visible = false
+Starter.Visible = true
 
 Action.Name = "Action"
 Action.Parent = Starter
