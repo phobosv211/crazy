@@ -54,17 +54,41 @@ local UIPadding = Instance.new("UIPadding")
 local SampleBTN = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local detail = Instance.new("ImageLabel")
-local Console_2 = Instance.new("Frame")
+local addScript = Instance.new("Frame")
+local detail_2 = Instance.new("ImageLabel")
+local title = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_12 = Instance.new("UICorner")
-local Top_2 = Instance.new("Frame")
+local scriptBOX = Instance.new("ScrollingFrame")
+local Lines_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_13 = Instance.new("UICorner")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Source_2 = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local Vars__2 = Instance.new("TextLabel")
+local Tokens__2 = Instance.new("TextLabel")
+local Strings__2 = Instance.new("TextLabel")
+local Keywords__2 = Instance.new("TextLabel")
+local Globals__2 = Instance.new("TextLabel")
+local Comments__2 = Instance.new("TextLabel")
+local Numbers__2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local scriptName = Instance.new("TextBox")
+local UICorner_16 = Instance.new("UICorner")
+local Create = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Console_2 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Top_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
 local Status_2 = Instance.new("TextLabel")
 local Logo_2 = Instance.new("ImageButton")
 local Close_2 = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Console_3 = Instance.new("ScrollingFrame")
 local Normal = Instance.new("TextLabel")
-local UIListLayout_4 = Instance.new("UIListLayout")
+local UIListLayout_5 = Instance.new("UIListLayout")
 local Warning = Instance.new("TextLabel")
 local UIPadding_2 = Instance.new("UIPadding")
 local Error = Instance.new("TextLabel")
@@ -74,57 +98,59 @@ local Normal_2 = Instance.new("ImageButton")
 local Label_3 = Instance.new("TextLabel")
 local Warning_2 = Instance.new("ImageButton")
 local Label_4 = Instance.new("TextLabel")
-local detail_2 = Instance.new("ImageLabel")
+local detail_3 = Instance.new("ImageLabel")
 local Settings_2 = Instance.new("Frame")
 local WindowTitle = Instance.new("TextLabel")
 local UIAnim = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local Info1 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
-local SyntaxHighlighting = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local Info2 = Instance.new("TextLabel")
+local Info1 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
+local SyntaxHighlighting = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Info2 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 local Info3 = Instance.new("TextLabel")
 local HideUsername = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
-local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
 local Starter = Instance.new("Frame")
 local Action = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local LoadScript = Instance.new("TextButton")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local Top_3 = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Close_3 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local Logo_3 = Instance.new("ImageButton")
 local Status_3 = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local Frame_2 = Instance.new("Frame")
-local UIGradient_2 = Instance.new("UIGradient")
-local UICorner_22 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_28 = Instance.new("UICorner")
 local Status_4 = Instance.new("TextLabel")
-local detail_3 = Instance.new("ImageLabel")
+local detail_4 = Instance.new("ImageLabel")
 local Open = Instance.new("ImageButton")
 
 --Properties:
 
 optimized.Name = "optimized"
-optimized.Parent = game:GetService("CoreGui")
+optimized.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 optimized.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 optimized.ResetOnSpawn = false
 
 Main.Name = "Main"
 Main.Parent = optimized
 Main.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+Main.BackgroundTransparency = 0.010
+Main.BorderColor3 = Color3.fromRGB(32, 34, 43)
 Main.Position = UDim2.new(0.314687043, 0, 0.286511421, 0)
 Main.Size = UDim2.new(0, 547, 0, 307)
-Main.ZIndex = 2
 Main.Visible = false
+Main.ZIndex = 2
 
 UICorner.CornerRadius = UDim.new(0, 3)
 UICorner.Parent = Main
@@ -541,12 +567,12 @@ SpawnDummy.ImageRectSize = Vector2.new(36, 36)
 
 UploadScript.Name = "UploadScript"
 UploadScript.Parent = Side
+UploadScript.Active = false
 UploadScript.BackgroundTransparency = 1.000
 UploadScript.BorderColor3 = Color3.fromRGB(27, 42, 53)
 UploadScript.LayoutOrder = 6
 UploadScript.Position = UDim2.new(0.107843138, 0, 0.702586234, 0)
 UploadScript.Size = UDim2.new(0, 39, 0, 39)
-UploadScript.Visible = false
 UploadScript.ZIndex = 9999
 UploadScript.Image = "rbxassetid://3926307971"
 UploadScript.ImageRectOffset = Vector2.new(4, 4)
@@ -681,6 +707,259 @@ detail.Image = "rbxassetid://16255699706"
 detail.ImageColor3 = Color3.fromRGB(106, 106, 106)
 detail.ImageTransparency = 0.780
 
+addScript.Name = "addScript"
+addScript.Parent = Main
+addScript.BackgroundColor3 = Color3.fromRGB(34, 37, 47)
+addScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+addScript.BorderSizePixel = 0
+addScript.Position = UDim2.new(0.0932358354, 0, 0.123778105, 0)
+addScript.Size = UDim2.new(0, 390, 0, 211)
+addScript.Visible = false
+addScript.ZIndex = 99999999
+
+detail_2.Name = "detail"
+detail_2.Parent = addScript
+detail_2.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_2.BackgroundTransparency = 1.000
+detail_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_2.BorderSizePixel = 0
+detail_2.Size = UDim2.new(1, 0, 1, 0)
+detail_2.ZIndex = 0
+detail_2.Image = "rbxassetid://16255699706"
+detail_2.ImageColor3 = Color3.fromRGB(106, 106, 106)
+detail_2.ImageTransparency = 0.780
+
+title.Name = "title"
+title.Parent = addScript
+title.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 391, 0, 30)
+title.Font = Enum.Font.Unknown
+title.Text = "Add a script"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+TextLabel_4.Parent = addScript
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+TextLabel_4.BackgroundTransparency = 0.600
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.00997627433, 0, 0.836064756, 0)
+TextLabel_4.Size = UDim2.new(0, 103, 0, 27)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Script Name"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 24.000
+TextLabel_4.TextWrapped = true
+
+UICorner_12.Parent = TextLabel_4
+
+scriptBOX.Name = "scriptBOX"
+scriptBOX.Parent = addScript
+scriptBOX.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
+scriptBOX.BackgroundTransparency = 1.000
+scriptBOX.BorderColor3 = Color3.fromRGB(61, 61, 61)
+scriptBOX.BorderSizePixel = 0
+scriptBOX.Position = UDim2.new(0, 0, 0.141509429, 0)
+scriptBOX.Size = UDim2.new(1.00512815, 5, 0.656819463, 0)
+scriptBOX.ZIndex = 999999999
+scriptBOX.BottomImage = "rbxassetid://148970562"
+scriptBOX.CanvasSize = UDim2.new(0, 9999, 0, 9999)
+scriptBOX.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+scriptBOX.MidImage = "rbxassetid://148970562"
+scriptBOX.ScrollBarThickness = 5
+scriptBOX.TopImage = "rbxassetid://148970562"
+
+Lines_2.Name = "Lines"
+Lines_2.Parent = scriptBOX
+Lines_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lines_2.BackgroundTransparency = 1.000
+Lines_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Lines_2.Size = UDim2.new(0.03232494, 0, 1, 0)
+Lines_2.Visible = false
+Lines_2.ZIndex = 4
+Lines_2.Font = Enum.Font.Code
+Lines_2.Text = "1"
+Lines_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lines_2.TextSize = 15.000
+Lines_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.48, Color3.fromRGB(168, 168, 168)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(67, 67, 67))}
+UIGradient_2.Parent = scriptBOX
+
+UICorner_13.Parent = scriptBOX
+
+UIListLayout_4.Parent = scriptBOX
+UIListLayout_4.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+
+Source_2.Name = "Source"
+Source_2.Parent = scriptBOX
+Source_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Source_2.BackgroundTransparency = 1.000
+Source_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Source_2.Position = UDim2.new(-8.43111536e-07, 0, 5.85417581e-07, 0)
+Source_2.Size = UDim2.new(166.157959, 0, 73.8612442, 0)
+Source_2.ZIndex = 3
+Source_2.ClearTextOnFocus = false
+Source_2.Font = Enum.Font.Code
+Source_2.MultiLine = true
+Source_2.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+Source_2.Text = ""
+Source_2.TextColor3 = Color3.fromRGB(204, 204, 204)
+Source_2.TextSize = 15.000
+Source_2.TextWrapped = true
+Source_2.TextXAlignment = Enum.TextXAlignment.Left
+Source_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_14.Parent = Source_2
+
+Vars__2.Name = "Vars_"
+Vars__2.Parent = Source_2
+Vars__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vars__2.BackgroundTransparency = 1.000
+Vars__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Vars__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Vars__2.ZIndex = 2
+Vars__2.Font = Enum.Font.Code
+Vars__2.Text = ""
+Vars__2.TextColor3 = Color3.fromRGB(132, 214, 247)
+Vars__2.TextSize = 15.000
+Vars__2.TextWrapped = true
+Vars__2.TextXAlignment = Enum.TextXAlignment.Left
+Vars__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Tokens__2.Name = "Tokens_"
+Tokens__2.Parent = Source_2
+Tokens__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tokens__2.BackgroundTransparency = 1.000
+Tokens__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Tokens__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Tokens__2.ZIndex = 2
+Tokens__2.Font = Enum.Font.Code
+Tokens__2.Text = ""
+Tokens__2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tokens__2.TextSize = 15.000
+Tokens__2.TextWrapped = true
+Tokens__2.TextXAlignment = Enum.TextXAlignment.Left
+Tokens__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Strings__2.Name = "Strings_"
+Strings__2.Parent = Source_2
+Strings__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Strings__2.BackgroundTransparency = 1.000
+Strings__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Strings__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Strings__2.ZIndex = 2
+Strings__2.Font = Enum.Font.Code
+Strings__2.Text = ""
+Strings__2.TextColor3 = Color3.fromRGB(173, 241, 149)
+Strings__2.TextSize = 15.000
+Strings__2.TextWrapped = true
+Strings__2.TextXAlignment = Enum.TextXAlignment.Left
+Strings__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Keywords__2.Name = "Keywords_"
+Keywords__2.Parent = Source_2
+Keywords__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keywords__2.BackgroundTransparency = 1.000
+Keywords__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Keywords__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Keywords__2.ZIndex = 2
+Keywords__2.Font = Enum.Font.Code
+Keywords__2.Text = ""
+Keywords__2.TextColor3 = Color3.fromRGB(248, 109, 124)
+Keywords__2.TextSize = 15.000
+Keywords__2.TextWrapped = true
+Keywords__2.TextXAlignment = Enum.TextXAlignment.Left
+Keywords__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Globals__2.Name = "Globals_"
+Globals__2.Parent = Source_2
+Globals__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Globals__2.BackgroundTransparency = 1.000
+Globals__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Globals__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Globals__2.ZIndex = 2
+Globals__2.Font = Enum.Font.Code
+Globals__2.Text = ""
+Globals__2.TextColor3 = Color3.fromRGB(85, 255, 255)
+Globals__2.TextSize = 15.000
+Globals__2.TextWrapped = true
+Globals__2.TextXAlignment = Enum.TextXAlignment.Left
+Globals__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Comments__2.Name = "Comments_"
+Comments__2.Parent = Source_2
+Comments__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Comments__2.BackgroundTransparency = 1.000
+Comments__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Comments__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Comments__2.ZIndex = 2
+Comments__2.Font = Enum.Font.Code
+Comments__2.Text = "--Insert script here"
+Comments__2.TextColor3 = Color3.fromRGB(59, 200, 59)
+Comments__2.TextSize = 15.000
+Comments__2.TextWrapped = true
+Comments__2.TextXAlignment = Enum.TextXAlignment.Left
+Comments__2.TextYAlignment = Enum.TextYAlignment.Top
+
+Numbers__2.Name = "Numbers_"
+Numbers__2.Parent = Source_2
+Numbers__2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Numbers__2.BackgroundTransparency = 1.000
+Numbers__2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Numbers__2.Size = UDim2.new(1, 0, 0.972692251, 0)
+Numbers__2.ZIndex = 3
+Numbers__2.Font = Enum.Font.Code
+Numbers__2.Text = ""
+Numbers__2.TextColor3 = Color3.fromRGB(255, 198, 0)
+Numbers__2.TextSize = 15.000
+Numbers__2.TextWrapped = true
+Numbers__2.TextXAlignment = Enum.TextXAlignment.Left
+Numbers__2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_15.Parent = scriptBOX
+
+scriptName.Name = "scriptName"
+scriptName.Parent = addScript
+scriptName.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+scriptName.BackgroundTransparency = 0.600
+scriptName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptName.BorderSizePixel = 0
+scriptName.Position = UDim2.new(0.303248018, 0, 0.836064756, 0)
+scriptName.Size = UDim2.new(0, 132, 0, 26)
+scriptName.Font = Enum.Font.Unknown
+scriptName.PlaceholderText = "--Script Name"
+scriptName.Text = ""
+scriptName.TextColor3 = Color3.fromRGB(255, 255, 255)
+scriptName.TextScaled = true
+scriptName.TextSize = 14.000
+scriptName.TextWrapped = true
+
+UICorner_16.Parent = scriptName
+
+Create.Name = "Create"
+Create.Parent = addScript
+Create.BackgroundColor3 = Color3.fromRGB(27, 31, 37)
+Create.BackgroundTransparency = 0.600
+Create.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Create.BorderSizePixel = 0
+Create.Position = UDim2.new(0.670329392, 0, 0.836064756, 0)
+Create.Size = UDim2.new(0, 122, 0, 26)
+Create.Font = Enum.Font.Unknown
+Create.Text = "Create"
+Create.TextColor3 = Color3.fromRGB(255, 255, 255)
+Create.TextScaled = true
+Create.TextSize = 14.000
+Create.TextWrapped = true
+
+UICorner_17.Parent = Create
+
 Console_2.Name = "Console"
 Console_2.Parent = optimized
 Console_2.BackgroundColor3 = Color3.fromRGB(32, 34, 43)
@@ -689,8 +968,8 @@ Console_2.Position = UDim2.new(0.315378189, 0, 0.603842795, 0)
 Console_2.Size = UDim2.new(0, 545, 0, 164)
 Console_2.Visible = false
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = Console_2
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = Console_2
 
 Top_2.Name = "Top"
 Top_2.Parent = Console_2
@@ -700,8 +979,8 @@ Top_2.BorderColor3 = Color3.fromRGB(19, 21, 26)
 Top_2.Size = UDim2.new(0, 545, 0, 38)
 Top_2.ZIndex = 10
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = Top_2
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = Top_2
 
 Status_2.Name = "Status"
 Status_2.Parent = Top_2
@@ -744,8 +1023,8 @@ Close_2.TextColor3 = Color3.fromRGB(144, 146, 150)
 Close_2.TextSize = 24.000
 Close_2.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = Close_2
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = Close_2
 
 Console_3.Name = "Console"
 Console_3.Parent = Console_2
@@ -779,9 +1058,9 @@ Normal.TextSize = 14.000
 Normal.TextWrapped = true
 Normal.TextXAlignment = Enum.TextXAlignment.Left
 
-UIListLayout_4.Parent = Console_3
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_4.Padding = UDim.new(0, 3)
+UIListLayout_5.Parent = Console_3
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 3)
 
 Warning.Name = "Warning"
 Warning.Parent = Console_3
@@ -903,17 +1182,17 @@ Label_4.TextScaled = true
 Label_4.TextSize = 14.000
 Label_4.TextWrapped = true
 
-detail_2.Name = "detail"
-detail_2.Parent = Console_2
-detail_2.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_2.BackgroundTransparency = 1.000
-detail_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_2.BorderSizePixel = 0
-detail_2.Size = UDim2.new(1, 0, 1, 0)
-detail_2.ZIndex = 0
-detail_2.Image = "rbxassetid://16255699706"
-detail_2.ImageColor3 = Color3.fromRGB(106, 106, 106)
-detail_2.ImageTransparency = 0.780
+detail_3.Name = "detail"
+detail_3.Parent = Console_2
+detail_3.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_3.BackgroundTransparency = 1.000
+detail_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_3.BorderSizePixel = 0
+detail_3.Size = UDim2.new(1, 0, 1, 0)
+detail_3.ZIndex = 0
+detail_3.Image = "rbxassetid://16255699706"
+detail_3.ImageColor3 = Color3.fromRGB(106, 106, 106)
+detail_3.ImageTransparency = 0.780
 
 Settings_2.Name = "Settings"
 Settings_2.Parent = optimized
@@ -950,21 +1229,21 @@ UIAnim.TextScaled = true
 UIAnim.TextSize = 14.000
 UIAnim.TextWrapped = true
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = UIAnim
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = UIAnim
 
-TextLabel_4.Parent = Settings_2
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_4.BackgroundTransparency = 0.800
-TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_4.Position = UDim2.new(0, 0, 0.115797326, 0)
-TextLabel_4.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = " UI Animations"
-TextLabel_4.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_4.TextSize = 32.000
-TextLabel_4.TextWrapped = true
-TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_5.Parent = Settings_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_5.BackgroundTransparency = 0.800
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(0, 0, 0.115797326, 0)
+TextLabel_5.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = " UI Animations"
+TextLabel_5.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_5.TextSize = 32.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
 
 Info1.Name = "Info1"
 Info1.Parent = Settings_2
@@ -982,18 +1261,18 @@ Info1.TextSize = 32.000
 Info1.TextWrapped = true
 Info1.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_5.Parent = Settings_2
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_5.BackgroundTransparency = 0.800
-TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_5.Position = UDim2.new(0, 0, 0.32112065, 0)
-TextLabel_5.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = " Syntax Highlighting"
-TextLabel_5.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_5.TextSize = 32.000
-TextLabel_5.TextWrapped = true
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_6.Parent = Settings_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_6.BackgroundTransparency = 0.800
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(0, 0, 0.32112065, 0)
+TextLabel_6.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = " Syntax Highlighting"
+TextLabel_6.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_6.TextSize = 32.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
 
 SyntaxHighlighting.Name = "SyntaxHighlighting"
 SyntaxHighlighting.Parent = Settings_2
@@ -1009,8 +1288,8 @@ SyntaxHighlighting.TextScaled = true
 SyntaxHighlighting.TextSize = 14.000
 SyntaxHighlighting.TextWrapped = true
 
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = SyntaxHighlighting
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = SyntaxHighlighting
 
 Info2.Name = "Info2"
 Info2.Parent = Settings_2
@@ -1028,19 +1307,19 @@ Info2.TextSize = 32.000
 Info2.TextWrapped = true
 Info2.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_6.Parent = Settings_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_6.BackgroundTransparency = 0.800
-TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_6.Position = UDim2.new(0, 0, 0.692254543, 0)
-TextLabel_6.Size = UDim2.new(0, 360, 0, 34)
-TextLabel_6.Visible = false
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = " Hide username (in executor)"
-TextLabel_6.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_6.TextSize = 32.000
-TextLabel_6.TextWrapped = true
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_7.Parent = Settings_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_7.BackgroundTransparency = 0.800
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(0, 0, 0.692254543, 0)
+TextLabel_7.Size = UDim2.new(0, 360, 0, 34)
+TextLabel_7.Visible = false
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = " Hide username (in executor)"
+TextLabel_7.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_7.TextSize = 32.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
 
 Info3.Name = "Info3"
 Info3.Parent = Settings_2
@@ -1073,8 +1352,8 @@ HideUsername.TextScaled = true
 HideUsername.TextSize = 14.000
 HideUsername.TextWrapped = true
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = HideUsername
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = HideUsername
 
 ImageLabel_2.Parent = Settings_2
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1085,27 +1364,27 @@ ImageLabel_2.Size = UDim2.new(0, 90, 0, 90)
 ImageLabel_2.Image = "rbxassetid://11412550867"
 ImageLabel_2.ImageColor3 = Color3.fromRGB(0, 234, 255)
 
-TextLabel_7.Parent = Settings_2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_7.BackgroundTransparency = 0.800
-TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_7.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
-TextLabel_7.Size = UDim2.new(0, 367, 0, 35)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "This section is currently still being worked on!"
-TextLabel_7.TextColor3 = Color3.fromRGB(194, 198, 202)
-TextLabel_7.TextScaled = true
-TextLabel_7.TextSize = 32.000
-TextLabel_7.TextWrapped = true
+TextLabel_8.Parent = Settings_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_8.BackgroundTransparency = 0.800
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(-0.00102113315, 0, 0.874458849, 0)
+TextLabel_8.Size = UDim2.new(0, 367, 0, 35)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "This section is currently still being worked on!"
+TextLabel_8.TextColor3 = Color3.fromRGB(194, 198, 202)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 32.000
+TextLabel_8.TextWrapped = true
 
 Starter.Name = "Starter"
 Starter.Parent = optimized
 Starter.AnchorPoint = Vector2.new(0.5, 0.5)
 Starter.BackgroundColor3 = Color3.fromRGB(18, 20, 26)
 Starter.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Starter.BorderSizePixel = 0
 Starter.Position = UDim2.new(0.499860525, 0, 0.4990879, 0)
 Starter.Size = UDim2.new(0, 415, 0, 150)
-Starter.Visible = true
 
 Action.Name = "Action"
 Action.Parent = Starter
@@ -1130,7 +1409,7 @@ Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
 
-UICorner_18.Parent = Title
+UICorner_24.Parent = Title
 
 LoadScript.Name = "LoadScript"
 LoadScript.Parent = Action
@@ -1162,8 +1441,8 @@ Top_3.BorderColor3 = Color3.fromRGB(19, 21, 26)
 Top_3.Size = UDim2.new(0, 414, 0, 38)
 Top_3.ZIndex = 10
 
-UICorner_19.CornerRadius = UDim.new(0, 5)
-UICorner_19.Parent = Top_3
+UICorner_25.CornerRadius = UDim.new(0, 5)
+UICorner_25.Parent = Top_3
 
 Close_3.Name = "Close"
 Close_3.Parent = Top_3
@@ -1178,8 +1457,8 @@ Close_3.TextColor3 = Color3.fromRGB(199, 202, 207)
 Close_3.TextSize = 24.000
 Close_3.TextWrapped = true
 
-UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = Close_3
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = Close_3
 
 Logo_3.Name = "Logo"
 Logo_3.Parent = Top_3
@@ -1204,13 +1483,14 @@ Status_3.Position = UDim2.new(-2.94855823e-07, 0, 2.69349599, 0)
 Status_3.Size = UDim2.new(0, 414, 0, 47)
 Status_3.ZIndex = 99
 Status_3.Font = Enum.Font.Nunito
-Status_3.Text = "Checking.."
+Status_3.Text = "Starting.."
 Status_3.TextColor3 = Color3.fromRGB(212, 212, 212)
+Status_3.TextScaled = true
 Status_3.TextSize = 40.000
 Status_3.TextWrapped = true
 Status_3.TextYAlignment = Enum.TextYAlignment.Top
 
-UICorner_21.Parent = Status_3
+UICorner_27.Parent = Status_3
 
 Frame_2.Parent = Starter
 Frame_2.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
@@ -1220,11 +1500,11 @@ Frame_2.Position = UDim2.new(0, 0, 0.939765215, 0)
 Frame_2.Size = UDim2.new(0, 0, 0, 11)
 Frame_2.ZIndex = 9999
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_2.Parent = Frame_2
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = Frame_2
 
-UICorner_22.CornerRadius = UDim.new(0, 2)
-UICorner_22.Parent = Frame_2
+UICorner_28.CornerRadius = UDim.new(0, 2)
+UICorner_28.Parent = Frame_2
 
 Status_4.Name = "Status"
 Status_4.Parent = Starter
@@ -1243,17 +1523,17 @@ Status_4.TextSize = 20.000
 Status_4.TextTransparency = 1.000
 Status_4.TextWrapped = true
 
-detail_3.Name = "detail"
-detail_3.Parent = Starter
-detail_3.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
-detail_3.BackgroundTransparency = 1.000
-detail_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-detail_3.BorderSizePixel = 0
-detail_3.Size = UDim2.new(1, 0, 1, 0)
-detail_3.ZIndex = 0
-detail_3.Image = "rbxassetid://16255699706"
-detail_3.ImageColor3 = Color3.fromRGB(80, 80, 80)
-detail_3.ImageTransparency = 0.860
+detail_4.Name = "detail"
+detail_4.Parent = Starter
+detail_4.BackgroundColor3 = Color3.fromRGB(22, 23, 29)
+detail_4.BackgroundTransparency = 1.000
+detail_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+detail_4.BorderSizePixel = 0
+detail_4.Size = UDim2.new(1, 0, 1, 0)
+detail_4.ZIndex = 0
+detail_4.Image = "rbxassetid://16255699706"
+detail_4.ImageColor3 = Color3.fromRGB(80, 80, 80)
+detail_4.ImageTransparency = 0.860
 
 Open.Name = "Open"
 Open.Parent = optimized
@@ -1293,7 +1573,7 @@ end
 -- Scripts:
 
 -- Comments_.LocalScript is disabled.
-local function UROOCR_fake_script() -- ExecuBox.Main 
+local function PQOE_fake_script() -- ExecuBox.Main 
 	local script = Instance.new('LocalScript', ExecuBox)
 	local req = require
 	local require = function(obj)
@@ -1305,6 +1585,864 @@ local function UROOCR_fake_script() -- ExecuBox.Main
 	end
 
 	local settings1 = require(script.Parent.Parent.Parent:FindFirstChild("Config"))
+	
+	local settings = {
+		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
+		Lines = false; -- The textbox will have some lines like when you press enter.
+		Scroll = true; -- So if it has alot of lines and that it gets off the screen this will help.
+		HighlightVariables=true;--Highlights the local and global enviorments
+		SplitScanLines=false;-- This trick is used to Scan lines instead of the whole source (Breaks multilined strings and comments) 
+		WaitIfRendered=true;-- This trick will reduce lag by waiting if the game has rendered
+		AutomaticSettingChange=false;--Automatically changes the settings for the best experience
+		LoadLexer=true;--Makes one token and creates highlights out of it instead of many tokens (reduce lag)
+	}
+	
+	local RunService = game:GetService("RunService")
+	local Fps=0
+	local TimeFunction = RunService:IsRunning() and time or os.clock
+	local LastIteration, Start
+	local FrameUpdateTable = {}
+	
+	local function HeartbeatUpdate()
+		LastIteration = TimeFunction()
+		for Index = #FrameUpdateTable, 1, -1 do
+			FrameUpdateTable[Index + 1] = FrameUpdateTable[Index] >= LastIteration - 1 and FrameUpdateTable[Index] or nil
+		end
+	
+		FrameUpdateTable[1] = LastIteration
+		Fps = tonumber(math.floor(TimeFunction() - Start >= 1 and #FrameUpdateTable or #FrameUpdateTable / (TimeFunction() - Start)))
+	end
+	
+	Start = TimeFunction()
+	RunService.Heartbeat:Connect(HeartbeatUpdate)
+	
+	--[==[
+	This syntax is the best syntax on the marketplace
+	Only created by MiAiHsIs1226
+	-- Credits
+	Credits to the lexer module creator
+	Credits to MikePetar for scroll
+	Credits to me for literally doing nothing
+	]==]
+	local function parse(tokens)
+		local localvarables = {}
+		local whitespacecharactersfound=0
+		local readabletokens = {}
+		local tokennumbers = {}
+		for i,v in pairs(tokens) do
+			if v.Source == " " then
+				whitespacecharactersfound+=1
+				continue
+			end
+			if v.Type=="space" then
+				whitespacecharactersfound+=1
+				continue
+			end
+	
+			table.insert(readabletokens,v)
+			table.insert(tokennumbers,{i})
+		end
+	
+	
+		for i,v in pairs(readabletokens) do
+			pcall(function()
+				if v.Source == "local" then
+					local _,name =pcall(function()return readabletokens[i+1].Source;end)
+					if _==false then
+						error("Syntax Error: Expected more code")
+					end
+					if name == "function" then
+						_,name =pcall(function()return readabletokens[i+2].Source;end)
+						if _==false then
+							error("Syntax Error: Expected more code")
+						end
+						if readabletokens[i+2].Type~="iden" then
+							error("Syntax Error: Name isnt an idient")
+						end
+						table.insert(localvarables,{Name = name,Type="Local",Source = "function",number = tokennumbers[i][1]+4})
+					else
+						table.insert(localvarables,{Name = name,Type="Local",Source = readabletokens[i+3].Source,number = tokennumbers[i]
+							[1]+1})
+					end
+				elseif v.Type == "iden"  then
+	
+					if readabletokens[i-1] then
+						if readabletokens[i-1].Type ~= "keyword" and readabletokens[i-1].Type ~= "symbol"  then
+							local source = readabletokens[i+2].Source
+							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
+								[1]})  
+						elseif readabletokens[i-1].Source=="function" then
+							local source = "function"
+							table.insert(localvarables,{Name = v.Source,Type="Global",Source = source;number = tokennumbers[i]
+								[1]})  
+	
+						end
+					else
+						local source = readabletokens[i+2].Source
+						table.insert(localvarables,{Name = v.Source,Type="Global",Source = source,number = tokennumbers[i][1]})  
+					end
+				end
+			end)
+		end
+	
+		return (localvarables)
+	end
+	local function lexerscan(text)
+		local lexer = coroutine.wrap(function()
+	
+			local lexer = {}
+	
+			local yield, wrap  = coroutine.yield, coroutine.wrap
+			local strfind      = string.find
+			local strsub       = string.sub
+			local append       = table.insert
+			local type         = type
+	
+			local NUMBER1	= "^[%+%-]?%d+%.?%d*[eE][%+%-]?%d+"
+			local NUMBER2	= "^[%+%-]?%d+%.?%d*"
+			local NUMBER3	= "^0x[%da-fA-F]+"
+			local NUMBER4	= "^%d+%.?%d*[eE][%+%-]?%d+"
+			local NUMBER5	= "^%d+%.?%d*"
+			local IDEN		= "^[%a_][%w_]*"
+			local WSPACE	= "^%s+"
+			local STRING1	= "^(['\"])%1"							
+			local STRING2	= [[^(['"])(\*)%2%1]]
+			local STRING3	= [[^(['"]).-[^\](\*)%2%1]]
+			local STRING4	= "^(['\"]).-.*"						
+			local STRING5	= "^%[(=*)%[.-%]%1%]"					
+			local STRING6	= "^%[%[.-.*"							
+			local CHAR1		= "^''"
+			local CHAR2		= [[^'(\*)%1']]
+			local CHAR3		= [[^'.-[^\](\*)%1']]
+			local PREPRO	= "^#.-[^\\]\n"
+			local MCOMMENT1	= "^%-%-%[(=*)%[.-%]%1%]"				
+			local MCOMMENT2	= "^%-%-%[%[.-.*"						
+			local SCOMMENT1	= "^%-%-.-\n"							
+			local SCOMMENT2	= "^%-%-.-.*"							
+	
+			local lua_keyword = {
+				["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
+				["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
+				["in"] = true,   ["local"] = true,  ["nil"] = true,     ["not"] = true,       ["while"] = true,
+				["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
+				["self"] = true, ["until"] = true
+			}
+	
+			local lua_builtin = {
+				["assert"] = true;["collectgarbage"] = true;["error"] = true;["_G"] = true;
+				["gcinfo"] = true;["getfenv"] = true;["getmetatable"] = true;["ipairs"] = true;
+				["loadstring"] = true;["newproxy"] = true;["next"] = true;["pairs"] = true;
+				["pcall"] = true;["print"] = true;["rawequal"] = true;["rawget"] = true;["rawset"] = true;
+				["select"] = true;["setfenv"] = true;["setmetatable"] = true;["tonumber"] = true;
+				["tostring"] = true;["type"] = true;["unpack"] = true;["_VERSION"] = true;["xpcall"] = true;
+				["delay"] = true;["elapsedTime"] = true;["require"] = true;["spawn"] = true;["tick"] = true;
+				["time"] = true;["typeof"] = true;["UserSettings"] = true;["wait"] = true;["warn"] = true;
+				["game"] = true;["Enum"] = true;["script"] = true;["shared"] = true;["workspace"] = true;
+				["Axes"] = true;["BrickColor"] = true;["CFrame"] = true;["Color3"] = true;["ColorSequence"] = true;
+				["ColorSequenceKeypoint"] = true;["Faces"] = true;["Instance"] = true;["NumberRange"] = true;
+				["NumberSequence"] = true;["NumberSequenceKeypoint"] = true;["PhysicalProperties"] = true;
+				["Random"] = true;["Ray"] = true;["Rect"] = true;["Region3"] = true;["Region3int16"] = true;
+				["TweenInfo"] = true;["UDim"] = true;["UDim2"] = true;["Vector2"] = true;["Vector3"] = true;
+				["Vector3int16"] = true;["next"] = true;
+				["os"] = true;
+				["os.time"] = true;["os.date"] = true;["os.difftime"] = true;
+				["debug"] = true;
+				["debug.traceback"] = true;["debug.profilebegin"] = true;["debug.profileend"] = true;
+				["math"] = true;
+				["math.abs"] = true;["math.acos"] = true;["math.asin"] = true;["math.atan"] = true;["math.atan2"] = true;["math.ceil"] = true;["math.clamp"] = true;["math.cos"] = true;["math.cosh"] = true;["math.deg"] = true;["math.exp"] = true;["math.floor"] = true;["math.fmod"] = true;["math.frexp"] = true;["math.ldexp"] = true;["math.log"] = true;["math.log10"] = true;["math.max"] = true;["math.min"] = true;["math.modf"] = true;["math.noise"] = true;["math.pow"] = true;["math.rad"] = true;["math.random"] = true;["math.randomseed"] = true;["math.sign"] = true;["math.sin"] = true;["math.sinh"] = true;["math.sqrt"] = true;["math.tan"] = true;["math.tanh"] = true;
+				["coroutine"] = true;
+				["coroutine.create"] = true;["coroutine.resume"] = true;["coroutine.running"] = true;["coroutine.status"] = true;["coroutine.wrap"] = true;["coroutine.yield"] = true;
+				["string"] = true;
+				["string.byte"] = true;["string.char"] = true;["string.dump"] = true;["string.find"] = true;["string.format"] = true;["string.len"] = true;["string.lower"] = true;["string.match"] = true;["string.rep"] = true;["string.reverse"] = true;["string.sub"] = true;["string.upper"] = true;["string.gmatch"] = true;["string.gsub"] = true;
+				["table"] = true;
+				["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
+			}
+	
+			local function tdump(tok)
+				return yield(tok, tok)
+			end
+	
+			local function ndump(tok)
+				return yield("number", tok)
+			end
+	
+			local function sdump(tok)
+				return yield("string", tok)
+			end
+	
+			local function cdump(tok)
+				return yield("comment", tok)
+			end
+	
+			local function wsdump(tok)
+				return yield("space", tok)
+			end
+	
+			local function lua_vdump(tok)
+				if (lua_keyword[tok]) then
+					return yield("keyword", tok)
+				elseif (lua_builtin[tok]) then
+					return yield("builtin", tok)
+				else
+					return yield("iden", tok)
+				end
+			end
+	
+			local lua_matches = {
+				{IDEN,      lua_vdump},        -- Indentifiers
+				{WSPACE,    wsdump},           -- Whitespace
+				{NUMBER3,   ndump},            -- Numbers
+				{NUMBER4,   ndump},
+				{NUMBER5,   ndump},
+				{STRING1,   sdump},            -- Strings
+				{STRING2,   sdump},
+				{STRING3,   sdump},
+				{STRING4,   sdump},
+				{STRING5,   sdump},            -- Multiline-Strings
+				{STRING6,   sdump},            -- Multiline-Strings
+	
+				{MCOMMENT1, cdump},            -- Multiline-Comments
+				{MCOMMENT2, cdump},			
+				{SCOMMENT1, cdump},            -- Singleline-Comments
+				{SCOMMENT2, cdump},
+	
+				{"^==",     tdump},            -- Operators
+				{"^~=",     tdump},
+				{"^<=",     tdump},
+				{"^>=",     tdump},
+				{"^%.%.%.", tdump},
+				{"^%.%.",   tdump},
+				{"^.",      tdump}
+			}
+	
+			local num_lua_matches = #lua_matches
+	
+	
+			--- Create a plain token iterator from a string.
+			-- @tparam string s a string.
+			function lexer.scan(s)
+	
+				local function lex(first_arg)
+	
+					local line_nr = 0
+					local sz = #s
+					local idx = 1
+	
+					-- res is the value used to resume the coroutine.
+					local function handle_requests(res)
+						while (res) do
+							local tp = type(res)
+							-- Insert a token list:
+							if (tp == "table") then
+								res = yield("", "")
+								for i = 1,#res do
+									local t = res[i]
+									res = yield(t[1], t[2])
+								end
+							elseif (tp == "string") then -- Or search up to some special pattern:
+								local i1, i2 = strfind(s, res, idx)
+								if (i1) then
+									local tok = strsub(s, i1, i2)
+									idx = (i2 + 1)
+									res = yield("", tok)
+								else
+									res = yield("", "")
+									idx = (sz + 1)
+								end
+							else
+								res = yield(line_nr, idx)
+							end
+						end
+					end
+	
+					handle_requests(first_arg)
+					line_nr = 1
+	
+					while (true) do
+	
+						if (idx > sz) then
+							while (true) do
+								handle_requests(yield())
+							end
+						end
+	
+						for i = 1,num_lua_matches do
+							local m = lua_matches[i]
+							local pat = m[1]
+							local fun = m[2]
+							local findres = {strfind(s, pat, idx)}
+							local i1, i2 = findres[1], findres[2]
+							if (i1) then
+								local tok = strsub(s, i1, i2)
+								idx = (i2 + 1)
+								lexer.finished = (idx > sz)
+								local res = fun(tok, findres)
+								if (tok:find("\n")) then
+									-- Update line number:
+									local _,newlines = tok:gsub("\n", {})
+									line_nr = (line_nr + newlines)
+								end
+								handle_requests(res)
+								break
+							end
+						end
+	
+					end
+	
+				end
+	
+				return wrap(lex)
+	
+			end
+	
+			return lexer
+		end)()
+		local function doesvalueexist(value,tab)
+			for i,v in pairs(tab) do
+				if v == value then
+					return true
+				end
+			end
+			return false or nil
+		end
+		local symbols = {
+			";";
+			"^";
+			"(";
+			")";
+			"%";
+			"/";
+			":";
+			"#";
+			"-";
+			"=";
+			"+";
+			"{";
+			"}";
+			"~";
+			"<";
+			">";
+			"*";
+			",";
+			".";
+			"\""}
+		local t={}
+		local split=text:split("\n")
+		if settings.SplitScanLines==true then
+			for _, splitv in pairs(text:split("\n")) do 
+				for i,v in (lexer.scan(splitv)) do
+					local type= i
+					if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
+						type="symbol"
+					end
+					table.insert(t,{Type=type,Source=v})
+				end
+				table.insert(t,{Type="space",Source="\n"})--dont remove this unless you know what you're doing
+				if settings.WaitIfRendered then
+					game:GetService("RunService").RenderStepped:Wait()
+				end
+			end
+		else
+	
+			for i,v in (lexer.scan(text)) do
+				local type= i
+				if doesvalueexist(type,symbols)  then-- makes the type "symbol" if it is a symbol
+					type="symbol"
+				end
+				table.insert(t,{Type=type,Source=v})
+				if settings.WaitIfRendered then
+					game:GetService("RunService").RenderStepped:Wait()
+				end
+			end
+	
+	
+	
+		end
+		return(t)
+	end
+	local GetTypeToMakeSyntax=function(s,t)
+		if type(s)=="string" then
+			if t=="var" then
+				local tokens=lexerscan(s)
+				local r=""
+				local variables=parse(tokens)
+				local s={}
+				for i,v in pairs(variables) do
+					s[v.Name]=v
+				end
+				for i,v in pairs(tokens) do
+					if s[v.Source] then
+						if tokens[i-1] then
+							if tokens[i-1].Source~="." then
+								r=r..v.Source
+							else
+								continue
+							end
+						else
+							r=r..v.Source
+						end
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			else
+				local tokens=lexerscan(s)
+				local r=""
+				for i,v in pairs(tokens) do
+					if v.Type==t then
+						r=r..v.Source
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			end
+		elseif type(s)=="table" then
+			if t=="var" then
+				local tokens=s
+				local r=""
+				local variables=parse(tokens)
+				local s={}
+				for i,v in pairs(variables) do
+					s[v.Name]=v
+				end
+				for i,v in pairs(tokens) do
+					if s[v.Source] then
+						if tokens[i-1] then
+							if tokens[i-1].Source~="." then
+								r=r..v.Source
+							else
+								continue
+							end
+						else
+							r=r..v.Source
+						end
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			else
+				local tokens=s
+				local r=""
+				for i,v in pairs(tokens) do
+					if v.Type==t then
+						r=r..v.Source
+					else
+						local s=string.gsub(v.Source,"%d",function(c)return string.rep(" ",#c)end)
+						local p=string.gsub(s,"%p",function(c)return string.rep(" ",#c)end)
+						local a=string.gsub(p,"%a",function(c)return string.rep(" ",#c)end)
+						r=r..a
+					end
+				end
+	
+				return(r)
+			end
+		end
+	end
+	
+	local L_1_ = script.Parent.Source
+	local L_2_ = Vector2.new(0, 0)  
+	local L_3_Org = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" ,"isSafe" } 
+	local L_3_ = {      "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } 
+	local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } 
+	
+	local function L_5_func(L_49_arg1)       
+		local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       
+		local L_52_ = L_50_ - L_51_       
+		if L_52_ < 0 then             
+			L_52_ = 0
+		end       
+		local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       
+		return L_53_ 
+	end 
+	local function ofodguisgfhjjksfghkgh(L_49_arg1)       
+		local L_50_, L_51_ = L_49_arg1.CanvasSize.X.Offset, L_49_arg1.AbsoluteWindowSize.X       
+		local L_52_ = L_50_ - L_51_       
+		if L_52_ < 0 then             
+			L_52_ = 0
+		end       
+		local L_53_ = Vector2.new(L_52_,L_49_arg1.CanvasPosition.Y)       
+		return L_53_ 
+	end 
+	local function GetLineSelected(s)
+		local text =  s.Text
+		local p = s.CursorPosition
+		local text2 = ""
+		for i = p,1,-1 do
+			local c = text:sub(i,i)
+			if c == "\n" then
+				break
+			else
+				text2 = text2 .. c
+			end
+		end
+	
+		return (text2:reverse())
+	end
+	
+	wait(.2) 
+	local L_6_ = 20 
+	L_1_:GetPropertyChangedSignal("Text"):Connect(function()
+		if settings.Highlight then
+			local L_54_ = L_1_.Comments_       
+			local L_56_ = L_1_.Tokens_       
+			local L_57_ = L_1_.Numbers_       
+			local L_58_ = L_1_.Strings_             
+			local L_61_ = L_1_.Keywords_       
+			local L_62_ = L_1_.Globals_  
+			local L_90_ = L_1_.Vars_  
+			if settings.LoadLexer then
+				local tokens= lexerscan(L_1_.Text) 
+				L_54_.Text=GetTypeToMakeSyntax(tokens,"comment")
+	
+				L_58_.Text=GetTypeToMakeSyntax(tokens,"string")
+	
+				L_57_.Text=GetTypeToMakeSyntax(tokens,"number")
+	
+				L_62_.Text=GetTypeToMakeSyntax(tokens,"builtin")
+	
+				L_56_.Text=GetTypeToMakeSyntax(tokens,"symbol")
+	
+				L_61_.Text=GetTypeToMakeSyntax(tokens,"keyword")
+	
+				if settings.HighlightVariables then
+					L_90_.Text=GetTypeToMakeSyntax(tokens,"var")
+				end
+	
+			else
+				spawn(function()
+					L_54_.Text=GetTypeToMakeSyntax(L_1_.Text,"comment")
+				end)
+				spawn(function()
+					L_58_.Text=GetTypeToMakeSyntax(L_1_.Text,"string")
+				end)
+				spawn(function()
+					L_57_.Text=GetTypeToMakeSyntax(L_1_.Text,"number")
+				end)
+				spawn(function()
+					L_62_.Text=GetTypeToMakeSyntax(L_1_.Text,"builtin")
+				end)
+				spawn(function()
+					L_56_.Text=GetTypeToMakeSyntax(L_1_.Text,"symbol")
+				end)
+				spawn(function()
+					L_61_.Text=GetTypeToMakeSyntax(L_1_.Text,"keyword")
+				end)
+				spawn(function()
+					if settings.HighlightVariables then
+						L_90_.Text=GetTypeToMakeSyntax(L_1_.Text,"var")
+					end
+				end)
+	
+			end
+		end
+		local L_63_ = 1    
+		if settings.Scroll then
+			local X = L_1_.TextBounds.X
+			L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 55 + 5, 0, L_1_.TextBounds.Y))   
+		end
+		if settings.Lines then
+			L_1_.Text:gsub('\n', function()             
+				L_63_ = L_63_ + 1       end)      
+			L_1_.Parent.Lines.Text = ""       
+			for L_64_forvar1 = 1, L_63_ do             
+				L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       
+			end       
+		end
+		if settings.Scroll then
+			spawn(function()
+				if L_1_.Parent.CanvasPosition.X == L_2_.X then
+					L_1_.Parent.CanvasPosition = ofodguisgfhjjksfghkgh(L_1_.Parent)  
+				else             
+					L_2_ = ofodguisgfhjjksfghkgh(L_1_.Parent)   
+				end 
+			end)
+			wait()
+			if L_1_.Text:sub(#L_1_.Text,#L_1_.Text) == "\n" then
+				L_1_.Parent.CanvasPosition = Vector2.new()
+			end
+	
+			if L_1_.Parent.CanvasPosition.Y == L_2_.Y then
+				L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       
+			else             
+				L_2_ = L_5_func(L_1_.Parent)       
+			end 
+		end
+	
+	
+	
+	end) 
+	if settings.Scroll then
+		L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       
+			wait(.1)      
+			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)}):Play()
+			L_6_ = L_6_ + 5       
+			wait(1)       
+			L_6_ = L_6_ - 5 	
+		end) 
+		L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)    
+			wait(.1)      
+			game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Quint), {CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0,-L_6_)}):Play()
+			L_6_ = L_6_ + 5       
+			wait(1)       
+			L_6_ = L_6_ - 5 
+		end)
+	end
+	if settings.Lines then
+		script.Parent.Lines.Visible = true
+		L_1_.Position = UDim2.new(0,30,0,0)
+	else
+		L_1_.Position = UDim2.new()
+	end
+	if settings.AutomaticSettingChange== true then
+	
+		spawn(function()
+			pcall(function()
+				while wait(10) do
+					settings.Highlight=true
+					if Fps>50 then
+						settings.SplitScanLines=false
+						settings.LoadLexer=false
+						settings.WaitIfRendered=false
+	
+					elseif Fps<60 and Fps>40 then
+						settings.SplitScanLines=false
+						settings.LoadLexer=true
+						settings.WaitIfRendered=true
+						settings.HighlightVariables=false
+	
+					elseif Fps<35 then
+						settings.SplitScanLines=true
+						settings.LoadLexer=true
+						settings.WaitIfRendered=true
+						settings.HighlightVariables=false
+	
+					elseif Fps>10 then
+						settings.Highlight=false
+					end
+				end
+			end)
+		end)
+	end
+end
+coroutine.wrap(PQOE_fake_script)()
+local function MUQATY_fake_script() -- Main.Drag 
+	local script = Instance.new('LocalScript', Main)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(MUQATY_fake_script)()
+local function HXWNF_fake_script() -- ScriptHub.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHub)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local searchBar = script.Parent.SearchBar
+	local items = script.Parent.Frame
+	
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end
+				else
+					v.Visible = true
+				end
+			end
+		end
+	end
+	
+	searchBar.Changed:Connect(UpdateResults)
+end
+coroutine.wrap(HXWNF_fake_script)()
+local function PYBNE_fake_script() -- Frame.Main2 
+	local script = Instance.new('LocalScript', Frame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local addScript = script.Parent.Parent.Parent.Parent:FindFirstChild("Main"):FindFirstChild("addScript")
+	local scriptBox = addScript:FindFirstChild("scriptBOX").Source
+	local scriptName = addScript:FindFirstChild("scriptName")
+	local Create = addScript:FindFirstChild("Create")
+	local title = addScript:FindFirstChild("title")
+	local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
+	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
+	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
+	local config = require(script.Parent.Parent.Parent.Parent.Config)
+	local uploadedScripts = {}
+	
+	function saveSettings()
+		local settings = {
+			uploadedScripts = uploadedScripts
+		}
+		lib.WriteConfig("PhobosV2S", settings)
+	end
+	function loadScripts()
+		local retrievedData = lib.ReadConfig("PhobosV2S")
+		if retrievedData and retrievedData.uploadedScripts then
+			uploadedScripts = retrievedData.uploadedScripts
+		else
+			uploadedScripts = {}
+		end
+	end
+	local function newScript(script1, name)
+		SampleBTN.Visible = false
+		local new = SampleBTN:Clone()
+		new.Visible = true
+		new.Name = name
+		new.Text = name
+		new.Parent = script.Parent
+		new.MouseButton1Click:Connect(function()
+			ExecuteBox.Text = script1
+		end)
+	end
+	local function initializeScripts()
+		for _, scriptData in ipairs(uploadedScripts) do
+			newScript(scriptData.code, scriptData.name) --user generated scripts
+		end
+		newScript('require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")', "HD Admin")
+		newScript('require(2930987220).load("'..game.Players.LocalPlayer.Name..'")', "Star Glitcher")
+		newScript('require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")', "Server Admin")
+		newScript('require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")', "InfYieldSS")
+		newScript('require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")', "DEX SS")
+		newScript('require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")', "Caducus")
+		newScript('require(5613801320).eliza("' .. game.Players.LocalPlayer.Name ..'")', "EchoV3")
+		newScript('require(6027664603).eliza("' .. game.Players.LocalPlayer.Name ..'")', "HaloV3")
+		newScript('require(4741518800).Guns("' .. game.Players.LocalPlayer.Name ..'")', "Guns")
+		newScript('require(6027719103)("' .. game.Players.LocalPlayer.Name ..'")', "Time Banisher")
+		newScript('require(6036211918).eliza("' .. game.Players.LocalPlayer.Name ..'")', "Split")
+		newScript('require(4679874662)("' .. game.Players.LocalPlayer.Name ..'")', "CradlesV2")
+		newScript('require(3709746847).load("' .. game.Players.LocalPlayer.Name ..'")', "Murderer")
+		newScript('require(3543575474).load("' .. game.Players.LocalPlayer.Name ..'")', "Tea")
+		newScript('require(4952709475).load("' .. game.Players.LocalPlayer.Name ..'")', "Sans")
+		newScript('require(0x15d0d1a90)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo1")
+		newScript('require(5855981009)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo2")
+		newScript('require(2841156534):Fire("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"John Doe")
+		newScript('require(2787132106):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"Sin Unleashed")
+		newScript('require(2826823504):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"School Shooter")
+	end
+	local phobosv2 = lib.IsConfig("PhobosV2S")
+	
+	if phobosv2 == true then
+		loadScripts()
+		initializeScripts()
+	else
+		saveSettings()
+	end
+	Create.MouseButton1Click:Connect(function()
+		local success, result = pcall(function()
+			if scriptName.Text == "" or scriptBox.Text == "" or scriptName.Text == " " or scriptBox.Text == " " then
+				title.Text = "Added nothing! "..utf8.char(0x1F480)
+				wait(2.5)
+				title.Text = ""
+				return
+			end
+			local name = scriptName.Text
+			local code = scriptBox.Text
+			table.insert(uploadedScripts, {name = name, code = code})
+			saveSettings()
+			newScript(code, name)
+			title.Text = "Added script!"
+			wait(2.5)
+			title.Text = "Add a script"
+		end)
+		if not success then
+			warn("Error adding script: " .. result)
+		end
+	end)
+	
+end
+coroutine.wrap(PYBNE_fake_script)()
+local function YRKYPIR_fake_script() -- scriptBOX.Main 
+	local script = Instance.new('LocalScript', scriptBOX)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local settings1 = require(script.Parent.Parent.Parent.Parent.Config)
 	
 	local settings = {
 		Highlight = settings1.SyntaxHighlighting; -- Highlight like you know. Script Text color?
@@ -1959,8 +3097,9 @@ local function UROOCR_fake_script() -- ExecuBox.Main
 		end)
 	end
 end
-coroutine.wrap(UROOCR_fake_script)()
-local function DTOORB_fake_script() -- Main.Tabs 
+coroutine.wrap(YRKYPIR_fake_script)()
+-- Comments__2.LocalScript is disabled.
+local function MMPTIO_fake_script() -- Main.Tabs 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -1972,37 +3111,41 @@ local function DTOORB_fake_script() -- Main.Tabs
 	end
 
 	local TweenService = game:GetService("TweenService")
-	local player = game.Players.LocalPlayer
+	local HttpService = game:GetService("HttpService")
+	local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexDevlpr/JSON-Config-Library-for-Roblox-Lua/main/Library.lua"))()
+	local config = require(script.Parent.Parent.Config)
 	
 	local main = script.Parent
 	local Tabs = main:WaitForChild("Tabs")
 	local addBTN = Tabs:FindFirstChild("add")
 	local tab1 = Tabs:FindFirstChild("tab1")
-	local ExecuBox = main and main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	local SourceText = ExecuBox.Text
+	local ExecuBox = main:FindFirstChild("ExecuBox") and main:FindFirstChild("ExecuBox"):FindFirstChild("Source")
 	
-	local settings = require(script.Parent.Parent:FindFirstChild("Config"))
+	local settings = {
+		UIAnimations = config.UIAnimations,
+		SyntaxHighlighting = config.SyntaxHighlighting,
+		tabs = {}  -- This will store the content of each tab
+	}
 	
 	-- Table to store the content of each tab
 	local tabContents = {}
 	local currentTab = 1
 	
-	-- Initialize tabContents with the content of tab1
-	tabContents[1] = ExecuBox.Text
-	
-	-- Make the remove button of the initial tab invisible
-	local initialRemoveBTN = tab1:FindFirstChild("remove")
-	if initialRemoveBTN then
-		initialRemoveBTN.Visible = false
-	end
-	
 	-- Function to update the visibility of the add button
 	local function updateAddButtonVisibility()
 		local tabCount = #Tabs:GetChildren() - 1 -- Subtracting 1 to ignore the add button
-		addBTN.Visible = tabCount < 5
-		if addBTN.Visible then
-			addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
+		if addBTN then
+			addBTN.Visible = tabCount < 5
+			if addBTN.Visible then
+				addBTN.Parent = Tabs -- Reparent add button to ensure it's at the end
+			end
+		else
+			warn("Add button not found!")
 		end
+	end
+	
+	local function saveSettings()
+		lib.WriteConfig("PhobosV2T", { tabs = settings.tabs })
 	end
 	
 	-- Function to renumber tabs
@@ -2055,8 +3198,7 @@ local function DTOORB_fake_script() -- Main.Tabs
 	
 			local goal1 = { ImageTransparency = 0 }
 			local tweenInfo1 = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
-			local tween1 = TweenService:Create(newTab, tweenInfo, goal)
-	
+			local tween1 = TweenService:Create(removeBTN, tweenInfo1, goal1)
 			if removeBTN then
 				local removeTween = TweenService:Create(removeBTN, tweenInfo1, goal1)
 				removeTween:Play()
@@ -2068,11 +3210,14 @@ local function DTOORB_fake_script() -- Main.Tabs
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
 	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
 			-- Switch to the new tab
 			currentTab = newTabNumber
 	
 			-- Load the content of the new tab
-			ExecuBox.Text = tabContents[currentTab] or ""
+			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
 		end)
 	
 		-- Add an event listener to the remove button inside the new tab
@@ -2080,6 +3225,9 @@ local function DTOORB_fake_script() -- Main.Tabs
 			removeBTN.MouseButton1Click:Connect(function()
 				-- Save current tab content
 				tabContents[currentTab] = ExecuBox.Text
+	
+				-- Save to settings
+				settings.tabs[currentTab] = ExecuBox.Text
 	
 				if settings.UIAnimations then
 					-- Add a fade-out tween effect for the tab removal
@@ -2096,13 +3244,16 @@ local function DTOORB_fake_script() -- Main.Tabs
 						-- Remove the tab from tabContents
 						table.remove(tabContents, newTabNumber)
 	
+						-- Remove from settings
+						table.remove(settings.tabs, currentTab)
+	
 						-- Destroy the tab
 						newTab:Destroy()
 	
 						-- Adjust currentTab if necessary
 						if currentTab == newTabNumber then
 							currentTab = 1
-							ExecuBox.Text = tabContents[currentTab] or ""
+							ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
 						end
 	
 						-- Renumber the tabs
@@ -2110,10 +3261,16 @@ local function DTOORB_fake_script() -- Main.Tabs
 	
 						-- Update add button visibility and reparent
 						updateAddButtonVisibility()
+	
+						-- Save updated settings
+						saveSettings()
 					end)
 				else
 					-- Remove the tab from tabContents
 					table.remove(tabContents, newTabNumber)
+	
+					-- Remove from settings
+					table.remove(settings.tabs, currentTab)
 	
 					-- Destroy the tab
 					newTab:Destroy()
@@ -2121,7 +3278,7 @@ local function DTOORB_fake_script() -- Main.Tabs
 					-- Adjust currentTab if necessary
 					if currentTab == newTabNumber then
 						currentTab = 1
-						ExecuBox.Text = tabContents[currentTab] or ""
+						ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"
 					end
 	
 					-- Renumber the tabs
@@ -2129,6 +3286,9 @@ local function DTOORB_fake_script() -- Main.Tabs
 	
 					-- Update add button visibility and reparent
 					updateAddButtonVisibility()
+	
+					-- Save updated settings
+					saveSettings()
 				end
 			end)
 		end
@@ -2140,13 +3300,42 @@ local function DTOORB_fake_script() -- Main.Tabs
 		updateAddButtonVisibility()
 	end
 	
+	-- Load settings on startup
+	local function loadSettings()
+		local retrievedData = lib.ReadConfig("PhobosV2T")
+		if retrievedData then
+			settings.tabs = retrievedData.tabs or {}
+	
+			-- Create tabs based on the number of saved scripts
+			for i, scriptContent in ipairs(settings.tabs) do
+				createNewTab()  -- Create new tab without passing scriptContent
+			end
+	
+			-- Load content of current tab into ExecuBox
+			currentTab = 1
+			ExecuBox.Text = tabContents[currentTab] or "--Failed to load script"  -- Load initial tab content
+		else
+			return false
+		end
+	end
+	
+	-- Save settings
+	
 	-- Event listener for add button
 	if addBTN then
 		addBTN.MouseButton1Click:Connect(function()
 			createNewTab()
 		end)
 	else
-		warn("Add button not found!")
+		return false
+	end
+	
+	-- Load settings on startup
+	local file = lib.IsConfig("PhobosV2T")
+	if file == true then
+		loadSettings()
+	else
+		saveSettings()
 	end
 	
 	-- Event listener for tab1 (initial tab)
@@ -2155,6 +3344,9 @@ local function DTOORB_fake_script() -- Main.Tabs
 			-- Save current tab content
 			tabContents[currentTab] = ExecuBox.Text
 	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
 			-- Switch to tab1
 			currentTab = 1
 	
@@ -2162,229 +3354,31 @@ local function DTOORB_fake_script() -- Main.Tabs
 			ExecuBox.Text = tabContents[currentTab]
 		end)
 	else
-		warn("Initial tab not found!")
+		return false
 	end
 	
-	-- Event listener for remove button inside tab1
-	if initialRemoveBTN then
-		initialRemoveBTN.MouseButton1Click:Connect(function()
-			-- Tab1 should not be removable in this example
-			-- But if desired, handle it similar to other tabs
+	-- Event listener for tab focus change (clicking out of a tab)
+	if ExecuBox then
+		ExecuBox.FocusLost:Connect(function()
+			-- Save current tab content
+			tabContents[currentTab] = ExecuBox.Text
+	
+			-- Save to settings
+			settings.tabs[currentTab] = ExecuBox.Text
+	
+			-- Save updated settings
+			saveSettings()
 		end)
 	else
-		warn("Remove button in initial tab not found!")
+		return false
 	end
 	
 	-- Initial update of the add button visibility
 	updateAddButtonVisibility()
 	
 end
-coroutine.wrap(DTOORB_fake_script)()
-local function OYKKO_fake_script() -- Main.Drag 
-	local script = Instance.new('LocalScript', Main)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(OYKKO_fake_script)()
-local function NGKP_fake_script() -- ScriptHub.LocalScript 
-	local script = Instance.new('LocalScript', ScriptHub)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local searchBar = script.Parent.SearchBar
-	local items = script.Parent.Frame
-	
-	function UpdateResults()
-		local search = string.lower(searchBar.Text)
-		for i, v in	 pairs(items:GetChildren()) do
-			if v:IsA("GuiButton") then
-				if search ~= "" then
-					local item = string.lower(v.Text)
-					if string.find(item, search) then
-						v.Visible = true
-					else
-						v.Visible = false
-					end
-				else
-					v.Visible = true
-				end
-			end
-		end
-	end
-	
-	searchBar.Changed:Connect(UpdateResults)
-end
-coroutine.wrap(NGKP_fake_script)()
-local function KNNK_fake_script() -- Frame.Main2 
-	local script = Instance.new('LocalScript', Frame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local success, result = pcall(function() 
-		-- References to UI elements
-		local SampleBTN = script.Parent.Parent:FindFirstChild("SampleBTN")
-		local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	
-		if not SampleBTN or not ExecuteBox then
-			return false
-		end
-	
-		-- Function to create a new button
-		local function newScript(script1, name)
-			SampleBTN.Visible = false
-			local new = SampleBTN:Clone()
-			new.Visible = true
-			new.Name = name
-			new.Text = name
-			new.Parent = script.Parent
-			new.MouseButton1Click:Connect(function()
-				ExecuteBox.Text = script1
-			end)
-		end
-	
-		newScript('require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")', "HD Admin")
-		newScript('require(2930987220).load("'..game.Players.LocalPlayer.Name..'")', "Star Glitcher")
-		newScript('require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")', "Server Admin")
-		newScript('require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")', "InfYieldSS")
-		newScript('require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")', "DEX SS")
-		newScript('require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")', "Caducus")
-		newScript('require(5613801320).eliza("' .. game.Players.LocalPlayer.Name ..'")', "EchoV3")
-		newScript('require(6027664603).eliza("' .. game.Players.LocalPlayer.Name ..'")', "HaloV3")
-		newScript('require(4741518800).Guns("' .. game.Players.LocalPlayer.Name ..'")', "Guns")
-		newScript('require(6027719103)("' .. game.Players.LocalPlayer.Name ..'")', "Time Banisher")
-		newScript('require(6036211918).eliza("' .. game.Players.LocalPlayer.Name ..'")', "Split")
-		newScript('require(4679874662)("' .. game.Players.LocalPlayer.Name ..'")', "CradlesV2")
-		newScript('require(3709746847).load("' .. game.Players.LocalPlayer.Name ..'")', "Murderer")
-		newScript('require(3543575474).load("' .. game.Players.LocalPlayer.Name ..'")', "Tea")
-		newScript('require(4952709475).load("' .. game.Players.LocalPlayer.Name ..'")', "Sans")
-		newScript('require(0x15d0d1a90)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo1")
-		newScript('require(5855981009)("jojo","' .. game.Players.LocalPlayer.Name ..'")', "Jojo2")
-		newScript('require(2841156534):Fire("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"John Doe")
-		newScript('require(2787132106):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"Sin Unleashed")
-		newScript('require(2826823504):Run("' .. game.Players.LocalPlayer.Name ..'","i baked you a pie")',"School Shooter")
-		--[[
-	
-	local ExecuteBox = script.Parent.Parent.Parent:FindFirstChild("ExecuBox"):FindFirstChild("Source")
-	
-	HdAdmin.MouseButton1Down:Connect(function()
-			ExecuteBox.Text = 'require(11560761226).HD("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	Zamazu.MouseButton1Down:Connect(function()
-			ExecuteBox.Text = 'require(2971448618).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	BlueTitan.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2971509487).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	RedTitan.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2974204001).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	StarGlitcher.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(2930987220).load("'..game.Players.LocalPlayer.Name..'")'
-	end)
-	
-	Nuke.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4867426485):SD2("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Missile.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(7804327506).amigodogodenot123("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	SAdmin.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(3032640233):Start("' .. game.Players.LocalPlayer.Name .. '","' .. "AAA" .. '")'
-	end)
-	
-	Xester.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4697686321).load("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	InfYield.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(4696373104)("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	DDex.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(3010581956):Fireplace("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Dokka.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(6223977609)["Dokka"]("' .. game.Players.LocalPlayer.Name .. '")'
-	end)
-	
-	Caducus.MouseButton1Down:Connect(function()
-		ExecuteBox.Text = 'require(5686002742):Fire("' .. game.Players.LocalPlayer.Name ..'","caducus")'
-		end)
-		--]]
-		
-	end)
-	
-	if not success then
-		return false
-	end
-	
-end
-coroutine.wrap(KNNK_fake_script)()
-local function VDQJK_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(MMPTIO_fake_script)()
+local function WYHTF_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -2399,8 +3393,8 @@ local function VDQJK_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(VDQJK_fake_script)()
-local function CMWL_fake_script() -- Console_2.Drag 
+coroutine.wrap(WYHTF_fake_script)()
+local function YATVONU_fake_script() -- Console_2.Drag 
 	local script = Instance.new('LocalScript', Console_2)
 	local req = require
 	local require = function(obj)
@@ -2451,8 +3445,8 @@ local function CMWL_fake_script() -- Console_2.Drag
 		end
 	end)
 end
-coroutine.wrap(CMWL_fake_script)()
-local function BTBSGZX_fake_script() -- Settings_2.Main 
+coroutine.wrap(YATVONU_fake_script)()
+local function LAPVYS_fake_script() -- Settings_2.Main 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2656,8 +3650,8 @@ local function BTBSGZX_fake_script() -- Settings_2.Main
 		end
 	end)
 end
-coroutine.wrap(BTBSGZX_fake_script)()
-local function NNPCXEJ_fake_script() -- Settings_2.Drag 
+coroutine.wrap(LAPVYS_fake_script)()
+local function AUPGWY_fake_script() -- Settings_2.Drag 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2708,8 +3702,8 @@ local function NNPCXEJ_fake_script() -- Settings_2.Drag
 		end
 	end)
 end
-coroutine.wrap(NNPCXEJ_fake_script)()
-local function SLTC_fake_script() -- Starter.LocalScript 
+coroutine.wrap(AUPGWY_fake_script)()
+local function QSSHKS_fake_script() -- Starter.Main 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2728,28 +3722,21 @@ local function SLTC_fake_script() -- Starter.LocalScript
 	-- Step sizes (partial targets)
 	local step1Size = UDim2.new(0, 250, 0, 11)
 	local step2Size = UDim2.new(0, 350, 0, 11)
-	
-	-- TweenService to create tweens
 	local TweenService = game:GetService("TweenService")
-	
-	-- Fetch the event to check if the server is online
 	local Event = game:GetService("InsertService"):FindFirstChild("Services") and game:GetService("InsertService"):FindFirstChild("Services"):FindFirstChild("InsertModel")
-	--
 	local status = script.Parent.Top.Status
-	--
 	local main = script.Parent.Parent.Main
-	
-	-- Function to create and play tween
 	local function createAndPlayTween(targetSize, duration)
 		local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 		local tween = TweenService:Create(Bar, tweenInfo, {Size = targetSize})
 		tween:Play()
-		tween.Completed:Wait() -- Wait for the tween to complete
+		tween.Completed:Wait()
 	end
 	
-	-- Example condition functions
 	wait(3)
-	status.Text = "Checking.."
+	status.Text = "Getting data.."
+	wait(1)
+	status.Text = "Checking for Phobos V2"
 	
 	local function check()
 		if Event then
@@ -2763,7 +3750,7 @@ local function SLTC_fake_script() -- Starter.LocalScript
 	
 	local function checkFiring()
 		if Event then
-			Event:FireServer('printidentity()')
+			Event:FireServer('warn("")')
 			return true
 		else
 			return false
@@ -2793,8 +3780,8 @@ local function SLTC_fake_script() -- Starter.LocalScript
 		return false
 	end
 end
-coroutine.wrap(SLTC_fake_script)()
-local function AVVQX_fake_script() -- Starter.Drag 
+coroutine.wrap(QSSHKS_fake_script)()
+local function FZRTM_fake_script() -- Starter.Drag 
 	local script = Instance.new('LocalScript', Starter)
 	local req = require
 	local require = function(obj)
@@ -2845,8 +3832,8 @@ local function AVVQX_fake_script() -- Starter.Drag
 		end
 	end)
 end
-coroutine.wrap(AVVQX_fake_script)()
-local function UGRJC_fake_script() -- optimized.Source2Revamp 
+coroutine.wrap(FZRTM_fake_script)()
+local function BVYK_fake_script() -- optimized.Source 
 	local script = Instance.new('LocalScript', optimized)
 	local req = require
 	local require = function(obj)
@@ -2857,16 +3844,18 @@ local function UGRJC_fake_script() -- optimized.Source2Revamp
 		return req(obj)
 	end
 
-	-- Set random name for script parent
+	--main runner
+	--for whoever is reading this have a nice day
+	
 	local function generateRandomString(length)
 		return string.gsub(string.rep(" ", length), ".", function() return string.char(math.random(48, 122)):gsub("[^%w]", "") end)
 	end
-	--[[
+	
 	local checkStudio = coroutine.wrap(function()
 		while wait() do
 			if game:GetService("RunService"):IsStudio() then
 				script.Parent:Destroy()
-				warn("Can't run in studio!")
+				warn("I can't run in studio!")
 			else
 				return true
 			end
@@ -2874,7 +3863,7 @@ local function UGRJC_fake_script() -- optimized.Source2Revamp
 	end)
 	
 	checkStudio()
-	--]]
+	
 	script.Parent.Name = generateRandomString(math.random(31, 47))
 	
 	local player = game.Players.LocalPlayer
@@ -2913,6 +3902,8 @@ local function UGRJC_fake_script() -- optimized.Source2Revamp
 	local Respawn = SideBar and SideBar:FindFirstChild("Respawn")
 	local R6 = SideBar and SideBar:FindFirstChild("R6")
 	local R6L = SideBar and SideBar:FindFirstChild("R6"):FindFirstChild("Label")
+	
+	local addScript = Main and Main:FindFirstChild("addScript")
 	
 	local function updateNumber(currentNumber)
 		currentNumber = currentNumber + 1
@@ -3148,6 +4139,17 @@ local function UGRJC_fake_script() -- optimized.Source2Revamp
 		end
 	end)
 	
+	Side:FindFirstChild("UploadScript").MouseButton1Click:Connect(function()
+		addScript.Visible = not addScript.Visible
+		if addScript.Visible == true then
+			ExecuBox.Visible = false
+			Main:FindFirstChild("Tabs").Visible = false
+		else
+			ExecuBox.Visible = true
+			Main:FindFirstChild("Tabs").Visible = true
+		end
+	end)
+	
 	if ResponseEvent then
 		ResponseEvent.OnClientInvoke = function(response1, errorMessage)
 			local newLabel
@@ -3206,8 +4208,8 @@ local function UGRJC_fake_script() -- optimized.Source2Revamp
 		end
 	end
 end
-coroutine.wrap(UGRJC_fake_script)()
-local function EXIYL_fake_script() -- Open.Drag 
+coroutine.wrap(BVYK_fake_script)()
+local function VITIEU_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 	local req = require
 	local require = function(obj)
@@ -3258,4 +4260,4 @@ local function EXIYL_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(EXIYL_fake_script)()
+coroutine.wrap(VITIEU_fake_script)()
